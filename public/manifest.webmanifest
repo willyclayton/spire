@@ -1,0 +1,10 @@
+{
+  "name": "Spire — Chicago Skyline",
+  "short_name": "Spire",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141B2D",
+  "theme_color": "#141B2D",
+  "orientation": "portrait",
+  "icons": []
+}
