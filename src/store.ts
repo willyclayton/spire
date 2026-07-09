@@ -18,6 +18,9 @@ interface State {
   view: 'radar' | 'camera';
   setView: (v: 'radar' | 'camera') => void;
 
+  cameraOptIn: boolean;
+  setCameraOptIn: (v: boolean) => void;
+
   selectedBuildingId: string | null;
   selectBuilding: (id: string | null) => void;
 }
@@ -60,8 +63,11 @@ export const useStore = create<State>((set, get) => ({
     set({ calibrationOffsetDeg: 0 });
   },
 
-  view: 'radar',
+  view: 'camera',
   setView: (v) => set({ view: v }),
+
+  cameraOptIn: false,
+  setCameraOptIn: (v) => set({ cameraOptIn: v, view: v ? 'camera' : 'radar' }),
 
   selectedBuildingId: null,
   selectBuilding: (id) => set({ selectedBuildingId: id }),

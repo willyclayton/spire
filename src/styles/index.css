@@ -17,3 +17,20 @@
     -webkit-tap-highlight-color: transparent;
   }
 }
+
+@keyframes spire-label-in {
+  from {
+    opacity: 0;
+    transform: translate(var(--tx, 0), calc(var(--ty, 0) + 6px)) translate(-50%, -100%);
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

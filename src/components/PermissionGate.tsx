@@ -1,37 +1,45 @@
 import { useState } from 'react';
 import { requestOrientationPermission } from '../sensors/useOrientation';
 
-type Step = 'location' | 'motion' | 'ready';
+type Step = 'location' | 'motion' | 'camera';
 
 interface Props {
-  onComplete: () => void;
+  onComplete: (cameraOptIn: boolean) => void;
 }
 
 function StepCard({
   step,
+  total,
   title,
   body,
   button,
   onClick,
+  secondaryLabel,
+  onSecondary,
   error,
   denied,
 }: {
   step: number;
+  total: number;
   title: string;
   body: string;
   button: string;
   onClick: () => void;
+  secondaryLabel?: string;
+  onSecondary?: () => void;
   error?: string;
   denied?: boolean;
 }) {
   return (
     <div className="mx-auto max-w-sm rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
-      <div className="mb-1 text-xs uppercase tracking-widest text-steel">Step {step} of 2</div>
+      <div className="mb-1 text-xs uppercase tracking-widest text-steel">
+        Step {step} of {total}
+      </div>
       <h2 className="mb-3 font-display text-2xl text-soft">{title}</h2>
       <p className="mb-6 text-sm leading-relaxed text-steel">{body}</p>
       {denied ? (
         <div className="rounded-md border border-danger/40 bg-danger/10 p-3 text-sm text-danger">
-          Access was denied. Enable it in your browser settings and reload.
+          Access was denied. Enable it in your browser settings and reload — or continue without it.
         </div>
       ) : (
         <button
@@ -39,6 +47,14 @@ function StepCard({
           className="w-full rounded-full bg-amber py-3 font-semibold text-night transition active:scale-[0.98]"
         >
           {button}
+        </button>
+      )}
+      {secondaryLabel && onSecondary && (
+        <button
+          onClick={onSecondary}
+          className="mt-3 w-full rounded-full border border-white/10 py-3 text-sm text-steel transition active:scale-[0.98]"
+        >
+          {secondaryLabel}
         </button>
       )}
       {error && !denied && <p className="mt-3 text-xs text-danger">{error}</p>}
@@ -60,7 +76,7 @@ export function PermissionGate({ onComplete }: Props) {
       () => setStep('motion'),
       (err) => {
         if (err.code === err.PERMISSION_DENIED) setLocDenied(true);
-        else setStep('motion'); // non-fatal at this stage, retried by watchPosition later
+        else setStep('motion');
       },
       { enableHighAccuracy: true, timeout: 15000 },
     );
@@ -69,7 +85,7 @@ export function PermissionGate({ onComplete }: Props) {
   async function askMotion() {
     const result = await requestOrientationPermission();
     if (result === 'granted' || result === 'unsupported') {
-      onComplete();
+      setStep('camera');
       return;
     }
     setMotionDenied(true);
@@ -82,6 +98,7 @@ export function PermissionGate({ onComplete }: Props) {
       {step === 'location' && (
         <StepCard
           step={1}
+          total={3}
           title="Where are you standing?"
           body="Your location lets Spire figure out which buildings you're looking at. We don't store or send it anywhere."
           button="Share location"
@@ -92,11 +109,24 @@ export function PermissionGate({ onComplete }: Props) {
       {step === 'motion' && (
         <StepCard
           step={2}
+          total={3}
           title="Which way are you facing?"
-          body="Your phone's compass tells Spire where to place the labels on the skyline."
+          body="Your phone's compass tells Spire where to place labels on the skyline."
           button="Enable compass"
           onClick={askMotion}
           denied={motionDenied}
+        />
+      )}
+      {step === 'camera' && (
+        <StepCard
+          step={3}
+          total={3}
+          title="See the buildings live?"
+          body="Camera-on gives you the classic point-and-identify view. Prefer not to? Skip and Spire drops to a stylized skyline radar."
+          button="Enable camera"
+          onClick={() => onComplete(true)}
+          secondaryLabel="Skip — use radar view"
+          onSecondary={() => onComplete(false)}
         />
       )}
     </div>

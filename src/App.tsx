@@ -2,13 +2,15 @@ import { useEffect, useMemo, useState } from 'react';
 import { useStore } from './store';
 import { useGeolocation } from './sensors/useGeolocation';
 import { useOrientation } from './sensors/useOrientation';
+import { useCamera } from './sensors/useCamera';
 import { PermissionGate } from './components/PermissionGate';
 import { RadarView } from './components/RadarView';
+import { CameraView } from './components/CameraView';
 import { ConfidenceDot } from './components/ConfidenceDot';
 import { DetailCard } from './components/DetailCard';
+import { CalibrationHint } from './components/CalibrationHint';
 import { distanceM } from './geo/bearing';
 
-// Downtown Chicago fallback so the radar shows something on desktop.
 const CHICAGO_FALLBACK = { lat: 41.882, lon: -87.629, accuracyM: 999 };
 
 export default function App() {
@@ -18,6 +20,10 @@ export default function App() {
   const buildings = useStore((s) => s.buildings);
   const selectedBuildingId = useStore((s) => s.selectedBuildingId);
   const selectBuilding = useStore((s) => s.selectBuilding);
+  const view = useStore((s) => s.view);
+  const setView = useStore((s) => s.setView);
+  const cameraOptIn = useStore((s) => s.cameraOptIn);
+  const setCameraOptIn = useStore((s) => s.setCameraOptIn);
 
   const [loadError, setLoadError] = useState<string | null>(null);
 
@@ -27,6 +33,14 @@ export default function App() {
 
   const geo = useGeolocation(stage === 'ready');
   const orient = useOrientation(stage === 'ready');
+  const camera = useCamera(stage === 'ready' && cameraOptIn && view === 'camera');
+
+  // If camera denied or unavailable, force radar.
+  useEffect(() => {
+    if (camera.status === 'denied' || camera.status === 'unavailable' || camera.status === 'error') {
+      if (view === 'camera') setView('radar');
+    }
+  }, [camera.status, view, setView]);
 
   const observer = geo.position ?? CHICAGO_FALLBACK;
   const usingFallback = !geo.position;
@@ -37,22 +51,41 @@ export default function App() {
   );
 
   if (stage === 'onboarding') {
-    return <PermissionGate onComplete={() => setStage('ready')} />;
+    return (
+      <PermissionGate
+        onComplete={(camIn) => {
+          setCameraOptIn(camIn);
+          setStage('ready');
+        }}
+      />
+    );
   }
 
   return (
     <main className="relative h-full w-full overflow-hidden bg-night text-soft">
-      <RadarView
-        observer={observer}
-        headingDeg={orient.heading}
-        confidence={orient.confidence}
-        headingAvailable={orient.available}
-      />
+      {view === 'camera' && cameraOptIn ? (
+        <CameraView
+          observer={observer}
+          headingDeg={orient.heading}
+          pitchDeg={orient.pitch}
+          headingAvailable={orient.available}
+          videoRef={camera.videoRef}
+        />
+      ) : (
+        <RadarView
+          observer={observer}
+          headingDeg={orient.heading}
+          confidence={orient.confidence}
+          headingAvailable={orient.available}
+        />
+      )}
 
-      <div className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-start justify-between p-4">
+      <div className="pointer-events-none absolute inset-x-0 top-0 z-20 flex items-start justify-between p-4">
         <div className="pointer-events-auto flex flex-col gap-1">
           <span className="font-display text-lg leading-none text-amber">Spire</span>
-          <span className="text-[10px] uppercase tracking-widest text-steel">Chicago · Radar</span>
+          <span className="text-[10px] uppercase tracking-widest text-steel">
+            Chicago · {view === 'camera' ? 'Live' : 'Radar'}
+          </span>
         </div>
         <div className="pointer-events-auto flex flex-col items-end gap-1">
           <ConfidenceDot
@@ -63,7 +96,7 @@ export default function App() {
                 'Compass health.\n\n' +
                   'Steady = trust the labels.\n' +
                   'Drifting = give it a moment or move away from metal/large glass.\n' +
-                  'Noisy = drag horizontally on the ribbon to align labels to what you actually see.',
+                  'Noisy = drag horizontally to align labels to what you actually see.',
               );
             }}
           />
@@ -72,14 +105,20 @@ export default function App() {
               Using downtown fallback
             </span>
           )}
+          {camera.status === 'denied' && view === 'radar' && (
+            <span className="rounded-full bg-black/40 px-2 py-0.5 text-[10px] uppercase tracking-wider text-steel backdrop-blur">
+              Camera denied — radar only
+            </span>
+          )}
         </div>
       </div>
 
-      <div className="pointer-events-none absolute inset-x-0 bottom-4 z-10 flex items-center justify-center gap-3 px-4">
+      {/* Bottom bar: view toggle + status */}
+      <div className="pointer-events-none absolute inset-x-0 bottom-4 z-20 flex items-center justify-center gap-3 px-4">
         <div className="pointer-events-auto flex items-center gap-2 rounded-full bg-black/50 px-3 py-2 text-xs text-steel backdrop-blur">
           <span className="tabular-nums">{Math.round((orient.heading + 360) % 360)}°</span>
           <span>·</span>
-          <span>{buildings.length} buildings</span>
+          <span>{buildings.length}</span>
           {geo.position && geo.position.accuracyM > 50 && (
             <>
               <span>·</span>
@@ -87,7 +126,17 @@ export default function App() {
             </>
           )}
         </div>
+        {(cameraOptIn && camera.status !== 'denied' && camera.status !== 'unavailable') && (
+          <button
+            onClick={() => setView(view === 'camera' ? 'radar' : 'camera')}
+            className="pointer-events-auto rounded-full border border-amber/60 bg-night/70 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-amber backdrop-blur active:scale-95"
+          >
+            {view === 'camera' ? 'Radar' : 'Camera'}
+          </button>
+        )}
       </div>
+
+      {view === 'camera' && <CalibrationHint />}
 
       {geo.status === 'denied' && <FatalOverlay message="Location access is required." />}
       {geo.status === 'timeout' && (
@@ -124,7 +173,7 @@ function FatalOverlay({ message }: { message: string }) {
 
 function SoftOverlay({ message }: { message: string }) {
   return (
-    <div className="pointer-events-none absolute inset-x-4 top-24 z-20 rounded-xl border border-amber/30 bg-black/70 p-3 text-center text-xs text-amber backdrop-blur">
+    <div className="pointer-events-none absolute inset-x-4 top-24 z-30 rounded-xl border border-amber/30 bg-black/70 p-3 text-center text-xs text-amber backdrop-blur">
       {message}
     </div>
   );
