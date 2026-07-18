@@ -40,6 +40,11 @@ Running log of non-obvious things learned while building Spire. Append new entri
 
 - **A drag-to-dismiss bottom sheet needs a real close button on mobile.** A 1px handle is an unhittable touch target, and without `touch-action: none` the browser scrolls the sheet content instead of firing your pointer-move — user gets stuck in a full-screen sheet. Fixes: an always-visible ✕ button (the reliable escape), a full-width `touch-none` drag zone, and disable the CSS `transition-transform` *during* the drag (`dragging` state) so the sheet tracks the finger instead of lagging.
 - **Linking a list to the map viewport:** publish the map's `{center, zoom, bounds}` to shared state on every `moveend` (and restore `center/zoom` on map init so map⇄list toggling doesn't reset the camera). The list filters pins to `bounds` with a "This area / All" toggle — default "This area" so zooming then listing shows just that region. Read the persisted view via `getState()` inside the init effect (not a subscription) so it doesn't re-run the map on every pan.
+- **Search that spans everything, filtered cheaply:** split row-building (expensive: resolve photos, build a lowercase `haystack` of all captions + the geocoder derivation string like "neighborhood: Bronzeville") into one memo, and the per-keystroke filter+sort into a second. Search bypasses the area/bounds filter (finding a specific place is the whole point) and dims the area toggle while active.
+
+## 2026-07-18 (pt 5) — Don't trap users at a permission gate
+
+- **A permission gate must have a working escape, and the escape must be a real control.** Ours showed "Access was denied… or continue without it" but rendered no button in the denied branch — users who declined location were stuck at the front door on the live site. Fixes: a "Skip for now" secondary on every step (rendered OUTSIDE the denied conditional so it survives denial) + an always-visible "Just exploring? Enter without setup →" link that completes onboarding immediately. The app already has a downtown fallback, so nothing actually requires the grant. Lesson: never gate exploration behind a permission the app can run without.
 
 ## 2026-07-18 — Time Machine mode build
 

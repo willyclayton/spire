@@ -100,10 +100,12 @@ export function PermissionGate({ onComplete }: Props) {
           step={1}
           total={3}
           title="Where are you standing?"
-          body="Your location lets Spire figure out which buildings you're looking at. We don't store or send it anywhere."
+          body="Your location lets Spire figure out which buildings you're looking at. We don't store or send it anywhere. Not needed to browse the Time Machine map."
           button="Share location"
           onClick={askLocation}
           denied={locDenied}
+          secondaryLabel="Skip for now"
+          onSecondary={() => setStep('motion')}
         />
       )}
       {step === 'motion' && (
@@ -115,6 +117,8 @@ export function PermissionGate({ onComplete }: Props) {
           button="Enable compass"
           onClick={askMotion}
           denied={motionDenied}
+          secondaryLabel="Skip for now"
+          onSecondary={() => setStep('camera')}
         />
       )}
       {step === 'camera' && (
@@ -129,6 +133,14 @@ export function PermissionGate({ onComplete }: Props) {
           onSecondary={() => onComplete(false)}
         />
       )}
+
+      {/* Always-available escape — get straight into the app to explore. */}
+      <button
+        onClick={() => onComplete(false)}
+        className="mt-8 text-sm text-steel underline underline-offset-4 transition active:scale-95"
+      >
+        Just exploring? Enter without setup →
+      </button>
     </div>
   );
 }

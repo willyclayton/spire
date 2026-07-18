@@ -16,6 +16,8 @@ interface Row {
   name: string;
   year: number;
   dist: number | null;
+  /** Lowercase searchable text: captions + street/landmark/neighborhood derivation. */
+  haystack: string;
 }
 
 /** Shrink a Commons Special:FilePath render to a list thumbnail; leave others as-is. */
@@ -38,46 +40,98 @@ export function HistoryListView({ observer, onSelectPin }: Props) {
   const [asc, setAsc] = useState(true);
   // Follow the map's zoomed region by default; "all" shows every pin.
   const [scope, setScope] = useState<'area' | 'all'>('area');
+  const [query, setQuery] = useState('');
 
-  const rows = useMemo<Row[]>(() => {
+  // Build every row once (expensive: resolves photos + builds search text).
+  const baseRows = useMemo<Row[]>(() => {
     if (!index) return [];
-    let pins = filterPinsByEra(index.pins, eraRange[0], eraRange[1]);
-    if (scope === 'area' && mapView) {
-      const [w, s, e, n] = mapView.bounds;
-      pins = pins.filter((p) => p.lon >= w && p.lon <= e && p.lat >= s && p.lat <= n);
-    }
+    const pins = filterPinsByEra(index.pins, eraRange[0], eraRange[1]);
     const built: Row[] = [];
     for (const pin of pins) {
-      // Representative = earliest deep photo (fallback: first).
-      const photo = pin.photoIds.map((id) => getPhoto(id)).find(Boolean);
+      const photos = pin.photoIds.map((id) => getPhoto(id)).filter(Boolean) as HistoricalPhoto[];
+      const photo = photos[0];
       if (!photo) continue;
+      const searchBits = [
+        ...photos.map((p) => p.caption ?? ''),
+        // "intersection: State & Madison" / "landmark: Union Station" / "neighborhood: Bronzeville"
+        photo.geocodeSource ?? '',
+      ];
       built.push({
         pin,
         photo,
         name: photo.caption?.trim() || `Chicago, ${pin.eras[0]}`,
         year: pin.eras[0],
         dist: observer ? distanceM(observer, { lat: pin.lat, lon: pin.lon }) : null,
+        haystack: searchBits.join(' ').toLowerCase(),
       });
+    }
+    return built;
+  }, [index, eraRange, getPhoto, observer]);
+
+  // Cheap per-keystroke: filter (search bypasses the area limit) + sort.
+  const rows = useMemo<Row[]>(() => {
+    const q = query.trim().toLowerCase();
+    let r = baseRows;
+    if (q) {
+      r = r.filter((row) => row.haystack.includes(q));
+    } else if (scope === 'area' && mapView) {
+      const [w, s, e, n] = mapView.bounds;
+      r = r.filter((row) => row.pin.lon >= w && row.pin.lon <= e && row.pin.lat >= s && row.pin.lat <= n);
     }
     const dir = asc ? 1 : -1;
     const sortName = (s: string) => s.replace(/^[^a-z0-9]+/i, '').toLowerCase();
-    built.sort((a, b) => {
+    return [...r].sort((a, b) => {
       if (sortKey === 'name') return dir * sortName(a.name).localeCompare(sortName(b.name));
       if (sortKey === 'year') return dir * (a.year - b.year);
       return dir * ((a.dist ?? Infinity) - (b.dist ?? Infinity));
     });
-    return built;
-  }, [index, eraRange, getPhoto, observer, sortKey, asc, scope, mapView]);
+  }, [baseRows, query, scope, mapView, sortKey, asc]);
+
+  const searching = query.trim().length > 0;
 
   return (
     <div className="absolute inset-0 flex flex-col bg-night">
-      {/* Header: scope (map area vs all) + sort */}
+      {/* Header: search + scope (map area vs all) + sort */}
       <div className="z-10 flex flex-col gap-2 border-b border-white/10 bg-night/95 px-3 pb-3 pt-4 backdrop-blur">
+        {/* Search */}
+        <div className="relative">
+          <svg
+            className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-steel"
+            width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
+          >
+            <circle cx="11" cy="11" r="7" />
+            <path d="M21 21l-4.3-4.3" strokeLinecap="round" />
+          </svg>
+          <input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search a place, street, or landmark…"
+            aria-label="Search photos"
+            className="w-full rounded-full border border-white/15 bg-white/5 py-2 pl-9 pr-9 text-sm text-soft placeholder:text-steel/60 focus:border-sepia/50 focus:outline-none"
+          />
+          {searching && (
+            <button
+              onClick={() => setQuery('')}
+              aria-label="Clear search"
+              className="absolute right-2 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full bg-white/10 text-soft active:scale-90"
+            >
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round">
+                <path d="M6 6l12 12M18 6L6 18" />
+              </svg>
+            </button>
+          )}
+        </div>
+
         <div className="flex items-center justify-between gap-2">
           <span className="text-[11px] uppercase tracking-wider text-steel">
-            {rows.length} {rows.length === 1 ? 'place' : 'places'}
+            {rows.length} {searching ? (rows.length === 1 ? 'match' : 'matches') : rows.length === 1 ? 'place' : 'places'}
           </span>
-          <div className="flex rounded-full border border-white/15 p-0.5 text-[10px] font-semibold uppercase tracking-wider">
+          <div
+            className={`flex rounded-full border border-white/15 p-0.5 text-[10px] font-semibold uppercase tracking-wider transition-opacity ${
+              searching ? 'pointer-events-none opacity-30' : ''
+            }`}
+            title={searching ? 'Search covers all of Chicago' : undefined}
+          >
             {(['area', 'all'] as const).map((sc) => (
               <button
                 key={sc}
@@ -161,7 +215,9 @@ export function HistoryListView({ observer, onSelectPin }: Props) {
           );
         })}
         {rows.length === 0 && (
-          <p className="px-4 py-10 text-center text-sm text-steel">No photos in this era range.</p>
+          <p className="px-4 py-10 text-center text-sm text-steel">
+            {searching ? `No matches for “${query.trim()}”.` : 'No photos in this era range.'}
+          </p>
         )}
       </div>
     </div>
