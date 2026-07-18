@@ -32,13 +32,20 @@ export function HistoryListView({ observer, onSelectPin }: Props) {
   const index = useHistoryStore((s) => s.index);
   const eraRange = useHistoryStore((s) => s.eraRange);
   const getPhoto = useHistoryStore((s) => s.getPhoto);
+  const mapView = useHistoryStore((s) => s.mapView);
 
   const [sortKey, setSortKey] = useState<SortKey>(observer ? 'distance' : 'year');
   const [asc, setAsc] = useState(true);
+  // Follow the map's zoomed region by default; "all" shows every pin.
+  const [scope, setScope] = useState<'area' | 'all'>('area');
 
   const rows = useMemo<Row[]>(() => {
     if (!index) return [];
-    const pins = filterPinsByEra(index.pins, eraRange[0], eraRange[1]);
+    let pins = filterPinsByEra(index.pins, eraRange[0], eraRange[1]);
+    if (scope === 'area' && mapView) {
+      const [w, s, e, n] = mapView.bounds;
+      pins = pins.filter((p) => p.lon >= w && p.lon <= e && p.lat >= s && p.lat <= n);
+    }
     const built: Row[] = [];
     for (const pin of pins) {
       // Representative = earliest deep photo (fallback: first).
@@ -60,14 +67,33 @@ export function HistoryListView({ observer, onSelectPin }: Props) {
       return dir * ((a.dist ?? Infinity) - (b.dist ?? Infinity));
     });
     return built;
-  }, [index, eraRange, getPhoto, observer, sortKey, asc]);
+  }, [index, eraRange, getPhoto, observer, sortKey, asc, scope, mapView]);
 
   return (
     <div className="absolute inset-0 flex flex-col bg-night">
-      {/* Sort header */}
-      <div className="z-10 flex items-center gap-2 border-b border-white/10 bg-night/95 px-3 pb-3 pt-4 backdrop-blur">
-        <span className="text-[11px] uppercase tracking-wider text-steel">{rows.length}</span>
-        <div className="flex flex-1 items-center gap-1 overflow-x-auto">
+      {/* Header: scope (map area vs all) + sort */}
+      <div className="z-10 flex flex-col gap-2 border-b border-white/10 bg-night/95 px-3 pb-3 pt-4 backdrop-blur">
+        <div className="flex items-center justify-between gap-2">
+          <span className="text-[11px] uppercase tracking-wider text-steel">
+            {rows.length} {rows.length === 1 ? 'place' : 'places'}
+          </span>
+          <div className="flex rounded-full border border-white/15 p-0.5 text-[10px] font-semibold uppercase tracking-wider">
+            {(['area', 'all'] as const).map((sc) => (
+              <button
+                key={sc}
+                onClick={() => setScope(sc)}
+                disabled={sc === 'area' && !mapView}
+                aria-pressed={scope === sc}
+                className={`rounded-full px-3 py-1 transition-colors disabled:opacity-30 ${
+                  scope === sc ? 'bg-sepia text-night' : 'text-steel'
+                }`}
+              >
+                {sc === 'area' ? 'This area' : 'All Chicago'}
+              </button>
+            ))}
+          </div>
+        </div>
+        <div className="flex items-center gap-1 overflow-x-auto">
           {(['name', 'year', 'distance'] as const).map((k) => {
             const active = sortKey === k;
             const label = k === 'name' ? 'Name' : k === 'year' ? 'Year' : 'Distance';

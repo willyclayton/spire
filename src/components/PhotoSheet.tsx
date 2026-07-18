@@ -58,6 +58,7 @@ export function PhotoSheet({
   // Drag-to-dismiss.
   const sheetRef = useRef<HTMLDivElement>(null);
   const [dragY, setDragY] = useState(0);
+  const [dragging, setDragging] = useState(false);
   const startY = useRef<number | null>(null);
 
   if (!shown) return null;
@@ -73,25 +74,43 @@ export function PhotoSheet({
         ref={sheetRef}
         onClick={(e) => e.stopPropagation()}
         style={{ maxHeight: '88vh', transform: `translateY(${dragY}px)` }}
-        className="w-full rounded-t-3xl border-t border-sepia/25 bg-night p-5 pb-8 shadow-2xl transition-transform"
+        className={`w-full rounded-t-3xl border-t border-sepia/25 bg-night p-5 pb-8 shadow-2xl ${
+          dragging ? '' : 'transition-transform'
+        }`}
       >
-        {/* Drag handle */}
-        <div
-          className="mx-auto mb-3 h-1 w-12 cursor-grab rounded-full bg-white/20"
-          onPointerDown={(e) => {
-            startY.current = e.clientY;
-            (e.target as HTMLElement).setPointerCapture(e.pointerId);
-          }}
-          onPointerMove={(e) => {
-            if (startY.current === null) return;
-            setDragY(Math.max(0, e.clientY - startY.current));
-          }}
-          onPointerUp={() => {
-            if (dragY > 120) onClose();
-            setDragY(0);
-            startY.current = null;
-          }}
-        />
+        {/* Drag-to-dismiss zone (full width, big touch target) + close button */}
+        <div className="relative mb-2">
+          <div
+            className="mx-auto flex h-6 w-full max-w-[240px] cursor-grab touch-none items-center justify-center"
+            style={{ touchAction: 'none' }}
+            onPointerDown={(e) => {
+              startY.current = e.clientY;
+              setDragging(true);
+              (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+            }}
+            onPointerMove={(e) => {
+              if (startY.current === null) return;
+              setDragY(Math.max(0, e.clientY - startY.current));
+            }}
+            onPointerUp={() => {
+              if (dragY > 100) onClose();
+              else setDragY(0);
+              setDragging(false);
+              startY.current = null;
+            }}
+          >
+            <div className="h-1.5 w-12 rounded-full bg-white/30" />
+          </div>
+          <button
+            onClick={onClose}
+            aria-label="Close"
+            className="absolute right-0 top-0 flex h-8 w-8 items-center justify-center rounded-full bg-white/10 text-soft active:scale-90"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+              <path d="M6 6l12 12M18 6L6 18" />
+            </svg>
+          </button>
+        </div>
 
         <div className="overflow-y-auto" style={{ maxHeight: '80vh' }}>
           {/* Photo — letterboxed with blurred fill, never stretched (spec §3.2). */}

@@ -117,6 +117,10 @@ interface HistoryState {
   eraRange: [number, number];
   setEraRange: (range: [number, number]) => void;
 
+  /** Persisted map camera + current viewport bounds [w,s,e,n], shared with the list. */
+  mapView: { center: [number, number]; zoom: number; bounds: [number, number, number, number] } | null;
+  setMapView: (v: HistoryState['mapView']) => void;
+
   selectedPinId: string | null;
   selectPin: (id: string | null) => void;
 
@@ -154,6 +158,9 @@ export const useHistoryStore = create<HistoryState>((set, get) => ({
 
   eraRange: [ERA_MIN, ERA_NOW],
   setEraRange: (eraRange) => set({ eraRange }),
+
+  mapView: null,
+  setMapView: (mapView) => set({ mapView }),
 
   selectedPinId: null,
   selectPin: (selectedPinId) => set({ selectedPinId }),

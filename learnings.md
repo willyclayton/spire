@@ -36,6 +36,11 @@ Running log of non-obvious things learned while building Spire. Append new entri
 - **Normalize names before sorting** — many archival captions start with `"` or `-` ("...verso" quotes), which otherwise sort to the top; strip leading non-alphanumerics for the comparator only.
 - Refactored the mode flip from a `timeMachine` boolean to an `appMode: 'home' | 'gazer' | 'timeMachine'` router with a real home screen. Cleaner than an overlay toggle, and each mode gets an explicit "← Menu" back path. Camera hook now gates on `appMode === 'gazer'`.
 
+## 2026-07-18 (pt 4) — Mobile bottom-sheet + map/list region link
+
+- **A drag-to-dismiss bottom sheet needs a real close button on mobile.** A 1px handle is an unhittable touch target, and without `touch-action: none` the browser scrolls the sheet content instead of firing your pointer-move — user gets stuck in a full-screen sheet. Fixes: an always-visible ✕ button (the reliable escape), a full-width `touch-none` drag zone, and disable the CSS `transition-transform` *during* the drag (`dragging` state) so the sheet tracks the finger instead of lagging.
+- **Linking a list to the map viewport:** publish the map's `{center, zoom, bounds}` to shared state on every `moveend` (and restore `center/zoom` on map init so map⇄list toggling doesn't reset the camera). The list filters pins to `bounds` with a "This area / All" toggle — default "This area" so zooming then listing shows just that region. Read the persisted view via `getState()` inside the init effect (not a subscription) so it doesn't re-run the map on every pan.
+
 ## 2026-07-18 — Time Machine mode build
 
 ### Wikimedia Commons harvesting

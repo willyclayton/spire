@@ -31,25 +31,46 @@ export function HistoryMapView({ observer, onSelectPin }: Props) {
   const index = useHistoryStore((s) => s.index);
   const eraRange = useHistoryStore((s) => s.eraRange);
   const setEraRange = useHistoryStore((s) => s.setEraRange);
+  const setMapView = useHistoryStore((s) => s.setMapView);
 
   const filteredPins = useMemo(
     () => (index ? filterPinsByEra(index.pins, eraRange[0], eraRange[1]) : []),
     [index, eraRange],
   );
 
-  // Init map once.
+  // Publish the current camera + viewport bounds so the list can follow the map.
+  const publishView = () => {
+    const map = mapRef.current;
+    if (!map) return;
+    const c = map.getCenter();
+    const b = map.getBounds();
+    setMapView({
+      center: [c.lng, c.lat],
+      zoom: map.getZoom(),
+      bounds: [b.getWest(), b.getSouth(), b.getEast(), b.getNorth()],
+    });
+  };
+
+  // Init map once — restoring the last camera so map⇄list toggling keeps your view.
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
+    const restored = useHistoryStore.getState().mapView;
     const map = new maplibregl.Map({
       container: containerRef.current,
       style: MAP_STYLE,
-      center: CHICAGO,
-      zoom: 12.5,
+      center: restored?.center ?? CHICAGO,
+      zoom: restored?.zoom ?? 12.5,
       attributionControl: { compact: true },
     });
     map.getCanvas().classList.add('tm-map-canvas');
-    map.on('load', () => setReady(true));
-    map.on('moveend', () => renderClustersRef.current?.());
+    map.on('load', () => {
+      setReady(true);
+      publishView();
+    });
+    map.on('moveend', () => {
+      renderClustersRef.current?.();
+      publishView();
+    });
     mapRef.current = map;
     return () => {
       map.remove();
