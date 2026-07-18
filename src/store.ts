@@ -21,6 +21,9 @@ interface State {
   cameraOptIn: boolean;
   setCameraOptIn: (v: boolean) => void;
 
+  timeMachine: boolean;
+  toggleTimeMachine: () => void;
+
   selectedBuildingId: string | null;
   selectBuilding: (id: string | null) => void;
 }
@@ -69,6 +72,15 @@ export const useStore = create<State>((set, get) => ({
   cameraOptIn: false,
   setCameraOptIn: (v) => set({ cameraOptIn: v, view: v ? 'camera' : 'radar' }),
 
+  timeMachine: false,
+  toggleTimeMachine: () => set((s) => ({ timeMachine: !s.timeMachine })),
+
   selectedBuildingId: null,
   selectBuilding: (id) => set({ selectedBuildingId: id }),
 }));
+
+// Dev-only escape hatch for driving the app in automated smoke tests without the
+// native geolocation prompt. Never referenced in production code.
+if (import.meta.env.DEV && typeof window !== 'undefined') {
+  (window as unknown as { __spire?: typeof useStore }).__spire = useStore;
+}

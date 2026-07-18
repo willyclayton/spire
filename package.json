@@ -13,17 +13,25 @@
     "data:osm": "tsx scripts/fetch-osm.ts",
     "data:wikidata": "tsx scripts/fetch-wikidata.ts",
     "data:merge": "tsx scripts/merge.ts",
-    "data:all": "npm run data:osm && npm run data:wikidata && npm run data:merge"
+    "data:all": "npm run data:osm && npm run data:wikidata && npm run data:merge",
+    "tm:commons": "tsx scripts/harvest-commons.ts",
+    "tm:loc": "tsx scripts/harvest-loc.ts",
+    "tm:enrich": "tsx scripts/enrich-geolocate.ts",
+    "tm:index": "tsx scripts/build-index.ts",
+    "tm:all": "npm run tm:commons && npm run tm:index"
   },
   "dependencies": {
+    "maplibre-gl": "^5.24.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "supercluster": "^8.0.1",
     "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@types/node": "^22.9.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "@types/supercluster": "^7.1.3",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
     "jsdom": "^25.0.1",

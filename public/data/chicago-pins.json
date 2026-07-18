@@ -1,0 +1,5069 @@
+{
+  "pins": [
+    {
+      "id": "pin-gardnerhouselandownertwoyearsafterfire",
+      "lat": 41.899819,
+      "lon": -87.630753,
+      "photoIds": [
+        "gardnerhouselandownertwoyearsafterfire"
+      ],
+      "eras": [
+        1873
+      ],
+      "hasDeep": true,
+      "featured": true
+    },
+    {
+      "id": "pin-page-brothers-building-177-91-north-state-street-chicago",
+      "lat": 41.8725,
+      "lon": -87.628333,
+      "photoIds": [
+        "page-brothers-building-177-91-north-state-street-chicago"
+      ],
+      "eras": [
+        1899
+      ],
+      "hasDeep": true,
+      "featured": true
+    },
+    {
+      "id": "pin-12th-street-bascule-bridge-chicago-illinois-ca-1905",
+      "lat": 41.86851,
+      "lon": -87.634913,
+      "photoIds": [
+        "12th-street-bascule-bridge-chicago-illinois-ca-1905"
+      ],
+      "eras": [
+        1905
+      ],
+      "hasDeep": true,
+      "featured": true
+    },
+    {
+      "id": "pin-19-121178-47th-and-drexel-chicago",
+      "lat": 41.809492,
+      "lon": -87.604056,
+      "photoIds": [
+        "19-121178-47th-and-drexel-chicago",
+        "22-121278-47th-and-drexel-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": true
+    },
+    {
+      "id": "pin-12-110978-roosevelt-road-chicago-1978",
+      "lat": 41.867458,
+      "lon": -87.624194,
+      "photoIds": [
+        "12-110978-roosevelt-road-chicago-1978"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": true
+    },
+    {
+      "id": "pin-22-121278-karyae-restaurant-chicago",
+      "lat": 41.896542,
+      "lon": -87.631431,
+      "photoIds": [
+        "22-121278-karyae-restaurant-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": true
+    },
+    {
+      "id": "pin-death-bed-of-lincoln-albumen-photograph-of-john-littlefield",
+      "lat": 41.895686,
+      "lon": -87.648894,
+      "photoIds": [
+        "death-bed-of-lincoln-albumen-photograph-of-john-littlefield-"
+      ],
+      "eras": [
+        1865
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-flickr-trialsanderrors-james-ryan-centre-fielder-chicago-whi",
+      "lat": 41.875089,
+      "lon": -87.660984,
+      "photoIds": [
+        "flickr-trialsanderrors-james-ryan-centre-fielder-chicago-whi"
+      ],
+      "eras": [
+        1888
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-1893-hebe-statue-the-rosenberg-fountain-grant-park-chicago",
+      "lat": 41.868729,
+      "lon": -87.623786,
+      "photoIds": [
+        "1893-hebe-statue-the-rosenberg-fountain-grant-park-chicago"
+      ],
+      "eras": [
+        1893
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-general-john-logan-grant-park-chicago",
+      "lat": 41.870564,
+      "lon": -87.623474,
+      "photoIds": [
+        "general-john-logan-grant-park-chicago"
+      ],
+      "eras": [
+        1897
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-garfield-boulevard-methodist-episcopal-church-chicago-early",
+      "lat": 41.793959,
+      "lon": -87.64393,
+      "photoIds": [
+        "garfield-boulevard-methodist-episcopal-church-chicago-early-"
+      ],
+      "eras": [
+        1900
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-new-jerusalem-church-of-the-divine-humanity-chicago-early-20",
+      "lat": 41.767232,
+      "lon": -87.634751,
+      "photoIds": [
+        "new-jerusalem-church-of-the-divine-humanity-chicago-early-20"
+      ],
+      "eras": [
+        1900
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-illinoistunnelshaft7",
+      "lat": 41.870567,
+      "lon": -87.627328,
+      "photoIds": [
+        "illinoistunnelshaft7"
+      ],
+      "eras": [
+        1902
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-sunken-garden-sears-roebuck-chicago-ill-1906-6044025640",
+      "lat": 41.870503,
+      "lon": -87.709393,
+      "photoIds": [
+        "sunken-garden-sears-roebuck-chicago-ill-1906-6044025640"
+      ],
+      "eras": [
+        1906
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-tunnelmail",
+      "lat": 41.873403,
+      "lon": -87.633858,
+      "photoIds": [
+        "tunnelmail"
+      ],
+      "eras": [
+        1908
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-343-apartment-house-hilland-and-52nd-st-chicago-illinois-191",
+      "lat": 41.801582,
+      "lon": -87.645417,
+      "photoIds": [
+        "343-apartment-house-hilland-and-52nd-st-chicago-illinois-191"
+      ],
+      "eras": [
+        1911
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-flickr-trialsanderrors-jim-scott-pitcher-chicago-white-sox-1",
+      "lat": 41.831312,
+      "lon": -87.634098,
+      "photoIds": [
+        "flickr-trialsanderrors-jim-scott-pitcher-chicago-white-sox-1",
+        "flickr-trialsanderrors-jaques-fournier-chicago-white-sox-191"
+      ],
+      "eras": [
+        1911,
+        1912
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-visitation-church-chicago-between-1913-and-1914-nby-808",
+      "lat": 41.793927,
+      "lon": -87.647538,
+      "photoIds": [
+        "visitation-church-chicago-between-1913-and-1914-nby-808"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-church-building-chicago-1913-nby-677",
+      "lat": 41.802497,
+      "lon": -87.647815,
+      "photoIds": [
+        "church-building-chicago-1913-nby-677"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-saint-agnes-church-chicago-1913-nby-593",
+      "lat": 41.822857,
+      "lon": -87.692116,
+      "photoIds": [
+        "saint-agnes-church-chicago-1913-nby-593"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-saint-gabriel-catholic-church-chicago-1913-nby-584",
+      "lat": 41.812584,
+      "lon": -87.641994,
+      "photoIds": [
+        "saint-gabriel-catholic-church-chicago-1913-nby-584"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-nativity-of-our-lord-catholic-church-chicago-between-1913-an",
+      "lat": 41.827278,
+      "lon": -87.643574,
+      "photoIds": [
+        "nativity-of-our-lord-catholic-church-chicago-between-1913-an"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-saint-mel-s-church-chicago-1913-nby-837",
+      "lat": 41.881938,
+      "lon": -87.732906,
+      "photoIds": [
+        "saint-mel-s-church-chicago-1913-nby-837"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-saint-boniface-church-chicago-1913-nby-968",
+      "lat": 41.89777,
+      "lon": -87.662471,
+      "photoIds": [
+        "saint-boniface-church-chicago-1913-nby-968"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-saint-clement-church-chicago-1913-nby-816",
+      "lat": 41.927869,
+      "lon": -87.646251,
+      "photoIds": [
+        "saint-clement-church-chicago-1913-nby-816"
+      ],
+      "eras": [
+        1913
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-bonus-pastor-polish-school-and-temporary-church-2719-s-kolin",
+      "lat": 41.841294,
+      "lon": -87.732979,
+      "photoIds": [
+        "bonus-pastor-polish-school-and-temporary-church-2719-s-kolin"
+      ],
+      "eras": [
+        1916
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-chicago-1919-race-riot",
+      "lat": 41.828694,
+      "lon": -87.626472,
+      "photoIds": [
+        "chicago-1919-race-riot"
+      ],
+      "eras": [
+        1919
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-fountain-of-time-july-2013-1",
+      "lat": 41.786969,
+      "lon": -87.607386,
+      "photoIds": [
+        "fountain-of-time-july-2013-1"
+      ],
+      "eras": [
+        1920
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-fountain-of-time-july-2013-3",
+      "lat": 41.786582,
+      "lon": -87.607756,
+      "photoIds": [
+        "fountain-of-time-july-2013-3",
+        "fountain-of-time-july-2013-2"
+      ],
+      "eras": [
+        1920
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-pekin-theatre",
+      "lat": 41.844326,
+      "lon": -87.626919,
+      "photoIds": [
+        "pekin-theatre"
+      ],
+      "eras": [
+        1920
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-edward-mccartan-eugene-field-memorial-lincoln-park-illinois",
+      "lat": 41.921175,
+      "lon": -87.632231,
+      "photoIds": [
+        "edward-mccartan-eugene-field-memorial-lincoln-park-illinois"
+      ],
+      "eras": [
+        1922
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-photo-of-george-coe-1932",
+      "lat": 41.899606,
+      "lon": -87.630583,
+      "photoIds": [
+        "photo-of-george-coe-1932"
+      ],
+      "eras": [
+        1932
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-stevens-hotel-chicago-02",
+      "lat": 41.872499,
+      "lon": -87.624357,
+      "photoIds": [
+        "stevens-hotel-chicago-02"
+      ],
+      "eras": [
+        1937
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-jack-delano-chicago-and-northwestern-railroad-locomotive-sho",
+      "lat": 41.819967,
+      "lon": -87.67373,
+      "photoIds": [
+        "jack-delano-chicago-and-northwestern-railroad-locomotive-sho"
+      ],
+      "eras": [
+        1942
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-atchison-topeka-and-santa-fe-railroad-conductor-george-e-bur",
+      "lat": 41.810428,
+      "lon": -87.715026,
+      "photoIds": [
+        "atchison-topeka-and-santa-fe-railroad-conductor-george-e-bur"
+      ],
+      "eras": [
+        1943
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-jack-delano-santa-fe-railroad-at-corwith-yard-chicago-1943-2",
+      "lat": 41.815401,
+      "lon": -87.714972,
+      "photoIds": [
+        "jack-delano-santa-fe-railroad-at-corwith-yard-chicago-1943-2"
+      ],
+      "eras": [
+        1943
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-flickr-trialsanderrors-jack-delano-freight-depot-of-the-u-s",
+      "lat": 41.821718,
+      "lon": -87.671434,
+      "photoIds": [
+        "flickr-trialsanderrors-jack-delano-freight-depot-of-the-u-s-"
+      ],
+      "eras": [
+        1943
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-corpus-christi-church-nby-4854",
+      "lat": 41.805045,
+      "lon": -87.616741,
+      "photoIds": [
+        "corpus-christi-church-nby-4854"
+      ],
+      "eras": [
+        1943
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-blessed-mother-cabrini-church-nby-415846",
+      "lat": 41.87174,
+      "lon": -87.70072,
+      "photoIds": [
+        "blessed-mother-cabrini-church-nby-415846"
+      ],
+      "eras": [
+        1943
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-usa-048-englewood",
+      "lat": 41.83,
+      "lon": -87.75,
+      "photoIds": [
+        "usa-048-englewood"
+      ],
+      "eras": [
+        1952
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-carl-becker-sr-carl-becker-jr",
+      "lat": 41.930852,
+      "lon": -87.648031,
+      "photoIds": [
+        "carl-becker-sr-carl-becker-jr"
+      ],
+      "eras": [
+        1959
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19660515-10-cta-englewood-l-racine",
+      "lat": 41.779118,
+      "lon": -87.654882,
+      "photoIds": [
+        "19660515-10-cta-englewood-l-racine"
+      ],
+      "eras": [
+        1966
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19660515-01-chicago-transit-authority-cta-congress-l-paulina",
+      "lat": 41.875824,
+      "lon": -87.669495,
+      "photoIds": [
+        "19660515-01-chicago-transit-authority-cta-congress-l-paulina"
+      ],
+      "eras": [
+        1966
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19660515-09-chicago-transit-authority-cta-south-side-l-roose",
+      "lat": 41.867451,
+      "lon": -87.626749,
+      "photoIds": [
+        "19660515-09-chicago-transit-authority-cta-south-side-l-roose"
+      ],
+      "eras": [
+        1966
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19660600-03-chicago-transit-authority-cta-north-side-l-train",
+      "lat": 41.937602,
+      "lon": -87.65338,
+      "photoIds": [
+        "19660600-03-chicago-transit-authority-cta-north-side-l-train"
+      ],
+      "eras": [
+        1966
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670600-01-cta-congress-l-kostner-ave",
+      "lat": 41.87321,
+      "lon": -87.735337,
+      "photoIds": [
+        "19670600-01-cta-congress-l-kostner-ave"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670925-06-cta-lake-st-l-near-homan-ave-13885976164",
+      "lat": 41.884759,
+      "lon": -87.713429,
+      "photoIds": [
+        "19670925-06-cta-lake-st-l-near-homan-ave-13885976164"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670527-04-chicago-transit-authority-cta-lake-st-l-after-ci",
+      "lat": 41.886575,
+      "lon": -87.745742,
+      "photoIds": [
+        "19670527-04-chicago-transit-authority-cta-lake-st-l-after-ci"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670925-04-cta-lake-st-l-rockwell-ave-13885642953",
+      "lat": 41.884495,
+      "lon": -87.691605,
+      "photoIds": [
+        "19670925-04-cta-lake-st-l-rockwell-ave-13885642953",
+        "19680609-46-rockwell-ave-shoo-fly-bridge-5629455727"
+      ],
+      "eras": [
+        1967,
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670610-03-chicago-transit-authority-flooded-viaduct-state",
+      "lat": 41.867431,
+      "lon": -87.627457,
+      "photoIds": [
+        "19670610-03-chicago-transit-authority-flooded-viaduct-state-"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670324-35-chicago-transit-authority-cta-9601-chicago-ave-g",
+      "lat": 41.895709,
+      "lon": -87.700748,
+      "photoIds": [
+        "19670324-35-chicago-transit-authority-cta-9601-chicago-ave-g"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670614-22-cta-9225-north-ave-california-ave-chicago-illino",
+      "lat": 41.910213,
+      "lon": -87.696776,
+      "photoIds": [
+        "19670614-22-cta-9225-north-ave-california-ave-chicago-illino"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670614-21-cta-9208-north-ave-rockwell-st-chicago-illinois",
+      "lat": 41.910322,
+      "lon": -87.692165,
+      "photoIds": [
+        "19670614-21-cta-9208-north-ave-rockwell-st-chicago-illinois-"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670501-06-cta-logan-square-l-damen-ave",
+      "lat": 41.909491,
+      "lon": -87.67708,
+      "photoIds": [
+        "19670501-06-cta-logan-square-l-damen-ave"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670501-05-chicago-transit-authority-cta-9221-north-ave-dam",
+      "lat": 41.910465,
+      "lon": -87.678519,
+      "photoIds": [
+        "19670501-05-chicago-transit-authority-cta-9221-north-ave-dam"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670501-04-chicago-transit-authority-cta-9238-throop-st-nor",
+      "lat": 41.910592,
+      "lon": -87.660406,
+      "photoIds": [
+        "19670501-04-chicago-transit-authority-cta-9238-throop-st-nor"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670614-20-cta-9256-north-ave-ashland-ave-chicago-illinois",
+      "lat": 41.910681,
+      "lon": -87.667649,
+      "photoIds": [
+        "19670614-20-cta-9256-north-ave-ashland-ave-chicago-illinois-"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670614-15-cta-north-side-l-near-north-ave-halsted-chicago",
+      "lat": 41.911708,
+      "lon": -87.649445,
+      "photoIds": [
+        "19670614-15-cta-north-side-l-near-north-ave-halsted-chicago-"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670906-06-cta-north-side-l-belmont-ave-13788933295",
+      "lat": 41.938919,
+      "lon": -87.653292,
+      "photoIds": [
+        "19670906-06-cta-north-side-l-belmont-ave-13788933295"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19670906-07-cta-north-side-l-belmont-ave-13788933285",
+      "lat": 41.939469,
+      "lon": -87.653313,
+      "photoIds": [
+        "19670906-07-cta-north-side-l-belmont-ave-13788933285"
+      ],
+      "eras": [
+        1967
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681110-02-cta-9486-kedzie-ave-63rd-pl-6525567619",
+      "lat": 41.778672,
+      "lon": -87.70317,
+      "photoIds": [
+        "19681110-02-cta-9486-kedzie-ave-63rd-pl-6525567619"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681110-01-cta-9496-804-kedzie-ave-63rd-pl-6525567559",
+      "lat": 41.77828,
+      "lon": -87.703363,
+      "photoIds": [
+        "19681110-01-cta-9496-804-kedzie-ave-63rd-pl-6525567559"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680818-02-new-l-construction-near-63rd-st-ashland-ave",
+      "lat": 41.779536,
+      "lon": -87.661886,
+      "photoIds": [
+        "19680818-02-new-l-construction-near-63rd-st-ashland-ave"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681109-03-dan-ryan-l-construction-63rd-st",
+      "lat": 41.78007,
+      "lon": -87.630914,
+      "photoIds": [
+        "19681109-03-dan-ryan-l-construction-63rd-st",
+        "19681109-04-dan-ryan-l-construction-63rd-st"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680922-04-dan-ryan-l-construction-59th-st-9695259615",
+      "lat": 41.786492,
+      "lon": -87.631095,
+      "photoIds": [
+        "19680922-04-dan-ryan-l-construction-59th-st-9695259615"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680922-05-cta-englewood-l-wentworth-ave-6304069041",
+      "lat": 41.786852,
+      "lon": -87.630371,
+      "photoIds": [
+        "19680922-05-cta-englewood-l-wentworth-ave-6304069041",
+        "19860406-42-cta-south-side-l-wentworth-ave"
+      ],
+      "eras": [
+        1968,
+        1986
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680922-06-cta-englewood-l-wentworth-ave-6304595202",
+      "lat": 41.786793,
+      "lon": -87.631491,
+      "photoIds": [
+        "19680922-06-cta-englewood-l-wentworth-ave-6304595202"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681109-06-englewood-l-near-63rd-st-6456741367",
+      "lat": 41.783905,
+      "lon": -87.632104,
+      "photoIds": [
+        "19681109-06-englewood-l-near-63rd-st-6456741367"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680922-12-dan-ryan-l-construction-69th-st",
+      "lat": 41.77308,
+      "lon": -87.625397,
+      "photoIds": [
+        "19680922-12-dan-ryan-l-construction-69th-st"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-22-cta-63rd-st-lower-yard",
+      "lat": 41.780391,
+      "lon": -87.618135,
+      "photoIds": [
+        "19680609-22-cta-63rd-st-lower-yard"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-20-cta-6144-63rd-st-upper-yard-5608239906",
+      "lat": 41.781448,
+      "lon": -87.617661,
+      "photoIds": [
+        "19680609-20-cta-6144-63rd-st-upper-yard-5608239906"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-25-cta-63rd-st-lower-yard-5611921384",
+      "lat": 41.778366,
+      "lon": -87.618534,
+      "photoIds": [
+        "19680609-25-cta-63rd-st-lower-yard-5611921384"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681109-02-cta-7209-67th-st-dan-ryan-expy-6456742165",
+      "lat": 41.772767,
+      "lon": -87.626622,
+      "photoIds": [
+        "19681109-02-cta-7209-67th-st-dan-ryan-expy-6456742165"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681207-04-cta-8832-55th-st-dan-ryan-expy-6525568381",
+      "lat": 41.794592,
+      "lon": -87.631153,
+      "photoIds": [
+        "19681207-04-cta-8832-55th-st-dan-ryan-expy-6525568381"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681207-03-dan-ryan-l-construction-55th-st-6525568315",
+      "lat": 41.793504,
+      "lon": -87.631223,
+      "photoIds": [
+        "19681207-03-dan-ryan-l-construction-55th-st-6525568315"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-24-cta-63rd-st-lower-yard",
+      "lat": 41.77872,
+      "lon": -87.61794,
+      "photoIds": [
+        "19680609-24-cta-63rd-st-lower-yard"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-23-cta-s-342-63rd-st-lower-yard-5611921314",
+      "lat": 41.778286,
+      "lon": -87.617536,
+      "photoIds": [
+        "19680609-23-cta-s-342-63rd-st-lower-yard-5611921314"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-29-cta-63rd-st-yard-5611921588",
+      "lat": 41.777207,
+      "lon": -87.617871,
+      "photoIds": [
+        "19680609-29-cta-63rd-st-yard-5611921588"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-28-cta-63rd-st-yard-5611338353",
+      "lat": 41.777663,
+      "lon": -87.617661,
+      "photoIds": [
+        "19680609-28-cta-63rd-st-yard-5611338353"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680922-13-dan-ryan-expy-47th-st-6304595366",
+      "lat": 41.810044,
+      "lon": -87.631294,
+      "photoIds": [
+        "19680922-13-dan-ryan-expy-47th-st-6304595366"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-rock-island-rdc-cars-at-47th-street-chicago-september-1968",
+      "lat": 41.80838,
+      "lon": -87.630314,
+      "photoIds": [
+        "rock-island-rdc-cars-at-47th-street-chicago-september-1968"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680727-08-chuck-tauscher-on-osa-fantrip-5861341991",
+      "lat": 41.852217,
+      "lon": -87.722171,
+      "photoIds": [
+        "19680727-08-chuck-tauscher-on-osa-fantrip-5861341991"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-41-cta-rapid-transit-kenton-ave-5629455595",
+      "lat": 41.85363,
+      "lon": -87.73535,
+      "photoIds": [
+        "19680609-41-cta-rapid-transit-kenton-ave-5629455595"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680222-20-brc-602-26th-st-near-kenton-ave-1",
+      "lat": 41.844676,
+      "lon": -87.739251,
+      "photoIds": [
+        "19680222-20-brc-602-26th-st-near-kenton-ave-1"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680222-19-brc-602-26th-st-near-kenton-ave",
+      "lat": 41.844405,
+      "lon": -87.73952,
+      "photoIds": [
+        "19680222-19-brc-602-26th-st-near-kenton-ave"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680113-03-cta-2117-50th-ave-chicago-illinois-5467163694",
+      "lat": 41.851957,
+      "lon": -87.749766,
+      "photoIds": [
+        "19680113-03-cta-2117-50th-ave-chicago-illinois-5467163694"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681207-01-rock-island-rr-35th-st-6525568191",
+      "lat": 41.837371,
+      "lon": -87.63064,
+      "photoIds": [
+        "19681207-01-rock-island-rr-35th-st-6525568191"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681109-07-rock-island-railroad-33rd-st-6456741669",
+      "lat": 41.833114,
+      "lon": -87.629606,
+      "photoIds": [
+        "19681109-07-rock-island-railroad-33rd-st-6456741669"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680922-01-cta-sox-35th-station-under-construction",
+      "lat": 41.831679,
+      "lon": -87.630729,
+      "photoIds": [
+        "19680922-01-cta-sox-35th-station-under-construction"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681109-05-rock-island-railroad-33rd-st-6456741503",
+      "lat": 41.831751,
+      "lon": -87.629578,
+      "photoIds": [
+        "19681109-05-rock-island-railroad-33rd-st-6456741503"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680728-10-comiskey-park-5935027107",
+      "lat": 41.831172,
+      "lon": -87.634862,
+      "photoIds": [
+        "19680728-10-comiskey-park-5935027107"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680317-03-cta-congress-l-kedzie-ave-5510105377",
+      "lat": 41.874366,
+      "lon": -87.706722,
+      "photoIds": [
+        "19680317-03-cta-congress-l-kedzie-ave-5510105377"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-50-cta-rapid-transit-hamlin-ave-yard-5629455889",
+      "lat": 41.887485,
+      "lon": -87.725316,
+      "photoIds": [
+        "19680609-50-cta-rapid-transit-hamlin-ave-yard-5629455889"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-47-cta-hamlin-ave-yard-5629455813",
+      "lat": 41.887261,
+      "lon": -87.725116,
+      "photoIds": [
+        "19680609-47-cta-hamlin-ave-yard-5629455813"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680817-12-cta-douglas-l-ashland-ave-van-buren-st-610101846",
+      "lat": 41.876463,
+      "lon": -87.666673,
+      "photoIds": [
+        "19680817-12-cta-douglas-l-ashland-ave-van-buren-st-610101846"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-40-congress-expy-5630037340",
+      "lat": 41.876067,
+      "lon": -87.669106,
+      "photoIds": [
+        "19680609-40-congress-expy-5630037340"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680727-03-osa-charter-on-ashland-ave-near-washington-blvd",
+      "lat": 41.879566,
+      "lon": -87.666807,
+      "photoIds": [
+        "19680727-03-osa-charter-on-ashland-ave-near-washington-blvd-"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-39-cta-l-fantrip-on-paulina-connector-5630037266",
+      "lat": 41.878323,
+      "lon": -87.670002,
+      "photoIds": [
+        "19680609-39-cta-l-fantrip-on-paulina-connector-5630037266"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680815-01-suburban-transit-system-145-wabash-ave-near-8th",
+      "lat": 41.872096,
+      "lon": -87.625937,
+      "photoIds": [
+        "19680815-01-suburban-transit-system-145-wabash-ave-near-8th-"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680609-19-cta-4437-state-harrison-5607655857",
+      "lat": 41.874176,
+      "lon": -87.627647,
+      "photoIds": [
+        "19680609-19-cta-4437-state-harrison-5607655857"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-06-cta-9456-california-ave-wabansia-ave-6330993346",
+      "lat": 41.912441,
+      "lon": -87.697112,
+      "photoIds": [
+        "19681005-06-cta-9456-california-ave-wabansia-ave-6330993346"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-03-cta-9553-north-ave-california-ave-6330993274",
+      "lat": 41.910221,
+      "lon": -87.697121,
+      "photoIds": [
+        "19681005-03-cta-9553-north-ave-california-ave-6330993274"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-04-cta-9468-california-ave-north-ave-6330239849",
+      "lat": 41.90995,
+      "lon": -87.697001,
+      "photoIds": [
+        "19681005-04-cta-9468-california-ave-north-ave-6330239849"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680601-06-cta-9554-north-ave-near-cicero-ave-5583370365",
+      "lat": 41.909597,
+      "lon": -87.746781,
+      "photoIds": [
+        "19680601-06-cta-9554-north-ave-near-cicero-ave-5583370365"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680601-07-cta-9421-north-ave-station-5583960096",
+      "lat": 41.908852,
+      "lon": -87.746381,
+      "photoIds": [
+        "19680601-07-cta-9421-north-ave-station-5583960096"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680601-08-cta-9685-cicero-ave-north-ave-5583960144",
+      "lat": 41.909038,
+      "lon": -87.746021,
+      "photoIds": [
+        "19680601-08-cta-9685-cicero-ave-north-ave-5583960144"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680601-09-cta-north-ave-station-5583960190",
+      "lat": 41.909032,
+      "lon": -87.746615,
+      "photoIds": [
+        "19680601-09-cta-north-ave-station-5583960190"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680601-10-cta-9612-cicero-ave-north-ave-5583370613",
+      "lat": 41.909299,
+      "lon": -87.746236,
+      "photoIds": [
+        "19680601-10-cta-9612-cicero-ave-north-ave-5583370613"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680601-14-cta-9420-cicero-ave-north-ave-5583370799",
+      "lat": 41.909533,
+      "lon": -87.746372,
+      "photoIds": [
+        "19680601-14-cta-9420-cicero-ave-north-ave-5583370799"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680817-10-near-state-st-chestnut-st-28554590480",
+      "lat": 41.898108,
+      "lon": -87.628337,
+      "photoIds": [
+        "19680817-10-near-state-st-chestnut-st-28554590480"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19680817-11-chestnut-st-lasalle-st-28223845013",
+      "lat": 41.897988,
+      "lon": -87.6328,
+      "photoIds": [
+        "19680817-11-chestnut-st-lasalle-st-28223845013"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-23-cta-9461-9500-california-ave-diversey-ave-633330",
+      "lat": 41.932486,
+      "lon": -87.697645,
+      "photoIds": [
+        "19681005-23-cta-9461-9500-california-ave-diversey-ave-633330"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-19-cta-5161-9465-california-ave-fullerton-ave-63309",
+      "lat": 41.924851,
+      "lon": -87.697264,
+      "photoIds": [
+        "19681005-19-cta-5161-9465-california-ave-fullerton-ave-63309"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-20-cta-9489-california-ave-algeld-ave-6330239967",
+      "lat": 41.926667,
+      "lon": -87.697497,
+      "photoIds": [
+        "19681005-20-cta-9489-california-ave-algeld-ave-6330239967"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-27-cta-2500-california-ave-nelson-st-6333309046",
+      "lat": 41.936712,
+      "lon": -87.697784,
+      "photoIds": [
+        "19681005-27-cta-2500-california-ave-nelson-st-6333309046"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-31-cta-9450-9468-california-ave-elston-ave-63325583",
+      "lat": 41.938903,
+      "lon": -87.697817,
+      "photoIds": [
+        "19681005-31-cta-9450-9468-california-ave-elston-ave-63325583"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-28-cta-9520-california-ave-belmont-ave-6332558101",
+      "lat": 41.939605,
+      "lon": -87.697924,
+      "photoIds": [
+        "19681005-28-cta-9520-california-ave-belmont-ave-6332558101"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-31-cta-9629-belmont-ave-elston-ave-6333309092",
+      "lat": 41.939413,
+      "lon": -87.698578,
+      "photoIds": [
+        "19681005-31-cta-9629-belmont-ave-elston-ave-6333309092"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681005-34-california-ave-near-roscoe-st-6333309168",
+      "lat": 41.944351,
+      "lon": -87.697992,
+      "photoIds": [
+        "19681005-34-california-ave-near-roscoe-st-6333309168"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19681110-04-cta-9601-orchard-st-fullerton-ave-6525568149",
+      "lat": 41.925458,
+      "lon": -87.646329,
+      "photoIds": [
+        "19681110-04-cta-9601-orchard-st-fullerton-ave-6525568149"
+      ],
+      "eras": [
+        1968
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690200-43-cta-englewood-l-loomis-ave",
+      "lat": 41.778915,
+      "lon": -87.659168,
+      "photoIds": [
+        "19690200-43-cta-englewood-l-loomis-ave"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690200-45-cta-englewood-l-ashland-ave",
+      "lat": 41.77891,
+      "lon": -87.663345,
+      "photoIds": [
+        "19690200-45-cta-englewood-l-ashland-ave"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690126-03-cta-douglas-l-cicero-ave",
+      "lat": 41.851972,
+      "lon": -87.744643,
+      "photoIds": [
+        "19690126-03-cta-douglas-l-cicero-ave"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690126-06-cta-douglas-l-cicero-ave-6894184987",
+      "lat": 41.851992,
+      "lon": -87.744054,
+      "photoIds": [
+        "19690126-06-cta-douglas-l-cicero-ave-6894184987"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690126-02-cta-9674-cicero-ave-cermak-rd-6894185109",
+      "lat": 41.851105,
+      "lon": -87.744271,
+      "photoIds": [
+        "19690126-02-cta-9674-cicero-ave-cermak-rd-6894185109"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690200-15-milwaukee-ave-diversey-ave-6968370897",
+      "lat": 41.932085,
+      "lon": -87.712367,
+      "photoIds": [
+        "19690200-15-milwaukee-ave-diversey-ave-6968370897"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690126-07-cta-600-3787-6894185373",
+      "lat": 41.931802,
+      "lon": -87.731359,
+      "photoIds": [
+        "19690126-07-cta-600-3787-6894185373"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690200-16-kimball-ave-6822247872",
+      "lat": 41.938566,
+      "lon": -87.712479,
+      "photoIds": [
+        "19690200-16-kimball-ave-6822247872"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690126-10-osa-fantrip-6894185585",
+      "lat": 41.931978,
+      "lon": -87.732156,
+      "photoIds": [
+        "19690126-10-osa-fantrip-6894185585"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690200-14-cta-l-logan-square-6968370861",
+      "lat": 41.926723,
+      "lon": -87.704513,
+      "photoIds": [
+        "19690200-14-cta-l-logan-square-6968370861"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690200-13-cta-l-logan-square-6822247786",
+      "lat": 41.927196,
+      "lon": -87.70523,
+      "photoIds": [
+        "19690200-13-cta-l-logan-square-6822247786"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19690200-12-cta-l-logan-sq-6822247766",
+      "lat": 41.92738,
+      "lon": -87.705513,
+      "photoIds": [
+        "19690200-12-cta-l-logan-sq-6822247766"
+      ],
+      "eras": [
+        1969
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-chicago-skyline-in-1970-4277651540",
+      "lat": 41.867068,
+      "lon": -87.607319,
+      "photoIds": [
+        "chicago-skyline-in-1970-4277651540"
+      ],
+      "eras": [
+        1970
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-chicago-navy-pier-4284002308",
+      "lat": 41.891751,
+      "lon": -87.604787,
+      "photoIds": [
+        "chicago-navy-pier-4284002308"
+      ],
+      "eras": [
+        1970
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19700240-02-cta-kennedy-l-belmont-ave",
+      "lat": 41.929857,
+      "lon": -87.708581,
+      "photoIds": [
+        "19700240-02-cta-kennedy-l-belmont-ave"
+      ],
+      "eras": [
+        1970
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-united-air-lines-flight-553-3",
+      "lat": 41.764167,
+      "lon": -87.715,
+      "photoIds": [
+        "united-air-lines-flight-553-3"
+      ],
+      "eras": [
+        1972
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-photograph-of-chicago-federal-archives-and-records-center-35",
+      "lat": 41.75949,
+      "lon": -87.72216,
+      "photoIds": [
+        "photograph-of-chicago-federal-archives-and-records-center-35",
+        "photograph-of-rendition-of-federal-archives-and-records-cent"
+      ],
+      "eras": [
+        1973,
+        1974
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-ds1975-02-s0012",
+      "lat": 41.78056,
+      "lon": -87.599476,
+      "photoIds": [
+        "ds1975-02-s0012"
+      ],
+      "eras": [
+        1975
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-21-121378-garfield-station-chicago-el",
+      "lat": 41.795925,
+      "lon": -87.618317,
+      "photoIds": [
+        "21-121378-garfield-station-chicago-el"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-25-121778-51st-st-station-cta",
+      "lat": 41.802156,
+      "lon": -87.618533,
+      "photoIds": [
+        "25-121778-51st-st-station-cta"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-25-121778-47th-st-station-cta",
+      "lat": 41.809222,
+      "lon": -87.618867,
+      "photoIds": [
+        "25-121778-47th-st-station-cta"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-25-121778-4951-s-building-chicago",
+      "lat": 41.804167,
+      "lon": -87.618603,
+      "photoIds": [
+        "25-121778-4951-s-building-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-22-121278-ymca-from-el-bronzeville-chicago",
+      "lat": 41.826106,
+      "lon": -87.625731,
+      "photoIds": [
+        "22-121278-ymca-from-el-bronzeville-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-22-121278-benjamin-w-raymond-public-school-chicago",
+      "lat": 41.829383,
+      "lon": -87.625847,
+      "photoIds": [
+        "22-121278-benjamin-w-raymond-public-school-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-22-121278-el-platform-35th-st-chicago",
+      "lat": 41.831897,
+      "lon": -87.625867,
+      "photoIds": [
+        "22-121278-el-platform-35th-st-chicago",
+        "63-022379-stateway-gardens-chicago"
+      ],
+      "eras": [
+        1978,
+        1979
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-12-110978-c-a-tap-chicago",
+      "lat": 41.872303,
+      "lon": -87.629164,
+      "photoIds": [
+        "12-110978-c-a-tap-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-12-110978-walkway-over-roosevelt-train-station-chicago",
+      "lat": 41.869269,
+      "lon": -87.62335,
+      "photoIds": [
+        "12-110978-walkway-over-roosevelt-train-station-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-22-121278-annunciation-cathedral-chicago",
+      "lat": 41.901364,
+      "lon": -87.632667,
+      "photoIds": [
+        "22-121278-annunciation-cathedral-chicago"
+      ],
+      "eras": [
+        1978
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-66-040579-schlitz-on-tap-gage-park-chicago",
+      "lat": 41.786219,
+      "lon": -87.709889,
+      "photoIds": [
+        "66-040579-schlitz-on-tap-gage-park-chicago"
+      ],
+      "eras": [
+        1979
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-66-040579-arturos-gage-park-chicago",
+      "lat": 41.79341,
+      "lon": -87.706372,
+      "photoIds": [
+        "66-040579-arturos-gage-park-chicago",
+        "66-040579-curly-qs-3310-w-55th-gage-park-chicago"
+      ],
+      "eras": [
+        1979
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-66-040579-jims-place-55th-st-gage-park-chicago",
+      "lat": 41.793461,
+      "lon": -87.706881,
+      "photoIds": [
+        "66-040579-jims-place-55th-st-gage-park-chicago"
+      ],
+      "eras": [
+        1979
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-66-040579-2914-and-2918-55th-st-chicago",
+      "lat": 41.793583,
+      "lon": -87.696886,
+      "photoIds": [
+        "66-040579-2914-and-2918-55th-st-chicago"
+      ],
+      "eras": [
+        1979
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-67-040579-talman-liquors-marquette-park-chicago-april-1979",
+      "lat": 41.779092,
+      "lon": -87.689672,
+      "photoIds": [
+        "67-040579-talman-liquors-marquette-park-chicago-april-1979"
+      ],
+      "eras": [
+        1979
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-cta-2579-7-24-81",
+      "lat": 41.852033,
+      "lon": -87.746804,
+      "photoIds": [
+        "cta-2579-7-24-81"
+      ],
+      "eras": [
+        1981
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-koscio-parafialny-sw-jacka-w-chicago",
+      "lat": 41.933713,
+      "lon": -87.719238,
+      "photoIds": [
+        "koscio-parafialny-sw-jacka-w-chicago"
+      ],
+      "eras": [
+        1981
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-milwaukee-ave",
+      "lat": 41.936817,
+      "lon": -87.72004,
+      "photoIds": [
+        "milwaukee-ave"
+      ],
+      "eras": [
+        1981
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-carl-f-becker-luthier",
+      "lat": 41.939958,
+      "lon": -87.664544,
+      "photoIds": [
+        "carl-f-becker-luthier",
+        "paul-becker-jenny-becker-and-carl-f-becker-luthiers"
+      ],
+      "eras": [
+        1981,
+        1989
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-santa-fe-atsf-2007-gp7-10582661785",
+      "lat": 41.821851,
+      "lon": -87.715251,
+      "photoIds": [
+        "santa-fe-atsf-2007-gp7-10582661785",
+        "santa-fe-atsf-111-gp60m-10582667915"
+      ],
+      "eras": [
+        1987,
+        1990
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-santa-fe-atsf-3816-gp50-10582647686",
+      "lat": 41.82237,
+      "lon": -87.715015,
+      "photoIds": [
+        "santa-fe-atsf-3816-gp50-10582647686",
+        "santa-fe-atsf-2835-gp35-10582652135"
+      ],
+      "eras": [
+        1987,
+        1990
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-grand-trunk-western-gt-5832-gp38-2-10570208764",
+      "lat": 41.842867,
+      "lon": -87.754497,
+      "photoIds": [
+        "grand-trunk-western-gt-5832-gp38-2-10570208764",
+        "grand-trunk-gt-5718-gp38-2-10568176656"
+      ],
+      "eras": [
+        1987,
+        1990
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-grand-trunk-western-gt-6213-gp38ac-10570166396",
+      "lat": 41.843123,
+      "lon": -87.754626,
+      "photoIds": [
+        "grand-trunk-western-gt-6213-gp38ac-10570166396"
+      ],
+      "eras": [
+        1987
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-19870227-02-cta-lake-st-l-halsted-st",
+      "lat": 41.889888,
+      "lon": -87.647747,
+      "photoIds": [
+        "19870227-02-cta-lake-st-l-halsted-st"
+      ],
+      "eras": [
+        1987
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-old-comiskey-park-317453555",
+      "lat": 41.833312,
+      "lon": -87.634162,
+      "photoIds": [
+        "old-comiskey-park-317453555"
+      ],
+      "eras": [
+        1988
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-boxcar-atsf-10587176963",
+      "lat": 41.821187,
+      "lon": -87.714393,
+      "photoIds": [
+        "boxcar-atsf-10587176963"
+      ],
+      "eras": [
+        1990
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-santa-fe-atsf-2123-gp7-10569856046",
+      "lat": 41.821811,
+      "lon": -87.715862,
+      "photoIds": [
+        "santa-fe-atsf-2123-gp7-10569856046"
+      ],
+      "eras": [
+        1990
+      ],
+      "hasDeep": true,
+      "featured": false
+    },
+    {
+      "id": "pin-new-comiskey-park-1990",
+      "lat": 41.829873,
+      "lon": -87.633916,
+      "photoIds": [
+        "new-comiskey-park-1990"
+      ],
+      "eras": [
+        1990
+      ],
+      "hasDeep": true,
+      "featured": false
+    }
+  ],
+  "photos": [
+    {
+      "id": "death-bed-of-lincoln-albumen-photograph-of-john-littlefield-",
+      "layer": "deep",
+      "lat": 41.895686,
+      "lon": -87.648894,
+      "era": 1865,
+      "capturedAt": "1865",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Death-Bed%20of%20Lincoln%2C%20Albumen%20Photograph%20of%20John%20Littlefield%20Painting.jpg?width=1600",
+      "width": 925,
+      "height": 740,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=153396649",
+      "attribution": "John H. Littlefield and Littlefield &amp; Goldin",
+      "caption": "After the assassination, Littlefield conceived the idea of painting a death-bed scene. He completed and copyrighted the painting in 1865, it was then photographed by John Goldin,"
+    },
+    {
+      "id": "gardnerhouselandownertwoyearsafterfire",
+      "layer": "deep",
+      "lat": 41.899819,
+      "lon": -87.630753,
+      "era": 1873,
+      "capturedAt": "1873",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gardnerhouselandownertwoyearsafterfire.jpg?width=1600",
+      "width": 3414,
+      "height": 2387,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=150745419",
+      "attribution": "Unknown authorUnknown author",
+      "caption": "Gardner House, Chicago",
+      "featured": true
+    },
+    {
+      "id": "flickr-trialsanderrors-james-ryan-centre-fielder-chicago-whi",
+      "layer": "deep",
+      "lat": 41.875089,
+      "lon": -87.660984,
+      "era": 1888,
+      "capturedAt": "1888",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20%E2%80%A6trialsanderrors%20-%20James%20Ryan%2C%20centre%20fielder%2C%20Chicago%20White%20Stockings%2C%201888.jpg?width=1600",
+      "width": 1587,
+      "height": 2976,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11160698",
+      "attribution": "…trialsanderrors",
+      "caption": "N29 Allen &amp; Ginter World Champions 1888 reverse More N29 Allen &amp; Ginters More baseball cards from the Edwards Collection Taken from the Benjamin Edwards Collection at the U.S. Library of Congress. [PD] This picture is in the public domain."
+    },
+    {
+      "id": "1893-hebe-statue-the-rosenberg-fountain-grant-park-chicago",
+      "layer": "deep",
+      "lat": 41.868729,
+      "lon": -87.623786,
+      "era": 1893,
+      "capturedAt": "1893date QS:P571,+1893-00-00T00:00:00Z/9",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1893%20Hebe%20statue%20the%20Rosenberg%20Fountain%20Grant%20Park%20Chicago.jpg?width=1600",
+      "width": 1280,
+      "height": 960,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=37299787",
+      "attribution": "Franz Machtl",
+      "caption": "Bronze statue of the Greek goddess Hebe stands atop a Greek temple-inspired base, The Rosenberg Fountain, Grant Park, Chicago"
+    },
+    {
+      "id": "general-john-logan-grant-park-chicago",
+      "layer": "deep",
+      "lat": 41.870564,
+      "lon": -87.623474,
+      "era": 1897,
+      "capturedAt": "1897",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/General%20John%20Logan%20Grant%20Park%20Chicago.JPG?width=1600",
+      "width": 3000,
+      "height": 4000,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11647889",
+      "attribution": "Me and Augustus Saint-Gaudens",
+      "caption": "Statue of General John Logan in Grant Park, Chicago by Augustus Saint-Gaudens (d. 1907), dedicated 1897"
+    },
+    {
+      "id": "page-brothers-building-177-91-north-state-street-chicago",
+      "layer": "deep",
+      "lat": 41.8725,
+      "lon": -87.628333,
+      "era": 1899,
+      "capturedAt": "1899-11-30",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Page%20Brothers%20Building%2C%20177-91%20North%20State%20Street%2C%20Chicago.jpg?width=1600",
+      "width": 1430,
+      "height": 1200,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=35797562",
+      "attribution": "Marc Realty LLC",
+      "caption": "Page Brothers Building, 177-91 North State Street, Chicago",
+      "featured": true
+    },
+    {
+      "id": "garfield-boulevard-methodist-episcopal-church-chicago-early-",
+      "layer": "deep",
+      "lat": 41.7939589,
+      "lon": -87.64393,
+      "era": 1900,
+      "capturedAt": "1900/1925",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Garfield%20Boulevard%20Methodist%20Episcopal%20Church%2C%20Chicago%2C%20early%2020th%20century%20(NBY%20906).jpg?width=1600",
+      "width": 2947,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66967768",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" Garfield Blvd. M.E., Garfield Blvd and Emerald Ave.\"--Photograph verso."
+    },
+    {
+      "id": "new-jerusalem-church-of-the-divine-humanity-chicago-early-20",
+      "layer": "deep",
+      "lat": 41.7672323,
+      "lon": -87.6347507,
+      "era": 1900,
+      "capturedAt": "1900/1925",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Jerusalem%20Church%20of%20the%20Divine%20Humanity%2C%20Chicago%2C%20early%2020th%20century%20(NBY%20726).jpg?width=1600",
+      "width": 3600,
+      "height": 2526,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66974607",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" New Jerusalem Church of the Divine Humanity, Stewart and 70th\"--Photograph verso."
+    },
+    {
+      "id": "illinoistunnelshaft7",
+      "layer": "deep",
+      "lat": 41.870566666667,
+      "lon": -87.627327777778,
+      "era": 1902,
+      "capturedAt": "first published: 1902-10. Created: 1902-09-15",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/IllinoisTunnelShaft7.jpg?width=1600",
+      "width": 749,
+      "height": 638,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=9716659",
+      "attribution": "George W. Jackson (died 1922)",
+      "caption": "Original Captions: Western: \"Fig. 10. Elevator House to lift the excavated clay that it may be dumped into wagons to be hauled away to the Lake Front.\"; Page's: \"Fig 6: ELEVATOR HOUSE Used for lifting the excavated clay so that it may be dumped into waggons to be hauled away to the Lake Front.\"; Mines: \"Fig 9. Elevator house.\" Additional inscription on the margin of the photo as shown in Western and Mines: \"9-15-02 Illinois Telephone &amp; Telegraph Co. Filling Wagons at Shaft No. 7\" This image is a composite of all three published versions in order to eliminate printing and scanning artifacts. The table of construction shafts in Western, page 481, shows Shaft 7 at the corner of State Street and Eldridge Court (now 9th Street). The 1906 Sanborn Map of Chicago (sheet 83s) shows the shaft on the south side of Eldridge just east of State."
+    },
+    {
+      "id": "12th-street-bascule-bridge-chicago-illinois-ca-1905",
+      "layer": "deep",
+      "lat": 41.86851,
+      "lon": -87.634913,
+      "era": 1905,
+      "capturedAt": "circa 1905date QS:P,+1905-00-00T00:00:00Z/9,P1480,Q5727902",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/12th%20Street%20bascule%20bridge%2C%20Chicago%2C%20Illinois%2C%20ca.%201905.jpg?width=1600",
+      "width": 5845,
+      "height": 4643,
+      "source": "Library of Congress / Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11160289",
+      "attribution": "Detroit Publishing Co.",
+      "caption": "12th Street bascule bridge over the Chicago River",
+      "featured": true
+    },
+    {
+      "id": "sunken-garden-sears-roebuck-chicago-ill-1906-6044025640",
+      "layer": "deep",
+      "lat": 41.870503,
+      "lon": -87.709393,
+      "era": 1906,
+      "capturedAt": "1906-01-01 00:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sunken%20Garden%20-%20Sears%20Roebuck%20Chicago%20ILL%201906%20(6044025640).jpg?width=1600",
+      "width": 2076,
+      "height": 2162,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=101110419",
+      "attribution": "Richard from USA",
+      "caption": "To read the inscription, right click on the image and select \"large\"."
+    },
+    {
+      "id": "tunnelmail",
+      "layer": "deep",
+      "lat": 41.873402777778,
+      "lon": -87.633858333333,
+      "era": 1908,
+      "capturedAt": "1908-11-11",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/TunnelMail.jpg?width=1600",
+      "width": 812,
+      "height": 586,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=9439692",
+      "attribution": "Frank C. Perkins",
+      "caption": "Original caption: \"ELECTRIC CARS FOR HAULING MAIL. Chicago Post Office Subway.\" The 2-foot (610mm) gauge Illinois Tunnel Company U.S. Mail car is on tracks the platform of Grand Central Station in front of a Pere Marquette U.S. Mail car, with an elevator down into the freight tunnels in the middle background. The tunnel mail car is a Bettendorf convertable car, see William P. Bettendorf's U.S. Patents 1,036,786, 1,039,638, 1,062,689 and 1,032,348 for drawings and descriptions of the car. Location inferred by comparison with other photos of the train shed interior, maps of the tunnel, and Google's photos of the former station site."
+    },
+    {
+      "id": "343-apartment-house-hilland-and-52nd-st-chicago-illinois-191",
+      "layer": "deep",
+      "lat": 41.801582,
+      "lon": -87.645417,
+      "era": 1911,
+      "capturedAt": "1911",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/343.%20Apartment%20house%2C%20Hilland%20and%2052nd%20St.%2C%20Chicago%2C%20Illinois%2C%201911%20(27042735106).jpg?width=1600",
+      "width": 3493,
+      "height": 2112,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=68730274",
+      "attribution": "Community Archives",
+      "caption": "343. Apartment house, Hilland and 52nd St., Chicago, Illinois, 1911"
+    },
+    {
+      "id": "flickr-trialsanderrors-jim-scott-pitcher-chicago-white-sox-1",
+      "layer": "deep",
+      "lat": 41.831312,
+      "lon": -87.634098,
+      "era": 1911,
+      "capturedAt": "1911",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20%E2%80%A6trialsanderrors%20-%20Jim%20Scott%2C%20pitcher%2C%20Chicago%20White%20Sox%2C%201911.jpg?width=1600",
+      "width": 2379,
+      "height": 2879,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11168463",
+      "attribution": "…trialsanderrors",
+      "caption": "T332 Helmar Stamps 1911 Taken from the Edwards Collection at the U.S. Library of Congress. [PD] This picture is in the public domain."
+    },
+    {
+      "id": "flickr-trialsanderrors-jaques-fournier-chicago-white-sox-191",
+      "layer": "deep",
+      "lat": 41.831312,
+      "lon": -87.634098,
+      "era": 1912,
+      "capturedAt": "1912",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20%E2%80%A6trialsanderrors%20-%20Jaques%20Fournier%2C%20Chicago%20White%20Sox%2C%201912.jpg?width=1600",
+      "width": 1670,
+      "height": 3000,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11168458",
+      "attribution": "…trialsanderrors",
+      "caption": "Fournier - Chicago - Amer.. T207 Brown Backgrounds 1912 reverse From the Baseball Cards Collection at the Library of Congress More 207 Brown Backgrounds | More vintage baseball cards [PD] This picture is in the public domain"
+    },
+    {
+      "id": "visitation-church-chicago-between-1913-and-1914-nby-808",
+      "layer": "deep",
+      "lat": 41.7939272,
+      "lon": -87.647538,
+      "era": 1913,
+      "capturedAt": "1913/1914",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Visitation%20Church%2C%20Chicago%2C%20between%201913%20and%201914%20(NBY%20808).jpg?width=1600",
+      "width": 2867,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66972622",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" Garfield Boulevard and Peoria\"--Photograph verso."
+    },
+    {
+      "id": "church-building-chicago-1913-nby-677",
+      "layer": "deep",
+      "lat": 41.8024969,
+      "lon": -87.6478152,
+      "era": 1913,
+      "capturedAt": "1913",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Church%20building%2C%20Chicago%2C%201913%20(NBY%20677).jpg?width=1600",
+      "width": 3019,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66965514",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "Église St. Jean-Baptiste, Chicago."
+    },
+    {
+      "id": "saint-agnes-church-chicago-1913-nby-593",
+      "layer": "deep",
+      "lat": 41.8228566,
+      "lon": -87.6921156,
+      "era": 1913,
+      "capturedAt": "1913",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Agnes%20Church%2C%20Chicago%2C%201913%20(NBY%20593).jpg?width=1600",
+      "width": 2877,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66985109",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" St. Agnes, North East corner Pershing Rd. Washtenaw Ave., built 1905\"--Photograph verso."
+    },
+    {
+      "id": "saint-gabriel-catholic-church-chicago-1913-nby-584",
+      "layer": "deep",
+      "lat": 41.8125844,
+      "lon": -87.6419937,
+      "era": 1913,
+      "capturedAt": "1913",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Gabriel%20Catholic%20Church%2C%20Chicago%2C%201913%20(NBY%20584).jpg?width=1600",
+      "width": 2940,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66950209",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" St. Gabriel Church, 45th and Lowe Ave., D.H. Burnham, Archt. John Wellborn Root (of Burnham &amp; Root) designed St. Gabriel Catholic Church (1887-1888)\"--Photograph verso."
+    },
+    {
+      "id": "nativity-of-our-lord-catholic-church-chicago-between-1913-an",
+      "layer": "deep",
+      "lat": 41.8272776,
+      "lon": -87.6435736,
+      "era": 1913,
+      "capturedAt": "1913/1914",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nativity%20of%20Our%20Lord%20Catholic%20Church%2C%20Chicago%2C%20between%201913%20and%201914%20(NBY%20791).jpg?width=1600",
+      "width": 3048,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66956635",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" Nativity - 37th and Union\"--Photograph verso."
+    },
+    {
+      "id": "saint-mel-s-church-chicago-1913-nby-837",
+      "layer": "deep",
+      "lat": 41.881938,
+      "lon": -87.7329061,
+      "era": 1913,
+      "capturedAt": "1913",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Mel's%20Church%2C%20Chicago%2C%201913%20(NBY%20837).jpg?width=1600",
+      "width": 3001,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66985390",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" St. Mel's, Washington Blvd., N. 43rd Ave.\"--Photograph verso."
+    },
+    {
+      "id": "saint-boniface-church-chicago-1913-nby-968",
+      "layer": "deep",
+      "lat": 41.8977698,
+      "lon": -87.6624712,
+      "era": 1913,
+      "capturedAt": "1913",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Boniface%20Church%2C%20Chicago%2C%201913%20(NBY%20968).jpg?width=1600",
+      "width": 2825,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66965647",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" St. Boniface, Fry St. corner of Noble\"--Photograph verso."
+    },
+    {
+      "id": "saint-clement-church-chicago-1913-nby-816",
+      "layer": "deep",
+      "lat": 41.9278689,
+      "lon": -87.6462511,
+      "era": 1913,
+      "capturedAt": "1913",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint%20Clement%20Church%2C%20Chicago%2C%201913%20(NBY%20816).jpg?width=1600",
+      "width": 2895,
+      "height": 3600,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66972927",
+      "attribution": "Sloan, Percy H. (Percy Haydn), 1867-",
+      "caption": "\" St. Clement Church, Orchard St. and Deming Pl.\"--Photograph verso."
+    },
+    {
+      "id": "bonus-pastor-polish-school-and-temporary-church-2719-s-kolin",
+      "layer": "deep",
+      "lat": 41.8412939,
+      "lon": -87.7329795,
+      "era": 1916,
+      "capturedAt": "1916",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonus%20Pastor%20Polish%20School%20And%20Temporary%20Church%2C%202719%20S.%20Kolin%20Ave.%2C%20Chicago%20(NBY%20417566).jpg?width=1600",
+      "width": 821,
+      "height": 518,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66992389",
+      "attribution": "Unknown authorUnknown author",
+      "caption": "Bonus Pastor Polish School And Temporary Church, 2719 S. Kolin Ave., Chicago"
+    },
+    {
+      "id": "chicago-1919-race-riot",
+      "layer": "deep",
+      "lat": 41.828694444444,
+      "lon": -87.626472222222,
+      "era": 1919,
+      "capturedAt": "1919-08-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago-1919-Race-Riot.jpg?width=1600",
+      "width": 1050,
+      "height": 731,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=81058692",
+      "attribution": "The Guthrie daily leader",
+      "caption": "Caption: \"This photograph was taken at the corner of Thirty-sixth and State streets, Chicago in the heart of the race-riot district. The motorcycles were left by policemen who were summoned to quell disturbances nearby. Below are Mayor Thomposn, who appealed to Governor Lowden to call out state troops, and First Assistant Chief of Police Alcock who was put in charge of the police assigned to riot duty\""
+    },
+    {
+      "id": "fountain-of-time-july-2013-1",
+      "layer": "deep",
+      "lat": 41.786969444444,
+      "lon": -87.607386111111,
+      "era": 1920,
+      "capturedAt": "1920date QS:P571,+1920-00-00T00:00:00Z/9",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fountain%20of%20Time%20July%202013%201.jpg?width=1600",
+      "width": 3072,
+      "height": 2304,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=27241391",
+      "attribution": "Lorado Taft",
+      "caption": "Fountain of Time on the Midway Plaisance within Washington Park in Chicago, Illinois (United States)."
+    },
+    {
+      "id": "fountain-of-time-july-2013-3",
+      "layer": "deep",
+      "lat": 41.786541666667,
+      "lon": -87.607666666667,
+      "era": 1920,
+      "capturedAt": "1920date QS:P571,+1920-00-00T00:00:00Z/9",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fountain%20of%20Time%20July%202013%203.jpg?width=1600",
+      "width": 2304,
+      "height": 3072,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=27241392",
+      "attribution": "Lorado Taft",
+      "caption": "Fountain of Time on the Midway Plaisance within Washington Park in Chicago, Illinois (United States)."
+    },
+    {
+      "id": "fountain-of-time-july-2013-2",
+      "layer": "deep",
+      "lat": 41.786622222222,
+      "lon": -87.607844444444,
+      "era": 1920,
+      "capturedAt": "1920date QS:P571,+1920-00-00T00:00:00Z/9",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fountain%20of%20Time%20July%202013%202.jpg?width=1600",
+      "width": 3072,
+      "height": 2304,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=27241393",
+      "attribution": "Lorado Taft",
+      "caption": "Fountain of Time on the Midway Plaisance within Washington Park in Chicago, Illinois (United States)."
+    },
+    {
+      "id": "pekin-theatre",
+      "layer": "deep",
+      "lat": 41.844326,
+      "lon": -87.626919,
+      "era": 1920,
+      "capturedAt": "1920-08-23",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pekin%20Theatre.gif?width=1600",
+      "width": 535,
+      "height": 294,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=79523839",
+      "attribution": "AnonymousUnknown author",
+      "caption": "The Pekin Theatre (also called Pekin Inn or Pekin Café) was located at 2700 State Street, Chicago, Illinois in the 1910s-1921. It was purported to be the first Chicago Theater owned and operated by African Americans. Many early jazz artists played there, most notably Joe \"King\" Oliver. This photo is courtesy of the Illinois Humanities Council and was published in the Chicago Reader (https://www.chicagoreader.com/Bleader/archives/2017/06/15/an-evening-at-the-pekin-theatre-re-creates-the-countrys-first-black-owned-music-hall). The upstairs section was called the Beaux Arts Café. Permanently closed by the police in 1920."
+    },
+    {
+      "id": "edward-mccartan-eugene-field-memorial-lincoln-park-illinois",
+      "layer": "deep",
+      "lat": 41.921175,
+      "lon": -87.632230555556,
+      "era": 1922,
+      "capturedAt": "Sculpture: dedicated 1922.[1]Photo: 28 July 2006 (original upload date)",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Edward%20McCartan%2C%20Eugene%20Field%20Memorial%2C%20Lincoln%20Park%2C%20Illinois.jpg?width=1600",
+      "width": 752,
+      "height": 1200,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=4965789",
+      "attribution": "Edward McCartan",
+      "caption": "A memorial to Eugene Field, a statue of the \"Dream Lady\" from his poem, \"Rock-a-by-Lady\" was erected in 1922 at the Lincoln Park Zoo in Chicago. The sculptor was Edward McCartan"
+    },
+    {
+      "id": "photo-of-george-coe-1932",
+      "layer": "deep",
+      "lat": 41.899606,
+      "lon": -87.630583,
+      "era": 1932,
+      "capturedAt": "1932",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Photo%20of%20George%20Coe%201932.jpg?width=1600",
+      "width": 2730,
+      "height": 3445,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=134265437",
+      "attribution": "Unknown authorUnknown author",
+      "caption": "Газетная вырезка с фотографией Джорджа Коу, одного из \"Регуляторов округа Линкольн\""
+    },
+    {
+      "id": "stevens-hotel-chicago-02",
+      "layer": "deep",
+      "lat": 41.872499,
+      "lon": -87.624357,
+      "era": 1937,
+      "capturedAt": "1937",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stevens%20Hotel%2C%20Chicago%2C%2002.jpg?width=1600",
+      "width": 984,
+      "height": 1331,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=20541588",
+      "attribution": "NN",
+      "caption": "Monel-Produktwerbung am Beispiel des Stevens Hotel, Chicago, heute Hilton Chicago, 720 S. Michigan Avenue. Mit einem Porträt des Managing Directors des Stevens de:Otto K. Eitel."
+    },
+    {
+      "id": "jack-delano-chicago-and-northwestern-railroad-locomotive-sho",
+      "layer": "deep",
+      "lat": 41.819967,
+      "lon": -87.67373,
+      "era": 1942,
+      "capturedAt": "1942-12-01 00:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack%20Delano%20Chicago%20and%20Northwestern%20Railroad%20locomotive%20shop%2C%20Chicago%2C%20Illinois%2C%201942%20(2984052275).jpg?width=1600",
+      "width": 5200,
+      "height": 7030,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=137159149",
+      "attribution": "trialsanderrors",
+      "caption": "Chicago and Northwestern Railroad locomotive shop (roundhouse of 40th Street yard), Chicago, Illinois, taken by &lt;a href=\"http://en.wikipedia.org/wiki/Jack_Delano\" rel=\"nofollow\"&gt;Jack Delano&lt;/a&gt; on assignment for the &lt;a href=\"http://en.wikipedia.org/wiki/Farm_Security_Administration\" rel=\"nofollow\"&gt;Farm Security Administration&lt;/a&gt;, December 1942. From the &lt;a href=\"http://www.loc.gov/pictures/collection/fsac/\" rel=\"nofollow\"&gt;FSA-OWI color collection&lt;/a&gt; at the &lt;a href=\"http://www.loc.gov/pictures/collection/fsac/\" rel=\"nofollow\"&gt;Library of Congress&lt;/a&gt; &lt;a href=\"http://www.flickr.com/search/?q=jackdelano&amp;w=76204898@N00&amp;s=int\"&gt;More pictures by Jack Delano&lt;/a&gt; / &lt;a href=\"http://www.flickr.com/search/?q=fsaowi&amp;w=76204898@N00\"&gt;More pictures from the FSA-OWI collection&lt;/a&gt; [PD] &lt;a href=\"http://hdl.loc.gov/loc.pnp/fsac.1a34676\" rel=\"nofollow\"&gt;This picture&lt;/a&gt; is in the public domain."
+    },
+    {
+      "id": "atchison-topeka-and-santa-fe-railroad-conductor-george-e-bur",
+      "layer": "deep",
+      "lat": 41.810428,
+      "lon": -87.715026,
+      "era": 1943,
+      "capturedAt": "1943-03",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atchison%2C%20Topeka%2C%20and%20Santa%20Fe%20railroad%20conductor%20George%20E.%20Burton%20and%20engineer%20J.W.%20Edwards%20comparing%20time%20before%20pulling%20out%20of%20Corwith%20railroad%20yard%20for%20Chillicothe%2C%20Illinois%3B%20Chicago%2C%20Ill.%20LOC%202179198474.jpg?width=1600",
+      "width": 796,
+      "height": 1024,
+      "source": "Library of Congress / Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=23271557",
+      "attribution": "The Library of Congress",
+      "caption": "Delano, Jack,, photographer. Atchison, Topeka, and Santa Fe railroad conductor George E. Burton and engineer J.W. Edwards comparing time before pulling out of Corwith railroad yard for Chillicothe, Illinois; Chicago, Ill. 1943 March 1 transparency : color. Notes: Title from FSA or OWI agency caption. Transfer from U.S. Office of War Information, 1944. Subjects: Atchison, Topeka and Santa Fe Railroad World War, 1939-1945 Railroad shops &amp; yards Railroad employees United States--Illinois--Chicago Format: Transparencies--Color Rights Info: No known restrictions on publication. Repository: Library of Congress, Prints and Photographs Division, Washington, D.C. 20540 USA, hdl.loc.gov/loc.pnp/pp.print Part Of: Farm Security Administration - Office of War Information Collection 12002-3 (DLC) 93845501 General information about the FSA/OWI Color Photographs is available at hdl.loc.gov/loc.pnp/pp.fsac Persistent URL: hdl.loc.gov/loc.pnp/fsac.1a34701 Call Number: LC-USW36-610"
+    },
+    {
+      "id": "jack-delano-santa-fe-railroad-at-corwith-yard-chicago-1943-2",
+      "layer": "deep",
+      "lat": 41.815401,
+      "lon": -87.714972,
+      "era": 1943,
+      "capturedAt": "1943-03-01 12:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack%20Delano%20Santa%20Fe%20Railroad%20at%20Corwith%20Yard%2C%20Chicago%2C%201943%20(2789728609).jpg?width=1600",
+      "width": 6141,
+      "height": 4551,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=137158415",
+      "attribution": "trialsanderrors",
+      "caption": "Santa Fe R.R. freight train about to leave for the West Coast from Corwith yard, Chicago, Ill. Photo by &lt;a href=\"http://en.wikipedia.org/wiki/Jack_Delano\" rel=\"nofollow\"&gt;Jack Delano&lt;/a&gt; for the &lt;a href=\"http://en.wikipedia.org/wiki/Farm_Security_Administration\" rel=\"nofollow\"&gt;Farm Security Administration&lt;/a&gt;, March 1943. From the &lt;a href=\"http://www.loc.gov/pictures/collection/fsac/\" rel=\"nofollow\"&gt;FSA-OWI color collection&lt;/a&gt; at the &lt;a href=\"http://www.loc.gov/pictures/collection/fsac/\" rel=\"nofollow\"&gt;Library of Congress&lt;/a&gt; &lt;a href=\"http://www.flickr.com/search/?q=jackdelano&amp;w=76204898@N00&amp;s=int\"&gt;More pictures by Jack Delano&lt;/a&gt; / &lt;a href=\"http://www.flickr.com/search/?q=fsaowi&amp;w=76204898@N00\"&gt;More pictures from the FSA-OWI collection&lt;/a&gt; [PD] &lt;a href=\"http://hdl.loc.gov/loc.pnp/fsac.1a34699\" rel=\"nofollow\"&gt;This picture&lt;/a&gt; is in the public domain."
+    },
+    {
+      "id": "flickr-trialsanderrors-jack-delano-freight-depot-of-the-u-s-",
+      "layer": "deep",
+      "lat": 41.821718,
+      "lon": -87.671434,
+      "era": 1943,
+      "capturedAt": "1943-04",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20%E2%80%A6trialsanderrors%20-%20Jack%20Delano%2C%20Freight%20depot%20of%20the%20U.S.%20Army%20consolidating%20station%2C%20Chicago%2C%201943.jpg?width=1600",
+      "width": 7140,
+      "height": 5281,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11160355",
+      "attribution": "Jack Delano",
+      "caption": "Freight depot of the U.S. Army consolidating station, Chicago, Illinois. Photograph by Jack Delano on assignment for the Farm Security Administration, April 1943. From the FSA-OWI color collection at the Library of Congress More pictures by Jack Delano | More pictures from the FSA-OWI collection [PD] This picture is in the public domain."
+    },
+    {
+      "id": "corpus-christi-church-nby-4854",
+      "layer": "deep",
+      "lat": 41.8050453,
+      "lon": -87.6167406,
+      "era": 1943,
+      "capturedAt": "1943",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Corpus%20Christi%20Church%20(NBY%204854).jpg?width=1600",
+      "width": 750,
+      "height": 473,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=67018429",
+      "attribution": "Unknown authorUnknown author",
+      "caption": "Corpus Christi Church"
+    },
+    {
+      "id": "blessed-mother-cabrini-church-nby-415846",
+      "layer": "deep",
+      "lat": 41.87174,
+      "lon": -87.70072,
+      "era": 1943,
+      "capturedAt": "1943",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Blessed%20Mother%20Cabrini%20Church%20(NBY%20415846).jpg?width=1600",
+      "width": 831,
+      "height": 528,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=66931851",
+      "attribution": "Unknown authorUnknown author",
+      "caption": "Blessed Mother Cabrini Church"
+    },
+    {
+      "id": "usa-048-englewood",
+      "layer": "deep",
+      "lat": 41.83,
+      "lon": -87.75,
+      "era": 1952,
+      "capturedAt": "1952-08-29",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/USA%20048%20Englewood.jpg?width=1600",
+      "width": 2256,
+      "height": 1285,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=38448468",
+      "attribution": "Brooksbank",
+      "caption": "Westbound Pennsylvania RR freight passing Englewood (Il.). Englewood was a very busy station, served by the NYC, Pennsylvania and Rock Island lines into Chicago."
+    },
+    {
+      "id": "carl-becker-sr-carl-becker-jr",
+      "layer": "deep",
+      "lat": 41.930852,
+      "lon": -87.648031,
+      "era": 1959,
+      "capturedAt": "1959-01-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl%20Becker%20Sr%20%26%20Carl%20Becker%20Jr.jpg?width=1600",
+      "width": 2838,
+      "height": 2260,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=62814723",
+      "attribution": "User:Beyondfear",
+      "caption": "Carl Becker Sr. and Carl F. Becker Jr.."
+    },
+    {
+      "id": "19660515-10-cta-englewood-l-racine",
+      "layer": "deep",
+      "lat": 41.779118,
+      "lon": -87.654882,
+      "era": 1966,
+      "capturedAt": "Taken on 15 May 1966",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19660515%2010%20CTA%20Englewood%20L%20%40%20Racine.jpg?width=1600",
+      "width": 3888,
+      "height": 2592,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22689598",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19660515 10 CTA Englewood L @ Racine"
+    },
+    {
+      "id": "19660515-01-chicago-transit-authority-cta-congress-l-paulina",
+      "layer": "deep",
+      "lat": 41.875824,
+      "lon": -87.669495,
+      "era": 1966,
+      "capturedAt": "Taken on 15 May 1966",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19660515%2001%20Chicago%20Transit%20Authority%20CTA%20Congress%20L%20%40%20Paulina%20(8083781667).jpg?width=1600",
+      "width": 1801,
+      "height": 1575,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813236",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19660515 01 CTA Congress L @ Paulina"
+    },
+    {
+      "id": "19660515-09-chicago-transit-authority-cta-south-side-l-roose",
+      "layer": "deep",
+      "lat": 41.867451,
+      "lon": -87.626749,
+      "era": 1966,
+      "capturedAt": "Taken on 15 May 1966",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19660515%2009%20Chicago%20Transit%20Authority%20CTA%20South%20Side%20L%20%40%20Roosevelt%20Rd.%20(8083778788).jpg?width=1600",
+      "width": 3888,
+      "height": 2592,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813200",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19660515 09 CTA South Side L @ Roosevelt Rd."
+    },
+    {
+      "id": "19660600-03-chicago-transit-authority-cta-north-side-l-train",
+      "layer": "deep",
+      "lat": 41.937602,
+      "lon": -87.65338,
+      "era": 1966,
+      "capturedAt": "Taken on 26 June 1966",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19660600%2003%20Chicago%20Transit%20Authority%20CTA%20North%20Side%20L%20Train%20(8262232761).jpg?width=1600",
+      "width": 1430,
+      "height": 1799,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813209",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19660600 03 CTA North Side L"
+    },
+    {
+      "id": "19670600-01-cta-congress-l-kostner-ave",
+      "layer": "deep",
+      "lat": 41.87321,
+      "lon": -87.735337,
+      "era": 1967,
+      "capturedAt": "Taken in June 1967",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670600%2001%20CTA%20Congress%20L%20%40%20Kostner%20Ave.jpg?width=1600",
+      "width": 1801,
+      "height": 1191,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=29706382",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670600 01 CTA Congress L @ Kostner Ave"
+    },
+    {
+      "id": "19670925-06-cta-lake-st-l-near-homan-ave-13885976164",
+      "layer": "deep",
+      "lat": 41.884759,
+      "lon": -87.713429,
+      "era": 1967,
+      "capturedAt": "1967-09-25",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670925%2006%20CTA%20Lake%20St.%20L%20near%20Homan%20Ave%20(13885976164).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55838265",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670925 06 CTA Lake St. L near Homan Ave"
+    },
+    {
+      "id": "19670527-04-chicago-transit-authority-cta-lake-st-l-after-ci",
+      "layer": "deep",
+      "lat": 41.886575,
+      "lon": -87.745742,
+      "era": 1967,
+      "capturedAt": "Taken on 27 May 1967",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670527%2004%20Chicago%20Transit%20Authority%20CTA%20Lake%20St.%20L%20after%20Cicero%20Ave.%20station%20fire-2%20(10386607106).jpg?width=1600",
+      "width": 1800,
+      "height": 1230,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813276",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670527 04 CTA Lake St. L after Cicero Ave. station fire-2"
+    },
+    {
+      "id": "19670925-04-cta-lake-st-l-rockwell-ave-13885642953",
+      "layer": "deep",
+      "lat": 41.884495,
+      "lon": -87.691605,
+      "era": 1967,
+      "capturedAt": "1967-09-25",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670925%2004%20CTA%20Lake%20St.%20L%20%40%20Rockwell%20Ave%20(13885642953).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55838186",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670925 04 CTA Lake St. L @ Rockwell Ave"
+    },
+    {
+      "id": "19670610-03-chicago-transit-authority-flooded-viaduct-state-",
+      "layer": "deep",
+      "lat": 41.867431,
+      "lon": -87.627457,
+      "era": 1967,
+      "capturedAt": "Taken on 10 June 1967",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670610%2003%20Chicago%20Transit%20Authority%20flooded%20viaduct%20State%20St.%20%40%20Roosevelt%20Rd-2%20(10789581005).jpg?width=1600",
+      "width": 1800,
+      "height": 1118,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813286",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670610 03 flooded viaduct State St. @ Roosevelt Rd-2"
+    },
+    {
+      "id": "19670324-35-chicago-transit-authority-cta-9601-chicago-ave-g",
+      "layer": "deep",
+      "lat": 41.895709,
+      "lon": -87.700748,
+      "era": 1967,
+      "capturedAt": "1967-03-24",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670324%2035%20Chicago%20Transit%20Authority%20CTA%209601%20Chicago%20Ave.%20%40%20Grand%20Ave%20(9908397343).jpg?width=1600",
+      "width": 1801,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813269",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670324 35 CTA 9601 Chicago Ave. @ Grand Ave"
+    },
+    {
+      "id": "19670614-22-cta-9225-north-ave-california-ave-chicago-illino",
+      "layer": "deep",
+      "lat": 41.910213,
+      "lon": -87.696776,
+      "era": 1967,
+      "capturedAt": "1967-06-14",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670614%2022%20CTA%209225%20North%20Ave.%20%40%20California%20Ave%20Chicago%20Illinois%20(10863406954).jpg?width=1600",
+      "width": 1800,
+      "height": 1225,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813305",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670614 22 CTA 9225 North Ave. @ California Ave."
+    },
+    {
+      "id": "19670614-21-cta-9208-north-ave-rockwell-st-chicago-illinois-",
+      "layer": "deep",
+      "lat": 41.910322,
+      "lon": -87.692165,
+      "era": 1967,
+      "capturedAt": "1967-06-14",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670614%2021%20CTA%209208%20North%20Ave%20%40%20Rockwell%20St%20Chicago%20Illinois%20(10863303256).jpg?width=1600",
+      "width": 1801,
+      "height": 1225,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813302",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670614 21 CTA 9208 North Ave @ Rockwell St."
+    },
+    {
+      "id": "19670501-06-cta-logan-square-l-damen-ave",
+      "layer": "deep",
+      "lat": 41.909491,
+      "lon": -87.67708,
+      "era": 1967,
+      "capturedAt": "Taken on 1 May 1967",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670501%2006%20CTA%20Logan%20Square%20L%20%40%20Damen%20Ave.jpg?width=1600",
+      "width": 1800,
+      "height": 1230,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=29139430",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670501 06 CTA Logan Square L @ Damen Ave."
+    },
+    {
+      "id": "19670501-05-chicago-transit-authority-cta-9221-north-ave-dam",
+      "layer": "deep",
+      "lat": 41.910465,
+      "lon": -87.678519,
+      "era": 1967,
+      "capturedAt": "1967-05-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670501%2005%20Chicago%20Transit%20Authority%20CTA%209221%20North%20Ave.%20%40%20Damen%20Ave%20(10320469764).jpg?width=1600",
+      "width": 1800,
+      "height": 1230,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813288",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670501 05 CTA 9221 North Ave. @ Damen Ave"
+    },
+    {
+      "id": "19670501-04-chicago-transit-authority-cta-9238-throop-st-nor",
+      "layer": "deep",
+      "lat": 41.910592,
+      "lon": -87.660406,
+      "era": 1967,
+      "capturedAt": "1967-05-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670501%2004%20Chicago%20Transit%20Authority%20CTA%209238%20Throop%20St.%20%40%20North%20Ave%20(10320519626).jpg?width=1600",
+      "width": 1800,
+      "height": 1235,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813283",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670501 04 CTA 9238 Throop St. @ North Ave"
+    },
+    {
+      "id": "19670614-20-cta-9256-north-ave-ashland-ave-chicago-illinois-",
+      "layer": "deep",
+      "lat": 41.910681,
+      "lon": -87.667649,
+      "era": 1967,
+      "capturedAt": "1967-06-14",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670614%2020%20CTA%209256%20North%20Ave.%20%40%20Ashland%20Ave.%20Chicago%20Illinois%20(10863407854).jpg?width=1600",
+      "width": 1800,
+      "height": 1129,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813326",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670614 20 CTA 9256 North Ave. @ Ashland Ave."
+    },
+    {
+      "id": "19670614-15-cta-north-side-l-near-north-ave-halsted-chicago-",
+      "layer": "deep",
+      "lat": 41.911708,
+      "lon": -87.649445,
+      "era": 1967,
+      "capturedAt": "Taken on 14 June 1967",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670614%2015%20CTA%20North%20Side%20L%20near%20North%20Ave.%20%40%20Halsted%20Chicago%20Illinois%20(10830864704).jpg?width=1600",
+      "width": 1800,
+      "height": 1112,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813301",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670614 15 CTA North Side L near North Ave. @ Halsted. Chicago Housing Authority's Flannery Apartments in background."
+    },
+    {
+      "id": "19670906-06-cta-north-side-l-belmont-ave-13788933295",
+      "layer": "deep",
+      "lat": 41.938919,
+      "lon": -87.653292,
+      "era": 1967,
+      "capturedAt": "1967-09-06",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670906%2006%20CTA%20North%20Side%20L%20%40%20Belmont%20Ave%20(13788933295).jpg?width=1600",
+      "width": 1800,
+      "height": 1123,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55838202",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670906 06 CTA North Side L @ Belmont Ave"
+    },
+    {
+      "id": "19670906-07-cta-north-side-l-belmont-ave-13788933285",
+      "layer": "deep",
+      "lat": 41.939469,
+      "lon": -87.653313,
+      "era": 1967,
+      "capturedAt": "1967-09-06",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19670906%2007%20CTA%20North%20Side%20L%20%40%20Belmont%20Ave%20(13788933285).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55838217",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19670906 07 CTA North Side L @ Belmont Ave"
+    },
+    {
+      "id": "19681110-02-cta-9486-kedzie-ave-63rd-pl-6525567619",
+      "layer": "deep",
+      "lat": 41.778672,
+      "lon": -87.70317,
+      "era": 1968,
+      "capturedAt": "1968-11-10",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681110%2002%20CTA%209486%20Kedzie%20Ave.%20%40%2063rd%20Pl.%20(6525567619).jpg?width=1600",
+      "width": 1801,
+      "height": 1177,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836208",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681110 02 CTA 9486 Kedzie Ave. @ 63rd Pl."
+    },
+    {
+      "id": "19681110-01-cta-9496-804-kedzie-ave-63rd-pl-6525567559",
+      "layer": "deep",
+      "lat": 41.77828,
+      "lon": -87.703363,
+      "era": 1968,
+      "capturedAt": "1968-11-10",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681110%2001%20CTA%209496%20804%20Kedzie%20Ave.%20%40%2063rd%20Pl.%20(6525567559).jpg?width=1600",
+      "width": 1801,
+      "height": 1191,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836223",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681110 01 CTA 9496 804 Kedzie Ave. @ 63rd Pl."
+    },
+    {
+      "id": "19680818-02-new-l-construction-near-63rd-st-ashland-ave",
+      "layer": "deep",
+      "lat": 41.779536,
+      "lon": -87.661886,
+      "era": 1968,
+      "capturedAt": "Taken on 18 August 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680818%2002%20new%20L%20construction%20near%2063rd%20St.%20%26%20Ashland%20Ave..jpg?width=1600",
+      "width": 1800,
+      "height": 1216,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22054682",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "The Englewood L (now the Englewood branch of the Green Line) was extended from Loomis St. to Ashland Ave."
+    },
+    {
+      "id": "19681109-03-dan-ryan-l-construction-63rd-st",
+      "layer": "deep",
+      "lat": 41.780076,
+      "lon": -87.630794,
+      "era": 1968,
+      "capturedAt": "1968-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681109%2003%20Dan%20Ryan%20L%20construction%20%40%2063rd%20St...jpg?width=1600",
+      "width": 1800,
+      "height": 1107,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22019636",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681109 03 Dan Ryan L construction @ 63rd St."
+    },
+    {
+      "id": "19681109-04-dan-ryan-l-construction-63rd-st",
+      "layer": "deep",
+      "lat": 41.780064,
+      "lon": -87.631035,
+      "era": 1968,
+      "capturedAt": "1968-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681109%2004%20Dan%20Ryan%20L%20construction%20%40%2063rd%20St...jpg?width=1600",
+      "width": 1799,
+      "height": 1128,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22019685",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681109 04 Dan Ryan L construction @ 63rd St."
+    },
+    {
+      "id": "19680922-04-dan-ryan-l-construction-59th-st-9695259615",
+      "layer": "deep",
+      "lat": 41.786492,
+      "lon": -87.631095,
+      "era": 1968,
+      "capturedAt": "1968-09-22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680922%2004%20Dan%20Ryan%20L%20Construction%20%40%2059th%20St%20(9695259615).jpg?width=1600",
+      "width": 1800,
+      "height": 1205,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836090",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680922 04 Dan Ryan L Construction @ 59th St"
+    },
+    {
+      "id": "19680922-05-cta-englewood-l-wentworth-ave-6304069041",
+      "layer": "deep",
+      "lat": 41.786833,
+      "lon": -87.63035,
+      "era": 1968,
+      "capturedAt": "1968-09-22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680922%2005%20CTA%20Englewood%20L%20%40%20Wentworth%20Ave..%20(6304069041).jpg?width=1600",
+      "width": 1800,
+      "height": 1178,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836121",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680922 05 CTA Englewood L @ Wentworth Ave.."
+    },
+    {
+      "id": "19680922-06-cta-englewood-l-wentworth-ave-6304595202",
+      "layer": "deep",
+      "lat": 41.786793,
+      "lon": -87.631491,
+      "era": 1968,
+      "capturedAt": "1968-09-22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680922%2006%20CTA%20Englewood%20L%20%40%20Wentworth%20Ave..%20(6304595202).jpg?width=1600",
+      "width": 1801,
+      "height": 1181,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836125",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680922 06 CTA Englewood L @ Wentworth Ave.."
+    },
+    {
+      "id": "19681109-06-englewood-l-near-63rd-st-6456741367",
+      "layer": "deep",
+      "lat": 41.783905,
+      "lon": -87.632104,
+      "era": 1968,
+      "capturedAt": "1968-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681109%2006%20Englewood%20L%20near%2063rd%20St.%20(6456741367).jpg?width=1600",
+      "width": 1801,
+      "height": 1181,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836233",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681109 06 Englewood L near 63rd St."
+    },
+    {
+      "id": "19680922-12-dan-ryan-l-construction-69th-st",
+      "layer": "deep",
+      "lat": 41.77308,
+      "lon": -87.625397,
+      "era": 1968,
+      "capturedAt": "1968-09-22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680922%2012%20Dan%20Ryan%20L%20construction%20%40%2069th%20St..jpg?width=1600",
+      "width": 1801,
+      "height": 1242,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22019514",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680922 12 Dan Ryan L construction @ 69th St."
+    },
+    {
+      "id": "19680609-22-cta-63rd-st-lower-yard",
+      "layer": "deep",
+      "lat": 41.780391,
+      "lon": -87.618135,
+      "era": 1968,
+      "capturedAt": "Taken on 9 June 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2022%20CTA%2063rd%20St.%20Lower%20Yard..jpg?width=1600",
+      "width": 1800,
+      "height": 1130,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22653690",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 22 CTA 63rd St. Lower Yard."
+    },
+    {
+      "id": "19680609-20-cta-6144-63rd-st-upper-yard-5608239906",
+      "layer": "deep",
+      "lat": 41.781448,
+      "lon": -87.617661,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2020%20CTA%206144%2063rd%20St.%20Upper%20Yard%20(5608239906).jpg?width=1600",
+      "width": 1800,
+      "height": 1180,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835640",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 20 CTA 6144 63rd St. Upper Yard"
+    },
+    {
+      "id": "19680609-25-cta-63rd-st-lower-yard-5611921384",
+      "layer": "deep",
+      "lat": 41.778366,
+      "lon": -87.618534,
+      "era": 1968,
+      "capturedAt": "Taken on 9 June 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2025%20CTA%2063rd%20St.%20Lower%20Yard%20(5611921384).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835688",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 25 CTA 63rd St. Lower Yard"
+    },
+    {
+      "id": "19681109-02-cta-7209-67th-st-dan-ryan-expy-6456742165",
+      "layer": "deep",
+      "lat": 41.772767,
+      "lon": -87.626622,
+      "era": 1968,
+      "capturedAt": "1968-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681109%2002%20CTA%207209%2067th%20St.%20%40%20Dan%20Ryan%20Expy..%20(6456742165).jpg?width=1600",
+      "width": 1801,
+      "height": 1105,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836230",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "Mack-built CTA bus 7209 on 67th St. at the Dan Ryan Expressway"
+    },
+    {
+      "id": "19681207-04-cta-8832-55th-st-dan-ryan-expy-6525568381",
+      "layer": "deep",
+      "lat": 41.794592,
+      "lon": -87.631153,
+      "era": 1968,
+      "capturedAt": "Taken on 7 December 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681207%2004%20CTA%208832%2055th%20St.%20%40%20Dan%20Ryan%20Expy..%20(6525568381).jpg?width=1600",
+      "width": 1800,
+      "height": 1189,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836255",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681207 04 CTA 8832 55th St. @ Dan Ryan Expy.."
+    },
+    {
+      "id": "19681207-03-dan-ryan-l-construction-55th-st-6525568315",
+      "layer": "deep",
+      "lat": 41.793504,
+      "lon": -87.631223,
+      "era": 1968,
+      "capturedAt": "1968-12-07",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681207%2003%20Dan%20Ryan%20L%20construction%20%40%2055th%20St..%20(6525568315).jpg?width=1600",
+      "width": 1801,
+      "height": 1105,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836257",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "Imagine...freight cars in the median of the Dan Ryan Expressway."
+    },
+    {
+      "id": "19680609-24-cta-63rd-st-lower-yard",
+      "layer": "deep",
+      "lat": 41.77872,
+      "lon": -87.61794,
+      "era": 1968,
+      "capturedAt": "Taken on 9 June 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2024%20CTA%2063rd%20St.%20Lower%20Yard.jpg?width=1600",
+      "width": 1800,
+      "height": 1129,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=156828605",
+      "attribution": "David Wilson",
+      "caption": "View of the Lower 63rd Yard of the Chicago Transit Authority \"L\", 1968"
+    },
+    {
+      "id": "19680609-23-cta-s-342-63rd-st-lower-yard-5611921314",
+      "layer": "deep",
+      "lat": 41.778286,
+      "lon": -87.617536,
+      "era": 1968,
+      "capturedAt": "Taken on 9 June 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2023%20CTA%20S-342%2063rd%20St.%20Lower%20Yard%20(5611921314).jpg?width=1600",
+      "width": 1800,
+      "height": 1138,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835671",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 23 CTA S-342 63rd St. Lower Yard"
+    },
+    {
+      "id": "19680609-29-cta-63rd-st-yard-5611921588",
+      "layer": "deep",
+      "lat": 41.777207,
+      "lon": -87.617871,
+      "era": 1968,
+      "capturedAt": "Taken on 9 June 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2029%20CTA%2063rd%20St.%20yard%20(5611921588).jpg?width=1600",
+      "width": 1801,
+      "height": 1228,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835774",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 29 CTA 63rd St. yard"
+    },
+    {
+      "id": "19680609-28-cta-63rd-st-yard-5611338353",
+      "layer": "deep",
+      "lat": 41.777663,
+      "lon": -87.617661,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2028%20CTA%2063rd%20St.%20yard%20(5611338353).jpg?width=1600",
+      "width": 1801,
+      "height": 1126,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835989",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 28 CTA 63rd St. yard"
+    },
+    {
+      "id": "19680922-13-dan-ryan-expy-47th-st-6304595366",
+      "layer": "deep",
+      "lat": 41.810044,
+      "lon": -87.631294,
+      "era": 1968,
+      "capturedAt": "Taken on 22 September 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680922%2013%20Dan%20Ryan%20Expy%20%40%2047th%20St..%20(6304595366).jpg?width=1600",
+      "width": 1800,
+      "height": 1170,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=52778428",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680922 13 Dan Ryan Expy @ 47th St..Chicago"
+    },
+    {
+      "id": "rock-island-rdc-cars-at-47th-street-chicago-september-1968",
+      "layer": "deep",
+      "lat": 41.80838,
+      "lon": -87.630314,
+      "era": 1968,
+      "capturedAt": "Taken on 22 September 1968, 09:22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock%20Island%20RDC%20cars%20at%2047th%20Street%2C%20Chicago%2C%20September%201968.jpg?width=1600",
+      "width": 1800,
+      "height": 1173,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=59295049",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "A Rock island intercity train of Budd RDCs at 47th Street in Chicago in September 1968"
+    },
+    {
+      "id": "19680727-08-chuck-tauscher-on-osa-fantrip-5861341991",
+      "layer": "deep",
+      "lat": 41.852217,
+      "lon": -87.722171,
+      "era": 1968,
+      "capturedAt": "1968-07-27",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680727%2008%20Chuck%20Tauscher%20on%20OSA%20fantrip%20(5861341991).jpg?width=1600",
+      "width": 1800,
+      "height": 1201,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835951",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680727 08 Chuck Tauscher on OSA fantrip"
+    },
+    {
+      "id": "19680609-41-cta-rapid-transit-kenton-ave-5629455595",
+      "layer": "deep",
+      "lat": 41.85363,
+      "lon": -87.73535,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2041%20CTA%20Rapid%20Transit%20%40%20Kenton%20Ave.%20(5629455595).jpg?width=1600",
+      "width": 1800,
+      "height": 1118,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835753",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 41 CTA Rapid Transit @ Kenton Ave."
+    },
+    {
+      "id": "19680222-20-brc-602-26th-st-near-kenton-ave-1",
+      "layer": "deep",
+      "lat": 41.844676,
+      "lon": -87.739251,
+      "era": 1968,
+      "capturedAt": "1968-02-22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680222%2020%20BRC%20602%2026th%20St.%20near%20Kenton%20Ave..1.jpg?width=1600",
+      "width": 1801,
+      "height": 1200,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=133187508",
+      "attribution": "davidwilson1949",
+      "caption": "Chicago"
+    },
+    {
+      "id": "19680222-19-brc-602-26th-st-near-kenton-ave",
+      "layer": "deep",
+      "lat": 41.844405,
+      "lon": -87.73952,
+      "era": 1968,
+      "capturedAt": "1968-02-22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680222%2019%20BRC%20602%2026th%20St.%20near%20Kenton%20Ave.jpg?width=1600",
+      "width": 1800,
+      "height": 1198,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=133187510",
+      "attribution": "davidwilson1949",
+      "caption": "Chicago"
+    },
+    {
+      "id": "19680113-03-cta-2117-50th-ave-chicago-illinois-5467163694",
+      "layer": "deep",
+      "lat": 41.851957,
+      "lon": -87.749766,
+      "era": 1968,
+      "capturedAt": "1968-01-13",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680113%2003%20CTA%202117%2050th%20Ave%20Chicago%20Illinois%20(5467163694).jpg?width=1600",
+      "width": 1801,
+      "height": 1205,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=44813304",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680113 03 CTA 2117 50th Ave."
+    },
+    {
+      "id": "19681207-01-rock-island-rr-35th-st-6525568191",
+      "layer": "deep",
+      "lat": 41.837371,
+      "lon": -87.63064,
+      "era": 1968,
+      "capturedAt": "Taken on 7 December 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681207%2001%20Rock%20Island%20RR%20%40%2035th%20St.%20(6525568191).jpg?width=1600",
+      "width": 1800,
+      "height": 1087,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836247",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681207 01 Rock Island RR @ 35th St."
+    },
+    {
+      "id": "19681109-07-rock-island-railroad-33rd-st-6456741669",
+      "layer": "deep",
+      "lat": 41.833114,
+      "lon": -87.629606,
+      "era": 1968,
+      "capturedAt": "1968-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681109%2007%20Rock%20Island%20Railroad%20%40%2033rd%20St.%20(6456741669).jpg?width=1600",
+      "width": 1801,
+      "height": 1105,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836225",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681109 07 Rock Island Railroad @ 33rd St."
+    },
+    {
+      "id": "19680922-01-cta-sox-35th-station-under-construction",
+      "layer": "deep",
+      "lat": 41.831679,
+      "lon": -87.630729,
+      "era": 1968,
+      "capturedAt": "1968-09-22",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680922%2001%20CTA%20Sox%2035th%20station%20under%20construction...jpg?width=1600",
+      "width": 1800,
+      "height": 1167,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22019559",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680922 01 CTA Sox 35th station under construction.."
+    },
+    {
+      "id": "19681109-05-rock-island-railroad-33rd-st-6456741503",
+      "layer": "deep",
+      "lat": 41.831751,
+      "lon": -87.629578,
+      "era": 1968,
+      "capturedAt": "1968-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681109%2005%20Rock%20Island%20Railroad%20%40%2033rd%20St..%20(6456741503).jpg?width=1600",
+      "width": 1799,
+      "height": 1128,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836202",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681109 05 Rock Island Railroad @ 33rd St.."
+    },
+    {
+      "id": "19680728-10-comiskey-park-5935027107",
+      "layer": "deep",
+      "lat": 41.831172,
+      "lon": -87.634862,
+      "era": 1968,
+      "capturedAt": "Taken on 28 July 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680728%2010%20Comiskey%20Park%20(5935027107).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=34162407",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "Comiskey Park in 1968."
+    },
+    {
+      "id": "19680317-03-cta-congress-l-kedzie-ave-5510105377",
+      "layer": "deep",
+      "lat": 41.874366,
+      "lon": -87.706722,
+      "era": 1968,
+      "capturedAt": "1968-03-17",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680317%2003%20CTA%20Congress%20L%20%40%20Kedzie%20Ave.%20(5510105377).jpg?width=1600",
+      "width": 1800,
+      "height": 1082,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55818705",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680317 03 CTA Congress L @ Kedzie Ave."
+    },
+    {
+      "id": "19680609-50-cta-rapid-transit-hamlin-ave-yard-5629455889",
+      "layer": "deep",
+      "lat": 41.887485,
+      "lon": -87.725316,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2050%20CTA%20Rapid%20Transit%20%40%20Hamlin%20Ave.%20Yard%20(5629455889).jpg?width=1600",
+      "width": 1800,
+      "height": 1225,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835799",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 50 CTA Rapid Transit @ Hamlin Ave. Yard"
+    },
+    {
+      "id": "19680609-47-cta-hamlin-ave-yard-5629455813",
+      "layer": "deep",
+      "lat": 41.887261,
+      "lon": -87.725116,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2047%20CTA%20Hamlin%20Ave.%20Yard%20(5629455813).jpg?width=1600",
+      "width": 1800,
+      "height": 1221,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835830",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 47 CTA Hamlin Ave. Yard"
+    },
+    {
+      "id": "19680609-46-rockwell-ave-shoo-fly-bridge-5629455727",
+      "layer": "deep",
+      "lat": 41.884495,
+      "lon": -87.691605,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2046%20Rockwell%20Ave.%20shoo-fly%20bridge%20(5629455727).jpg?width=1600",
+      "width": 1800,
+      "height": 1197,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835792",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 46 Rockwell Ave. shoo-fly bridge"
+    },
+    {
+      "id": "19680817-12-cta-douglas-l-ashland-ave-van-buren-st-610101846",
+      "layer": "deep",
+      "lat": 41.876463,
+      "lon": -87.666673,
+      "era": 1968,
+      "capturedAt": "Taken on 17 August 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680817%2012%20CTA%20Douglas%20L%20Ashland%20Ave.%20%40%20Van%20Buren%20St.%20(6101018465).jpg?width=1600",
+      "width": 1800,
+      "height": 1123,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836045",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680817 12 CTA Douglas L Ashland Ave. @ Van Buren St."
+    },
+    {
+      "id": "19680609-40-congress-expy-5630037340",
+      "layer": "deep",
+      "lat": 41.876067,
+      "lon": -87.669106,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2040%20Congress%20Expy.%20(5630037340).jpg?width=1600",
+      "width": 1800,
+      "height": 1123,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835802",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "The flag at left is at half staff. Robert Kennedy had been assassinated three days before."
+    },
+    {
+      "id": "19680727-03-osa-charter-on-ashland-ave-near-washington-blvd-",
+      "layer": "deep",
+      "lat": 41.879566,
+      "lon": -87.666807,
+      "era": 1968,
+      "capturedAt": "1968-07-27",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680727%2003%20OSA%20Charter%20on%20Ashland%20Ave.%20near%20Washington%20Blvd.%20(5858300018).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835998",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680727 03 OSA Charter on Ashland Ave. near Washington Blvd."
+    },
+    {
+      "id": "19680609-39-cta-l-fantrip-on-paulina-connector-5630037266",
+      "layer": "deep",
+      "lat": 41.878323,
+      "lon": -87.670002,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2039%20CTA%20L%20fantrip%20on%20Paulina%20Connector%20(5630037266).jpg?width=1600",
+      "width": 1801,
+      "height": 1233,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835768",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680609 39 CTA L fantrip on Paulina Connector"
+    },
+    {
+      "id": "19680815-01-suburban-transit-system-145-wabash-ave-near-8th-",
+      "layer": "deep",
+      "lat": 41.872096,
+      "lon": -87.625937,
+      "era": 1968,
+      "capturedAt": "1968-08-15",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680815%2001%20Suburban%20Transit%20System%20145%20Wabash%20Ave%20near%208th%20St.%20(6101018113).jpg?width=1600",
+      "width": 1800,
+      "height": 1215,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836001",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680815 01 Suburban Transit System 145 Wabash Ave near 8th St."
+    },
+    {
+      "id": "19680609-19-cta-4437-state-harrison-5607655857",
+      "layer": "deep",
+      "lat": 41.874176,
+      "lon": -87.627647,
+      "era": 1968,
+      "capturedAt": "1968-06-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680609%2019%20CTA%204437%20%40%20State%20%26%20Harrison%20(5607655857).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835629",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "Taken on June 9, 1968 at the State &amp; Harrison Chicago - Printers Row"
+    },
+    {
+      "id": "19681005-06-cta-9456-california-ave-wabansia-ave-6330993346",
+      "layer": "deep",
+      "lat": 41.912441,
+      "lon": -87.697112,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2006%20CTA%209456%20California%20Ave.%20%40%20Wabansia%20Ave..%20(6330993346).jpg?width=1600",
+      "width": 1799,
+      "height": 1206,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836143",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 06 CTA 9456 California Ave. @ Wabansia Ave.."
+    },
+    {
+      "id": "19681005-03-cta-9553-north-ave-california-ave-6330993274",
+      "layer": "deep",
+      "lat": 41.910221,
+      "lon": -87.697121,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2003%20CTA%209553%20North%20Ave.%20%40%20California%20Ave.%20(6330993274).jpg?width=1600",
+      "width": 1799,
+      "height": 1230,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836158",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 03 CTA 9553 North Ave. @ California Ave."
+    },
+    {
+      "id": "19681005-04-cta-9468-california-ave-north-ave-6330239849",
+      "layer": "deep",
+      "lat": 41.90995,
+      "lon": -87.697001,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2004%20CTA%209468%20California%20Ave.%20%40%20North%20Ave.%20(6330239849).jpg?width=1600",
+      "width": 1799,
+      "height": 1206,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836164",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 04 CTA 9468 California Ave. @ North Ave."
+    },
+    {
+      "id": "19680601-06-cta-9554-north-ave-near-cicero-ave-5583370365",
+      "layer": "deep",
+      "lat": 41.909597,
+      "lon": -87.746781,
+      "era": 1968,
+      "capturedAt": "1968-06-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680601%2006%20CTA%209554%20North%20Ave.%20near%20Cicero%20Ave.%20(5583370365).jpg?width=1600",
+      "width": 1800,
+      "height": 1225,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835507",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680601 06 CTA 9554 North Ave. near Cicero Ave."
+    },
+    {
+      "id": "19680601-07-cta-9421-north-ave-station-5583960096",
+      "layer": "deep",
+      "lat": 41.908852,
+      "lon": -87.746381,
+      "era": 1968,
+      "capturedAt": "1968-06-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680601%2007%20CTA%209421%20North%20Ave.%20station%20(5583960096).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835513",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680601 07 CTA 9421 North Ave. station"
+    },
+    {
+      "id": "19680601-08-cta-9685-cicero-ave-north-ave-5583960144",
+      "layer": "deep",
+      "lat": 41.909038,
+      "lon": -87.746021,
+      "era": 1968,
+      "capturedAt": "1968-06-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680601%2008%20CTA%209685%20Cicero%20Ave.%20%40%20North%20Ave.%20(5583960144).jpg?width=1600",
+      "width": 1800,
+      "height": 1172,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835544",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680601 08 CTA 9685 Cicero Ave. @ North Ave."
+    },
+    {
+      "id": "19680601-09-cta-north-ave-station-5583960190",
+      "layer": "deep",
+      "lat": 41.909032,
+      "lon": -87.746615,
+      "era": 1968,
+      "capturedAt": "1968-06-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680601%2009%20CTA%20North%20Ave.%20station%20(5583960190).jpg?width=1600",
+      "width": 1800,
+      "height": 1268,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835547",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680601 09 CTA North Ave. station"
+    },
+    {
+      "id": "19680601-10-cta-9612-cicero-ave-north-ave-5583370613",
+      "layer": "deep",
+      "lat": 41.909299,
+      "lon": -87.746236,
+      "era": 1968,
+      "capturedAt": "1968-06-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680601%2010%20CTA%209612%20Cicero%20Ave.%20%40%20North%20Ave.%20(5583370613).jpg?width=1600",
+      "width": 1800,
+      "height": 1225,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835553",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680601 10 CTA 9612 Cicero Ave. @ North Ave."
+    },
+    {
+      "id": "19680601-14-cta-9420-cicero-ave-north-ave-5583370799",
+      "layer": "deep",
+      "lat": 41.909533,
+      "lon": -87.746372,
+      "era": 1968,
+      "capturedAt": "1968-06-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680601%2014%20CTA%209420%20Cicero%20Ave.%20%40%20North%20Ave.%20(5583370799).jpg?width=1600",
+      "width": 1800,
+      "height": 1225,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55835569",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19680601 14 CTA 9420 Cicero Ave. @ North Ave."
+    },
+    {
+      "id": "19680817-10-near-state-st-chestnut-st-28554590480",
+      "layer": "deep",
+      "lat": 41.898108,
+      "lon": -87.628337,
+      "era": 1968,
+      "capturedAt": "1968-08-17 08:17",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680817%2010%20near%20State%20St.%20%26%20Chestnut%20St.%20(28554590480).jpg?width=1600",
+      "width": 1216,
+      "height": 1800,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=102527392",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "Chicago"
+    },
+    {
+      "id": "19680817-11-chestnut-st-lasalle-st-28223845013",
+      "layer": "deep",
+      "lat": 41.897988,
+      "lon": -87.6328,
+      "era": 1968,
+      "capturedAt": "1968-08-17 08:17",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19680817%2011%20Chestnut%20St.%20%40%20LaSalle%20St.%20(28223845013).jpg?width=1600",
+      "width": 1192,
+      "height": 1800,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=102527403",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "Chicago"
+    },
+    {
+      "id": "19681005-23-cta-9461-9500-california-ave-diversey-ave-633330",
+      "layer": "deep",
+      "lat": 41.932486,
+      "lon": -87.697645,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2023%20CTA%209461%20%26%209500%20California%20Ave.%20%40%20Diversey%20Ave.%20(6333308956).jpg?width=1600",
+      "width": 1799,
+      "height": 1128,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836168",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 23 CTA 9461 &amp; 9500 California Ave. @ Diversey Ave."
+    },
+    {
+      "id": "19681005-19-cta-5161-9465-california-ave-fullerton-ave-63309",
+      "layer": "deep",
+      "lat": 41.924851,
+      "lon": -87.697264,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2019%20CTA%205161%209465%20California%20Ave.%20%40%20Fullerton%20Ave.%20(6330993424).jpg?width=1600",
+      "width": 1801,
+      "height": 1177,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836171",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 19 CTA 5161 9465 California Ave. @ Fullerton Ave."
+    },
+    {
+      "id": "19681005-20-cta-9489-california-ave-algeld-ave-6330239967",
+      "layer": "deep",
+      "lat": 41.926667,
+      "lon": -87.697497,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2020%20CTA%209489%20California%20Ave.%20%40%20Algeld%20Ave.%20(6330239967).jpg?width=1600",
+      "width": 1801,
+      "height": 1105,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836173",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 20 CTA 9489 California Ave. @ Algeld Ave."
+    },
+    {
+      "id": "19681005-27-cta-2500-california-ave-nelson-st-6333309046",
+      "layer": "deep",
+      "lat": 41.936712,
+      "lon": -87.697784,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2027%20CTA%202500%20California%20Ave.%20%40%20Nelson%20St.%20(6333309046).jpg?width=1600",
+      "width": 1800,
+      "height": 1102,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836185",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 27 CTA 2500 California Ave. @ Nelson St."
+    },
+    {
+      "id": "19681005-31-cta-9450-9468-california-ave-elston-ave-63325583",
+      "layer": "deep",
+      "lat": 41.938903,
+      "lon": -87.697817,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2031%20CTA%209450%20%26%209468%20California%20Ave.%20%40%20Elston%20Ave.%20(6332558353).jpg?width=1600",
+      "width": 1799,
+      "height": 1206,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836177",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 31 CTA 9450 &amp; 9468 California Ave. @ Elston Ave."
+    },
+    {
+      "id": "19681005-28-cta-9520-california-ave-belmont-ave-6332558101",
+      "layer": "deep",
+      "lat": 41.939605,
+      "lon": -87.697924,
+      "era": 1968,
+      "capturedAt": "Taken on 5 October 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2028%20CTA%209520%20California%20Ave.%20%40%20Belmont%20Ave.%20(6332558101).jpg?width=1600",
+      "width": 1800,
+      "height": 1102,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836190",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 28 CTA 9520 California Ave. @ Belmont Ave."
+    },
+    {
+      "id": "19681005-31-cta-9629-belmont-ave-elston-ave-6333309092",
+      "layer": "deep",
+      "lat": 41.939413,
+      "lon": -87.698578,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2031%20CTA%209629%20Belmont%20Ave.%20%40%20Elston%20Ave.%20(6333309092).jpg?width=1600",
+      "width": 1447,
+      "height": 896,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836234",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 31 CTA 9629 Belmont Ave. @ Elston Ave."
+    },
+    {
+      "id": "19681005-34-california-ave-near-roscoe-st-6333309168",
+      "layer": "deep",
+      "lat": 41.944351,
+      "lon": -87.697992,
+      "era": 1968,
+      "capturedAt": "1968-10-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681005%2034%20California%20Ave.%20near%20Roscoe%20St.%20(6333309168).jpg?width=1600",
+      "width": 1799,
+      "height": 1240,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836251",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681005 34 California Ave. near Roscoe St."
+    },
+    {
+      "id": "19681110-04-cta-9601-orchard-st-fullerton-ave-6525568149",
+      "layer": "deep",
+      "lat": 41.925458,
+      "lon": -87.646329,
+      "era": 1968,
+      "capturedAt": "Taken on 10 November 1968",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19681110%2004%20CTA%209601%20Orchard%20St.%20%40%20Fullerton%20Ave.%20(6525568149).jpg?width=1600",
+      "width": 1799,
+      "height": 1182,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836244",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19681110 04 CTA 9601 Orchard St. @ Fullerton Ave."
+    },
+    {
+      "id": "19690200-43-cta-englewood-l-loomis-ave",
+      "layer": "deep",
+      "lat": 41.778915,
+      "lon": -87.659168,
+      "era": 1969,
+      "capturedAt": "Taken in February 1969",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690200%2043%20CTA%20Englewood%20L%20%40%20Loomis%20Ave..jpg?width=1600",
+      "width": 1800,
+      "height": 1192,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22054340",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690200 43 CTA Englewood L @ Loomis Ave."
+    },
+    {
+      "id": "19690200-45-cta-englewood-l-ashland-ave",
+      "layer": "deep",
+      "lat": 41.77891,
+      "lon": -87.663345,
+      "era": 1969,
+      "capturedAt": "1969-02",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690200%2045%20CTA%20Englewood%20L%20%40%20Ashland%20Ave..jpg?width=1600",
+      "width": 1800,
+      "height": 1129,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22054496",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690200 45 CTA Englewood L @ Ashland Ave."
+    },
+    {
+      "id": "19690126-03-cta-douglas-l-cicero-ave",
+      "layer": "deep",
+      "lat": 41.851972,
+      "lon": -87.744643,
+      "era": 1969,
+      "capturedAt": "Taken on 26 January 1969",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690126%2003%20CTA%20Douglas%20L%20%40%20Cicero%20Ave..jpg?width=1600",
+      "width": 1801,
+      "height": 1225,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=22020745",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690126 03 CTA Douglas L @ Cicero Ave."
+    },
+    {
+      "id": "19690126-06-cta-douglas-l-cicero-ave-6894184987",
+      "layer": "deep",
+      "lat": 41.851992,
+      "lon": -87.744054,
+      "era": 1969,
+      "capturedAt": "Taken on 26 January 1969",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690126%2006%20CTA%20Douglas%20L%20%40%20Cicero%20Ave.%20(6894184987).jpg?width=1600",
+      "width": 1800,
+      "height": 1221,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836250",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690126 06 CTA Douglas L @ Cicero Ave."
+    },
+    {
+      "id": "19690126-02-cta-9674-cicero-ave-cermak-rd-6894185109",
+      "layer": "deep",
+      "lat": 41.851105,
+      "lon": -87.744271,
+      "era": 1969,
+      "capturedAt": "1969-01-26",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690126%2002%20CTA%209674%20Cicero%20Ave.%20%40%20Cermak%20Rd.%20(6894185109).jpg?width=1600",
+      "width": 1800,
+      "height": 1123,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836291",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "The trolley-bus is passing the Western Electric Hawthorne Works."
+    },
+    {
+      "id": "19690200-15-milwaukee-ave-diversey-ave-6968370897",
+      "layer": "deep",
+      "lat": 41.932085,
+      "lon": -87.712367,
+      "era": 1969,
+      "capturedAt": "1969-02",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690200%2015%20Milwaukee%20Ave.%20%40%20Diversey%20Ave.%20(6968370897).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=52778424",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690200 15 Milwaukee Ave. @ Diversey Ave. Chicago"
+    },
+    {
+      "id": "19690126-07-cta-600-3787-6894185373",
+      "layer": "deep",
+      "lat": 41.931802,
+      "lon": -87.731359,
+      "era": 1969,
+      "capturedAt": "1969-01-26",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690126%2007%20CTA%20600%203787%20(6894185373).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836256",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "CTA 600 3787"
+    },
+    {
+      "id": "19690200-16-kimball-ave-6822247872",
+      "layer": "deep",
+      "lat": 41.938566,
+      "lon": -87.712479,
+      "era": 1969,
+      "capturedAt": "Taken in February 1969",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690200%2016%20Kimball%20Ave.%20(6822247872).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=52778425",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690200 16 Kimball Ave.Chicago"
+    },
+    {
+      "id": "19690126-10-osa-fantrip-6894185585",
+      "layer": "deep",
+      "lat": 41.931978,
+      "lon": -87.732156,
+      "era": 1969,
+      "capturedAt": "1969-01-26",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690126%2010%20OSA%20Fantrip%20(6894185585).jpg?width=1600",
+      "width": 1800,
+      "height": 1254,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836278",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690126 10 OSA Fantrip"
+    },
+    {
+      "id": "19690200-14-cta-l-logan-square-6968370861",
+      "layer": "deep",
+      "lat": 41.926723,
+      "lon": -87.704513,
+      "era": 1969,
+      "capturedAt": "1969-02",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690200%2014%20CTA%20L%20%40%20Logan%20Square%20(6968370861).jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836301",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690200 14 CTA L @ Logan Square"
+    },
+    {
+      "id": "19690200-13-cta-l-logan-square-6822247786",
+      "layer": "deep",
+      "lat": 41.927196,
+      "lon": -87.70523,
+      "era": 1969,
+      "capturedAt": "Taken in February 1969",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690200%2013%20CTA%20L%20%40%20Logan%20Square%20(6822247786).jpg?width=1600",
+      "width": 1800,
+      "height": 1129,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836305",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690200 13 CTA L @ Logan Square"
+    },
+    {
+      "id": "19690200-12-cta-l-logan-sq-6822247766",
+      "layer": "deep",
+      "lat": 41.92738,
+      "lon": -87.705513,
+      "era": 1969,
+      "capturedAt": "Taken in February 1969",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19690200%2012%20CTA%20L%20%40%20Logan%20Sq.%20(6822247766).jpg?width=1600",
+      "width": 1800,
+      "height": 1126,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=55836307",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19690200 12 CTA L @ Logan Sq."
+    },
+    {
+      "id": "chicago-skyline-in-1970-4277651540",
+      "layer": "deep",
+      "lat": 41.867068,
+      "lon": -87.607319,
+      "era": 1970,
+      "capturedAt": "1970-09-12 00:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago%20Skyline%20in%201970%20(4277651540).jpg?width=1600",
+      "width": 1300,
+      "height": 681,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=52777996",
+      "attribution": "Roger W from Sarasota, Florida, U.S.A.",
+      "caption": "The Chicago skyline on Lake Michigan, photographed from Adler Planetarium in September 1970. The main landmarks are One First National Plaza (left, now Chase Tower), Prudential Building (center, now One Prudential Plaza) and John Hancock Center (right), A taller building, Two Prudential Plaza, was built next to the Prudential Building. Sears Tower had not yet been built. This photo is geotagged with the camera location."
+    },
+    {
+      "id": "chicago-navy-pier-4284002308",
+      "layer": "deep",
+      "lat": 41.891751,
+      "lon": -87.604787,
+      "era": 1970,
+      "capturedAt": "1970-11-01 00:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicago%20-%20Navy%20Pier%20(4284002308).jpg?width=1600",
+      "width": 1050,
+      "height": 698,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=52778018",
+      "attribution": "Roger W from Sarasota, Florida, U.S.A.",
+      "caption": "Navy Pier from the Prudential Building. It was built in 1914-1916, and is about 3,300 ft (1,000 m) long. When I was young, people said that it was a mile (1.6 km) long. It was a Chicago city pier, and apparently never an official Navy facility."
+    },
+    {
+      "id": "19700240-02-cta-kennedy-l-belmont-ave",
+      "layer": "deep",
+      "lat": 41.929857,
+      "lon": -87.708581,
+      "era": 1970,
+      "capturedAt": "Taken in February 1970",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19700240%2002%20CTA%20Kennedy%20L%20%40%20Belmont%20Ave.jpg?width=1600",
+      "width": 1801,
+      "height": 1121,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=31234125",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19700240 02 CTA Kennedy L @ Belmont Ave"
+    },
+    {
+      "id": "united-air-lines-flight-553-3",
+      "layer": "deep",
+      "lat": 41.764167,
+      "lon": -87.715,
+      "era": 1972,
+      "capturedAt": "1972-12-08",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/United%20Air%20Lines%20Flight%20553%20(3).jpg?width=1600",
+      "width": 1500,
+      "height": 1056,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=41197380",
+      "attribution": "U.S. Federal Government, National Transportation Safety Board.",
+      "caption": "United Air Lines Flight 553"
+    },
+    {
+      "id": "photograph-of-chicago-federal-archives-and-records-center-35",
+      "layer": "deep",
+      "lat": 41.75949,
+      "lon": -87.72216,
+      "era": 1973,
+      "capturedAt": "1973-06-13 00:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph%20of%20Chicago%20Federal%20Archives%20and%20Records%20Center%20(35225531246).jpg?width=1600",
+      "width": 506,
+      "height": 356,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=65434166",
+      "attribution": "The U.S. National Archives",
+      "caption": "Creator(s): General Services Administration. National Archives and Records Service. Office of Educational Programs. Education Division. ?-4/1/1985 Series: Historic Photograph File of National Archives Events and Personnel, 1935 - 1975 Record Group 64: Records of the National Archives and Records Administration, 1789 - ca. 2007 Production Date: 6/13/1973 Access Restriction(s):Unrestricted Use Restriction(s):Unrestricted Contact(s): National Archives at College Park - Still Pictures (RDSS) National Archives at College Park 8601 Adelphi Road College Park, MD 20740-6001 Phone: 301-837-0561 Fax: 301-837-3621 Email: stillpix@nara.gov National Archives Identifier: 35810224 Local Identifier: 64-NA-5390 Persistent URL: catalog.archives.gov/id/35810224 Scope and Content Note: This is a photograph of the Federal Archives and Records Center, Chicago, Illinois."
+    },
+    {
+      "id": "photograph-of-rendition-of-federal-archives-and-records-cent",
+      "layer": "deep",
+      "lat": 41.75949,
+      "lon": -87.72216,
+      "era": 1974,
+      "capturedAt": "Taken in 1974",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph%20of%20Rendition%20of%20Federal%20Archives%20and%20Records%20Center%20in%20Chicago%20(34584466934).jpg?width=1600",
+      "width": 4674,
+      "height": 2833,
+      "source": "Wikimedia Commons",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=65434173",
+      "attribution": "The U.S. National Archives",
+      "caption": "Creator(s): General Services Administration. National Archives and Records Service. Office of Educational Programs. Education Division. ?-4/1/1985 Series: Historic Photograph File of National Archives Events and Personnel, 1935 - 1975 Production Date: 1974 Access Restriction(s):Unrestricted Use Restriction(s):Unrestricted Contact(s): National Archives at Seattle (RW-SE) 6125 Sand Point Way NE Seattle, WA 98115-7999 Phone: 206-336-5115 Fax: 206-336-5112 Email: seattle.archives@nara.gov National Archives Identifier: 35810526 Local Identifier: 64-NA-5539A Persistent URL: catalog.archives.gov/id/35810526"
+    },
+    {
+      "id": "ds1975-02-s0012",
+      "layer": "deep",
+      "lat": 41.78056,
+      "lon": -87.599476,
+      "era": 1975,
+      "capturedAt": "Taken in February 1975",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DS1975-02-S0012.jpg?width=1600",
+      "width": 4096,
+      "height": 2731,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=28111770",
+      "attribution": "railsr4me from Lake County, IL USA",
+      "caption": "DS1975-02-S0012"
+    },
+    {
+      "id": "21-121378-garfield-station-chicago-el",
+      "layer": "deep",
+      "lat": 41.795925,
+      "lon": -87.618316666667,
+      "compassAngle": 0,
+      "era": 1978,
+      "capturedAt": "Taken on 13 December 1978",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/21%20121378%20Garfield%20station%20Chicago%20el.jpg?width=1600",
+      "width": 2478,
+      "height": 1554,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116820649",
+      "attribution": "Downtowngal",
+      "caption": "Looking north from the platform at Garfield station of the CTA Green Line, Chicago, December 13, 1978",
+      "standHint": "Garfield Green Line platform — face north up the tracks"
+    },
+    {
+      "id": "25-121778-51st-st-station-cta",
+      "layer": "deep",
+      "lat": 41.802155555556,
+      "lon": -87.618533333333,
+      "era": 1978,
+      "capturedAt": "1978-12-17",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/25%20121778%2051st%20St%20Station%20CTA.jpg?width=1600",
+      "width": 2475,
+      "height": 1626,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116822534",
+      "attribution": "Downtowngal",
+      "caption": "51st St. Station on Green Line (then Jackson-Howard Line). Parkview Tower Apartments at 5110 S King Dr are in the background. Chicago, 1978."
+    },
+    {
+      "id": "25-121778-47th-st-station-cta",
+      "layer": "deep",
+      "lat": 41.809222222222,
+      "lon": -87.618866666667,
+      "era": 1978,
+      "capturedAt": "1978-12-17",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/25%20121778%2047th%20St%20Station%20CTA.jpg?width=1600",
+      "width": 2511,
+      "height": 1668,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116822532",
+      "attribution": "Downtowngal",
+      "caption": "47th St. Station on Green Line (then Jackson-Howard Line). Probably looking east. Chicago 1978"
+    },
+    {
+      "id": "25-121778-4951-s-building-chicago",
+      "layer": "deep",
+      "lat": 41.804166666667,
+      "lon": -87.618602777778,
+      "era": 1978,
+      "capturedAt": "1978-12-17",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/25%20121778%204951%20S%20building%20Chicago.jpg?width=1600",
+      "width": 2494,
+      "height": 1392,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116822536",
+      "attribution": "Downtowngal",
+      "caption": "4947-4957 S. Calumet Ave., Chicago, seen from the el in 1978. Buildings are still there!"
+    },
+    {
+      "id": "19-121178-47th-and-drexel-chicago",
+      "layer": "deep",
+      "lat": 41.809455555556,
+      "lon": -87.604016666667,
+      "compassAngle": 315,
+      "era": 1978,
+      "capturedAt": "1978-12-12",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19%20121178%2047th%20and%20Drexel%2C%20Chicago.jpg?width=1600",
+      "width": 2463,
+      "height": 1572,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116820404",
+      "attribution": "Downtowngal",
+      "caption": "Looking NW from the median at 47th St. and Drexel (sign on side of building points to Cottage Grove 1 block west), Chicago, 1978.",
+      "standHint": "47th St & Drexel Blvd median — face northwest"
+    },
+    {
+      "id": "22-121278-47th-and-drexel-chicago",
+      "layer": "deep",
+      "lat": 41.809527777778,
+      "lon": -87.604094444444,
+      "compassAngle": 90,
+      "era": 1978,
+      "capturedAt": "1978-12-12",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/22%20121278%2047th%20and%20Drexel%20Chicago.jpg?width=1600",
+      "width": 2484,
+      "height": 1665,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116821042",
+      "attribution": "Downtowngal",
+      "caption": "Looking east on 47th St. from Drexel Ave median. Spain Camera Shop was at 908 E 47th. The tall building is at Lake Park (across from the lake shore). Bus is 47th Street. Chicago, 1978.",
+      "standHint": "47th St & Drexel Blvd median — face east",
+      "featured": true
+    },
+    {
+      "id": "22-121278-ymca-from-el-bronzeville-chicago",
+      "layer": "deep",
+      "lat": 41.826105555556,
+      "lon": -87.625730555556,
+      "era": 1978,
+      "capturedAt": "1978-12-12",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/22%20121278%20YMCA%20from%20el%2C%20Bronzeville%20Chicago.jpg?width=1600",
+      "width": 2466,
+      "height": 1509,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116821057",
+      "attribution": "Downtowngal",
+      "caption": "View from Chicago el train looking SE toward YMCA at 3763 S. Wabash, Chicago, 1978."
+    },
+    {
+      "id": "22-121278-benjamin-w-raymond-public-school-chicago",
+      "layer": "deep",
+      "lat": 41.829383333333,
+      "lon": -87.625847222222,
+      "era": 1978,
+      "capturedAt": "1978-12-12",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/22%20121278%20Benjamin%20W%20Raymond%20Public%20School%2C%20Chicago.jpg?width=1600",
+      "width": 2485,
+      "height": 1062,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116821044",
+      "attribution": "Downtowngal",
+      "caption": "Douglas, Chicago in December 1978. Benjamin W. Raymond Public School is at 3663 S Wabash Ave. Photo taken from the el train."
+    },
+    {
+      "id": "22-121278-el-platform-35th-st-chicago",
+      "layer": "deep",
+      "lat": 41.831919444444,
+      "lon": -87.625858333333,
+      "era": 1978,
+      "capturedAt": "Taken on 12 December 1978",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/22%20121278%20El%20platform%2035th%20St%20Chicago.jpg?width=1600",
+      "width": 2391,
+      "height": 1584,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116821048",
+      "attribution": "Downtowngal",
+      "caption": "35th-Bronzeville-IIT (CTA) station, 1978."
+    },
+    {
+      "id": "12-110978-c-a-tap-chicago",
+      "layer": "deep",
+      "lat": 41.872302777778,
+      "lon": -87.629163888889,
+      "era": 1978,
+      "capturedAt": "1978-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/12%20110978%20C%26A%20Tap%2C%20Chicago.jpg?width=1600",
+      "width": 1677,
+      "height": 2358,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116829732",
+      "attribution": "Downtowngal",
+      "caption": "C&amp;A Tap, 744 S Dearborn, NE corner of Polk St, Chicago, 1978."
+    },
+    {
+      "id": "12-110978-roosevelt-road-chicago-1978",
+      "layer": "deep",
+      "lat": 41.867458333333,
+      "lon": -87.624194444444,
+      "compassAngle": 270,
+      "era": 1978,
+      "capturedAt": "1978-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/12%20110978%20Roosevelt%20Road%20Chicago%201978.jpg?width=1600",
+      "width": 2523,
+      "height": 1596,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116829727",
+      "attribution": "Downtowngal",
+      "caption": "Looking west from Michigan Avenue along Roosevelt Road, Chicago, November 1978.",
+      "standHint": "Michigan Ave & Roosevelt Rd — face west down Roosevelt",
+      "featured": true
+    },
+    {
+      "id": "12-110978-walkway-over-roosevelt-train-station-chicago",
+      "layer": "deep",
+      "lat": 41.869269444444,
+      "lon": -87.62335,
+      "era": 1978,
+      "capturedAt": "1978-11-09",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/12%20110978%20Walkway%20over%20Roosevelt%20train%20station%20Chicago.jpg?width=1600",
+      "width": 2276,
+      "height": 1559,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116829731",
+      "attribution": "Downtowngal",
+      "caption": "Walkway over Roosevelt train station Chicago"
+    },
+    {
+      "id": "22-121278-annunciation-cathedral-chicago",
+      "layer": "deep",
+      "lat": 41.901363888889,
+      "lon": -87.632666666667,
+      "era": 1978,
+      "capturedAt": "1978-12-12",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/22%20121278%20Annunciation%20Cathedral%20Chicago.jpg?width=1600",
+      "width": 1644,
+      "height": 2521,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116821049",
+      "attribution": "Downtowngal",
+      "caption": "Annunciation Cathedral, 1017 N. La Salle Blvd, Chicago, in 1978."
+    },
+    {
+      "id": "22-121278-karyae-restaurant-chicago",
+      "layer": "deep",
+      "lat": 41.896541666667,
+      "lon": -87.631430555556,
+      "compassAngle": 0,
+      "era": 1978,
+      "capturedAt": "1978-12-12",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/22%20121278%20Karyae%20Restaurant%20Chicago.jpg?width=1600",
+      "width": 1641,
+      "height": 2524,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116821052",
+      "attribution": "Downtowngal",
+      "caption": "Looking north across Chicago Avenue to NW corner of Chicago Ave. and Clark St. Karyae Restaurant is at 800 N. Clark Street, Chicago.",
+      "standHint": "Chicago Ave & Clark St — face north",
+      "featured": true
+    },
+    {
+      "id": "66-040579-schlitz-on-tap-gage-park-chicago",
+      "layer": "deep",
+      "lat": 41.786219444444,
+      "lon": -87.709888888889,
+      "era": 1979,
+      "capturedAt": "1979-04-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/66%20040579%20Schlitz%20on%20tap%20Gage%20Park%20Chicago.jpg?width=1600",
+      "width": 1520,
+      "height": 2431,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116829002",
+      "attribution": "Downtowngal",
+      "caption": "Gage Park, Chicago, April 1979. AA Jacks is 3451 w. 59th St. Just east of St. Louis Ave on the south east corner of 59th and St. Louis. The house next to the commercial building is gone but the two at the left edge of the photo are still there in 2022."
+    },
+    {
+      "id": "66-040579-arturos-gage-park-chicago",
+      "layer": "deep",
+      "lat": 41.793411111111,
+      "lon": -87.706244444444,
+      "era": 1979,
+      "capturedAt": "1979-04-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/66%20040579%20Arturos%20Gage%20Park%20Chicago.jpg?width=1600",
+      "width": 2496,
+      "height": 1653,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116828993",
+      "attribution": "Downtowngal",
+      "caption": "Arturo’s butcher shop, 3305 W. 55th St, southwest corner of Spalding and 55th, Gage Park, Chicago, April 1979."
+    },
+    {
+      "id": "66-040579-curly-qs-3310-w-55th-gage-park-chicago",
+      "layer": "deep",
+      "lat": 41.793408333333,
+      "lon": -87.7065,
+      "era": 1979,
+      "capturedAt": "1979-04-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/66%20040579%20Curly%20Qs%203310%20W%2055th%20Gage%20Park%20Chicago.jpg?width=1600",
+      "width": 2515,
+      "height": 1626,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116828997",
+      "attribution": "Downtowngal",
+      "caption": "Curly Q’s Hair Salon, 3310 E. 55th St., Gage Park, Chicago, April 1979"
+    },
+    {
+      "id": "66-040579-jims-place-55th-st-gage-park-chicago",
+      "layer": "deep",
+      "lat": 41.793461111111,
+      "lon": -87.706880555556,
+      "era": 1979,
+      "capturedAt": "1979-04-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/66%20040579%20Jims%20Place%2055th%20St%20Gage%20Park%20Chicago.jpg?width=1600",
+      "width": 2529,
+      "height": 1668,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116829001",
+      "attribution": "Downtowngal",
+      "caption": "Photo of the northeast corner of Christiana and 55th St., Gage Park, Chicago, April 1979. Jim’s Place is 3324 W. 55th St."
+    },
+    {
+      "id": "66-040579-2914-and-2918-55th-st-chicago",
+      "layer": "deep",
+      "lat": 41.793583333333,
+      "lon": -87.696886111111,
+      "era": 1979,
+      "capturedAt": "1979-04-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/66%20040579%202914%20and%202918%2055th%20St%20Chicago.jpg?width=1600",
+      "width": 2452,
+      "height": 1509,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116828994",
+      "attribution": "Downtowngal",
+      "caption": "Houses at 2914 and 2918 West 55th St., Gage Park, Chicago, 1979. Buildings are still there in 2022."
+    },
+    {
+      "id": "67-040579-talman-liquors-marquette-park-chicago-april-1979",
+      "layer": "deep",
+      "lat": 41.779091666667,
+      "lon": -87.689672222222,
+      "era": 1979,
+      "capturedAt": "1979-04-05",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/67%20040579%20Talman%20Liquors%20Marquette%20Park%20Chicago%20April%201979.jpg?width=1600",
+      "width": 2459,
+      "height": 1641,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116829350",
+      "attribution": "Downtowngal",
+      "caption": "Talman Liquors, 2627 W. 63rd. SE Corner of Talman and 63rd St., Marquette Park, Chicago, April 1979."
+    },
+    {
+      "id": "63-022379-stateway-gardens-chicago",
+      "layer": "deep",
+      "lat": 41.831875,
+      "lon": -87.625875,
+      "compassAngle": 180,
+      "era": 1979,
+      "capturedAt": "1979-02-23",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/63%20022379%20Stateway%20Gardens%20Chicago.jpg?width=1600",
+      "width": 2520,
+      "height": 1674,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=116828727",
+      "attribution": "Downtowngal",
+      "caption": "Looking south from the (now) 35th-Bronzeville-IIT stop (CTA Green Line) to Stateway Gardens. Location identified by Duplex One Stop at 3515 S. State. Chicago, February 1979.",
+      "standHint": "35th-Bronzeville-IIT Green Line stop — face south toward the old Stateway Gardens"
+    },
+    {
+      "id": "cta-2579-7-24-81",
+      "layer": "deep",
+      "lat": 41.852033,
+      "lon": -87.746804,
+      "era": 1981,
+      "capturedAt": "1981-07-24",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/CTA%202579%207-24-81.jpg?width=1600",
+      "width": 2312,
+      "height": 1472,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=29724263",
+      "attribution": "Leon Kay",
+      "caption": "CTA Boeing-Vertol car 2579 (1976-78) leads eb Douglas-Milwaukee train @49th Av Cicero IL 7-24-81"
+    },
+    {
+      "id": "koscio-parafialny-sw-jacka-w-chicago",
+      "layer": "deep",
+      "lat": 41.933713,
+      "lon": -87.719238,
+      "era": 1981,
+      "capturedAt": "1981-08-15",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ko%C5%9Bci%C3%B3%C5%82%20parafialny%20%C5%9Bw.%20Jacka%20w%20Chicago.jpg?width=1600",
+      "width": 1365,
+      "height": 2048,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11566273",
+      "attribution": "Wuhazet",
+      "caption": "Chicago, St. Hyacinth Basilica"
+    },
+    {
+      "id": "milwaukee-ave",
+      "layer": "deep",
+      "lat": 41.936817,
+      "lon": -87.72004,
+      "era": 1981,
+      "capturedAt": "1981-08-10",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Milwaukee%20ave.jpg?width=1600",
+      "width": 2048,
+      "height": 1365,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=11573968",
+      "attribution": "Wuhazet-Henryk Żychowski",
+      "caption": "Chicago, Polish part of Milwaukee Ave - summer 1981"
+    },
+    {
+      "id": "carl-f-becker-luthier",
+      "layer": "deep",
+      "lat": 41.939958,
+      "lon": -87.664544,
+      "era": 1981,
+      "capturedAt": "1981-01-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Carl%20F.%20Becker%2C%20Luthier.jpg?width=1600",
+      "width": 2195,
+      "height": 2831,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=62814722",
+      "attribution": "Sherwood Fohrman",
+      "caption": "Carl F. Becker, Luthier"
+    },
+    {
+      "id": "19860406-42-cta-south-side-l-wentworth-ave",
+      "layer": "deep",
+      "lat": 41.78687,
+      "lon": -87.630393,
+      "era": 1986,
+      "capturedAt": "Taken on 6 April 1986",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19860406%2042%20CTA%20South%20Side%20L%20%40%20Wentworth%20Ave.jpg?width=1600",
+      "width": 1800,
+      "height": 1206,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=47592531",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "19860406 42 CTA South Side L @ Wentworth Ave."
+    },
+    {
+      "id": "santa-fe-atsf-2007-gp7-10582661785",
+      "layer": "deep",
+      "lat": 41.821851,
+      "lon": -87.715251,
+      "era": 1987,
+      "capturedAt": "1987-07-24",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Fe%20ATSF%202007%20(GP7)%20(10582661785).jpg?width=1600",
+      "width": 4752,
+      "height": 3168,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107902701",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Corwith Yard, Chicago Area, Western Railroad, 1987; digital copy of print. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "santa-fe-atsf-3816-gp50-10582647686",
+      "layer": "deep",
+      "lat": 41.82237,
+      "lon": -87.715015,
+      "era": 1987,
+      "capturedAt": "1987-10-15 00:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Fe%20ATSF%203816%20(GP50)%20(10582647686).jpg?width=1600",
+      "width": 4752,
+      "height": 3168,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107902757",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Corwith Yard, Chicago Area, Western Railroad, 1987; digital copy of print. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "grand-trunk-western-gt-5832-gp38-2-10570208764",
+      "layer": "deep",
+      "lat": 41.842867,
+      "lon": -87.754497,
+      "era": 1987,
+      "capturedAt": "1987-10-16 03:35",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Trunk%20Western%20GT%205832%20(GP38-2)%20(10570208764).jpg?width=1600",
+      "width": 4752,
+      "height": 3168,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107909066",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Clyde Yard, BN, Chicago, 1987; digital copy of print. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "grand-trunk-western-gt-6213-gp38ac-10570166396",
+      "layer": "deep",
+      "lat": 41.843123,
+      "lon": -87.754626,
+      "era": 1987,
+      "capturedAt": "1987-10-16 03:36",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Trunk%20Western%20GT%206213%20(GP38AC)%20(10570166396).jpg?width=1600",
+      "width": 4752,
+      "height": 3168,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107909073",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Clyde Yard, BN, Chicago, 1987; digital copy of print. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "19870227-02-cta-lake-st-l-halsted-st",
+      "layer": "deep",
+      "lat": 41.889888,
+      "lon": -87.647747,
+      "era": 1987,
+      "capturedAt": "Taken on 27 February 1987",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/19870227%2002%20CTA%20Lake%20St.%20L%20%40%20Halsted%20St..jpg?width=1600",
+      "width": 1800,
+      "height": 1150,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=54604281",
+      "attribution": "David Wilson from Oak Park, Illinois, USA",
+      "caption": "The Halsted stop was closed when the Green Line was closed for reconstructed in the mid-1990's. It did not reopen."
+    },
+    {
+      "id": "old-comiskey-park-317453555",
+      "layer": "deep",
+      "lat": 41.833312,
+      "lon": -87.634162,
+      "era": 1988,
+      "capturedAt": "1988-08-31 19:57",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Comiskey%20Park%20(317453555).jpg?width=1600",
+      "width": 3039,
+      "height": 1936,
+      "source": "Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=112260411",
+      "attribution": "Joel Dinda from Mulliken, Michigan",
+      "caption": "Detroit @ Chicago 08311988"
+    },
+    {
+      "id": "paul-becker-jenny-becker-and-carl-f-becker-luthiers",
+      "layer": "deep",
+      "lat": 41.939958,
+      "lon": -87.664544,
+      "era": 1989,
+      "capturedAt": "1989-01-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Becker%2C%20Jenny%20Becker%20and%20Carl%20F.%20Becker%2C%20Luthiers.jpg?width=1600",
+      "width": 650,
+      "height": 647,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=62814719",
+      "attribution": "Sherwood Fohrman",
+      "caption": "Paul Becker, Jenny Becker and Carl F. Becker, Luthiers."
+    },
+    {
+      "id": "boxcar-atsf-10587176963",
+      "layer": "deep",
+      "lat": 41.821187,
+      "lon": -87.714393,
+      "era": 1990,
+      "capturedAt": "1990",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Boxcar%2C%20ATSF%20-%2010587176963.jpg?width=1600",
+      "width": 4752,
+      "height": 3168,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107853865",
+      "attribution": "Gary Lee Todd, Ph.D.",
+      "caption": "ATSF Corwith Yard, Chicago area, Railroad rolling stock, 1990; digital copy of print. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "santa-fe-atsf-111-gp60m-10582667915",
+      "layer": "deep",
+      "lat": 41.821851,
+      "lon": -87.715251,
+      "era": 1990,
+      "capturedAt": "1990-07-12 00:00",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Fe%20ATSF%20111%20(GP60M)%20(10582667915).jpg?width=1600",
+      "width": 4752,
+      "height": 3168,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107902699",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Corwith Yard, Chicago area, Western Railroad, 1990s; digital copy of print. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "santa-fe-atsf-2123-gp7-10569856046",
+      "layer": "deep",
+      "lat": 41.821811,
+      "lon": -87.715862,
+      "era": 1990,
+      "capturedAt": "1990-07-12",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Fe%20ATSF%202123%20(GP7)%20(10569856046).jpg?width=1600",
+      "width": 5184,
+      "height": 3454,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107902706",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Corwith Yard, Chicago area, Western U.S. railroads, 1990; digital copy of slide. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "santa-fe-atsf-2835-gp35-10582652135",
+      "layer": "deep",
+      "lat": 41.82237,
+      "lon": -87.715015,
+      "era": 1990,
+      "capturedAt": "1990-07-12 06:17",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%20Fe%20ATSF%202835%20(GP35)%20(10582652135).jpg?width=1600",
+      "width": 4752,
+      "height": 3168,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107902718",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Corwith Yard, Chicago area, Western Railroad, 1990; digital copy of print. Complete indexed photo collection at WorldHistoryPics.com."
+    },
+    {
+      "id": "new-comiskey-park-1990",
+      "layer": "deep",
+      "lat": 41.829873,
+      "lon": -87.633916,
+      "era": 1990,
+      "capturedAt": "1990-09-01",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Comiskey%20Park%201990.jpg?width=1600",
+      "width": 2400,
+      "height": 1600,
+      "source": "Wikimedia Commons",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=30912577",
+      "attribution": "Jerry Reuss",
+      "caption": "Taken is September 1990 from the last seat in the upper deck looking to an unfinished center field. The Sox played their first game in Comiskey Park 2 (changed to U.S. Cellular Field in 2003) on April 18, 1991 vs. the Detroit Tigers."
+    },
+    {
+      "id": "grand-trunk-gt-5718-gp38-2-10568176656",
+      "layer": "deep",
+      "lat": 41.842867,
+      "lon": -87.754497,
+      "era": 1990,
+      "capturedAt": "1990-07-12 08:31",
+      "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand%20Trunk%20GT%205718%20(GP38-2)%20(10568176656).jpg?width=1600",
+      "width": 5110,
+      "height": 3281,
+      "source": "Wikimedia Commons",
+      "license": "CC0",
+      "sourceUrl": "https://commons.wikimedia.org/?curid=107909063",
+      "attribution": "Gary Todd from Xinzheng, China",
+      "caption": "Clyde Yard, BN, Chicago area, 1990; digital copy of slide. Complete indexed photo collection at WorldHistoryPics.com."
+    }
+  ],
+  "generatedAt": "2026-07-18T19:02:23.319Z"
+}

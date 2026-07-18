@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import { useStore } from './store';
 import { useGeolocation } from './sensors/useGeolocation';
 import { useOrientation } from './sensors/useOrientation';
@@ -10,6 +10,11 @@ import { ConfidenceDot } from './components/ConfidenceDot';
 import { DetailCard } from './components/DetailCard';
 import { CalibrationHint } from './components/CalibrationHint';
 import { distanceM } from './geo/bearing';
+
+// Time Machine pulls in MapLibre (~800KB) — load it only when the clock is tapped.
+const TimeMachineMode = lazy(() =>
+  import('./components/TimeMachineMode').then((m) => ({ default: m.TimeMachineMode })),
+);
 
 const CHICAGO_FALLBACK = { lat: 41.882, lon: -87.629, accuracyM: 999 };
 
@@ -24,6 +29,8 @@ export default function App() {
   const setView = useStore((s) => s.setView);
   const cameraOptIn = useStore((s) => s.cameraOptIn);
   const setCameraOptIn = useStore((s) => s.setCameraOptIn);
+  const timeMachine = useStore((s) => s.timeMachine);
+  const toggleTimeMachine = useStore((s) => s.toggleTimeMachine);
 
   const [loadError, setLoadError] = useState<string | null>(null);
 
@@ -33,7 +40,8 @@ export default function App() {
 
   const geo = useGeolocation(stage === 'ready');
   const orient = useOrientation(stage === 'ready');
-  const camera = useCamera(stage === 'ready' && cameraOptIn && view === 'camera');
+  // Release the main camera while Time Machine's AR view owns the stream.
+  const camera = useCamera(stage === 'ready' && cameraOptIn && view === 'camera' && !timeMachine);
 
   // If camera denied or unavailable, force radar.
   useEffect(() => {
@@ -88,6 +96,13 @@ export default function App() {
           </span>
         </div>
         <div className="pointer-events-auto flex flex-col items-end gap-1">
+          <button
+            onClick={toggleTimeMachine}
+            aria-label="Time Machine"
+            className="mb-1 flex h-9 w-9 items-center justify-center rounded-full border border-sepia/50 bg-night/70 text-sepia backdrop-blur active:scale-95"
+          >
+            <ClockIcon />
+          </button>
           <ConfidenceDot
             confidence={orient.confidence}
             available={orient.available}
@@ -151,7 +166,36 @@ export default function App() {
           onClose={() => selectBuilding(null)}
         />
       )}
+
+      {timeMachine && (
+        <Suspense
+          fallback={
+            <div className="absolute inset-0 z-40 flex items-center justify-center bg-night text-sm text-steel">
+              Opening the Time Machine…
+            </div>
+          }
+        >
+          <TimeMachineMode
+            observer={observer}
+            gpsAccuracyM={observer.accuracyM}
+            usingFallback={usingFallback}
+            headingDeg={orient.heading}
+            headingAvailable={orient.available}
+            confidence={orient.confidence}
+            onExitMode={toggleTimeMachine}
+          />
+        </Suspense>
+      )}
     </main>
+  );
+}
+
+function ClockIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+      <circle cx="12" cy="12" r="9" />
+      <path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
   );
 }
 

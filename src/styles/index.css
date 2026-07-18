@@ -34,3 +34,104 @@
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Time Machine — archival photo material: vignette + faint grain (spec §8). */
+@keyframes spire-ghost-in {
+  from {
+    opacity: 0;
+  }
+}
+.tm-ghost-in {
+  animation: spire-ghost-in 150ms ease-out;
+}
+.tm-archival {
+  position: relative;
+}
+.tm-archival::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  /* Vignette */
+  box-shadow: inset 0 0 60px 12px rgba(20, 14, 4, 0.45);
+  /* Faint grain */
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/></svg>");
+}
+.tm-map-canvas {
+  filter: saturate(0.72) brightness(0.94);
+}
+
+/* Dual-thumb era range: overlapping inputs, only the thumbs catch pointers. */
+.tm-range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  background: transparent;
+  pointer-events: none;
+}
+.tm-range::-webkit-slider-runnable-track {
+  height: 2px;
+  background: rgba(201, 162, 39, 0.25);
+  border-radius: 2px;
+}
+.tm-range::-moz-range-track {
+  height: 2px;
+  background: rgba(201, 162, 39, 0.25);
+  border-radius: 2px;
+}
+.tm-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: auto;
+  height: 16px;
+  width: 16px;
+  margin-top: -7px;
+  border-radius: 9999px;
+  background: #c9a227;
+  border: 2px solid #141b2d;
+  cursor: pointer;
+}
+.tm-range::-moz-range-thumb {
+  pointer-events: auto;
+  height: 16px;
+  width: 16px;
+  border-radius: 9999px;
+  background: #c9a227;
+  border: 2px solid #141b2d;
+  cursor: pointer;
+}
+
+/* Single interactive slider (opacity). */
+.tm-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+.tm-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(201, 162, 39, 0.8), rgba(138, 147, 166, 0.5));
+}
+.tm-slider::-moz-range-track {
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(201, 162, 39, 0.8), rgba(138, 147, 166, 0.5));
+}
+.tm-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 18px;
+  width: 18px;
+  margin-top: -7px;
+  border-radius: 9999px;
+  background: #f4f6fb;
+  border: 2px solid #c9a227;
+}
+.tm-slider::-moz-range-thumb {
+  height: 18px;
+  width: 18px;
+  border-radius: 9999px;
+  background: #f4f6fb;
+  border: 2px solid #c9a227;
+}

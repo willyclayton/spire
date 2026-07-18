@@ -1,0 +1,38 @@
+[
+  {
+    "pageid": 116829727,
+    "compassAngle": 270,
+    "standHint": "Michigan Ave & Roosevelt Rd — face west down Roosevelt",
+    "featured": true
+  },
+  {
+    "pageid": 116821052,
+    "compassAngle": 0,
+    "standHint": "Chicago Ave & Clark St — face north",
+    "featured": true
+  },
+  {
+    "pageid": 116821042,
+    "compassAngle": 90,
+    "standHint": "47th St & Drexel Blvd median — face east",
+    "featured": true
+  },
+  {
+    "pageid": 116820404,
+    "compassAngle": 315,
+    "standHint": "47th St & Drexel Blvd median — face northwest"
+  },
+  {
+    "pageid": 116828727,
+    "compassAngle": 180,
+    "standHint": "35th-Bronzeville-IIT Green Line stop — face south toward the old Stateway Gardens"
+  },
+  {
+    "pageid": 116820649,
+    "compassAngle": 0,
+    "standHint": "Garfield Green Line platform — face north up the tracks"
+  },
+  { "pageid": 35797562, "featured": true },
+  { "pageid": 150745419, "featured": true },
+  { "pageid": 11160289, "featured": true }
+]
