@@ -17,6 +17,7 @@ function pin(partial: Partial<Pin> & { eras: number[] }): Pin {
     photoIds: [],
     hasDeep: true,
     featured: false,
+    precision: 'exact',
     ...partial,
   };
 }
@@ -76,6 +77,11 @@ describe('AR-button eligibility', () => {
     expect(arButtonEligible({ photo: withAngle, distanceM: AR_DISTANCE_M + 1, gpsAccuracyM: 10 })).toBe(false);
   });
 
+  it('never shows AR for an approximate (blue) placement, even with a bearing on-site', () => {
+    const approx = photo({ id: 'z', lat: 41.88, lon: -87.62, compassAngle: 90, precision: 'approximate' });
+    expect(arButtonEligible({ photo: approx, distanceM: 10, gpsAccuracyM: 10 })).toBe(false);
+  });
+
   it('loosens to 150m when GPS accuracy is worse than 40m', () => {
     expect(arButtonEligible({ photo: withAngle, distanceM: 120, gpsAccuracyM: 60 })).toBe(true);
     expect(arButtonEligible({ photo: withAngle, distanceM: AR_DISTANCE_LOOSE_M + 1, gpsAccuracyM: 60 })).toBe(false);
@@ -119,5 +125,28 @@ describe('25m grouping', () => {
   it('a recent-only cluster reports hasDeep = false', () => {
     const photos = [photo({ id: 'r', lat: 41.88, lon: -87.62, era: 2019, layer: 'recent' })];
     expect(groupPhotosWithin(photos, 25)[0].hasDeep).toBe(false);
+  });
+});
+
+describe('pin precision (blue vs yellow)', () => {
+  it('is approximate only when every grouped photo is approximate', () => {
+    const allApprox = groupPhotosWithin([
+      photo({ id: 'a', lat: 41.88, lon: -87.62, era: 1920, precision: 'approximate' }),
+      photo({ id: 'b', lat: 41.880001, lon: -87.620001, era: 1930, precision: 'approximate' }),
+    ]);
+    expect(allApprox[0].precision).toBe('approximate');
+  });
+
+  it('is exact if any grouped photo has an exact location', () => {
+    const mixed = groupPhotosWithin([
+      photo({ id: 'a', lat: 41.88, lon: -87.62, era: 1920, precision: 'approximate' }),
+      photo({ id: 'b', lat: 41.880001, lon: -87.620001, era: 1930, precision: 'exact' }),
+    ]);
+    expect(mixed[0].precision).toBe('exact');
+  });
+
+  it('treats a photo with no precision field as exact (geotagged default)', () => {
+    const legacy = groupPhotosWithin([photo({ id: 'a', lat: 41.88, lon: -87.62, era: 1920 })]);
+    expect(legacy[0].precision).toBe('exact');
   });
 });

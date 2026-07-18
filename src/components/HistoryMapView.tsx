@@ -142,6 +142,25 @@ export function HistoryMapView({ observer, onSelectPin }: Props) {
         canNearMe={!!observer}
         count={filteredPins.length}
       />
+      <Legend />
+    </div>
+  );
+}
+
+function Legend() {
+  return (
+    <div className="pointer-events-none absolute bottom-20 left-3 z-10 flex flex-col gap-1 rounded-xl border border-white/10 bg-night/80 px-3 py-2 text-[10px] text-steel backdrop-blur">
+      <div className="flex items-center gap-2">
+        <span className="h-2.5 w-2.5 rounded-full" style={{ background: EXACT_COLOR, border: '1px solid rgba(0,0,0,0.3)' }} />
+        <span>Exact spot</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <span
+          className="h-2.5 w-2.5 rounded-full"
+          style={{ background: APPROX_COLOR, border: '1px dashed rgba(255,255,255,0.55)', boxShadow: `0 0 0 2px ${APPROX_COLOR}33` }}
+        />
+        <span>General area</span>
+      </div>
     </div>
   );
 }
@@ -160,15 +179,32 @@ function clusterEl(count: number, onClick: () => void): HTMLElement {
   return el;
 }
 
+// Dot color encodes LOCATION PRECISION: yellow/gold = exact spot, blue = best
+// guess / general area. Approximate pins also get a soft halo so they read as
+// "somewhere around here" rather than a precise point.
+const EXACT_COLOR = '#C9A227'; // sepia-gold
+const APPROX_COLOR = '#4C9BE8'; // blue
+
 function pinEl(props: PinFeatureProps, onClick: () => void): HTMLElement {
-  const el = document.createElement('button');
-  const color = props.hasDeep ? '#C9A227' : '#8A93A6';
+  const approximate = props.precision === 'approximate';
+  const color = approximate ? APPROX_COLOR : EXACT_COLOR;
   const size = props.featured ? 20 : 15;
+
+  const el = document.createElement('button');
   el.style.width = `${size}px`;
   el.style.height = `${size}px`;
-  el.className = 'relative rounded-full border border-black/30 transition-transform active:scale-90';
+  el.setAttribute('aria-label', approximate ? 'Approximate location' : 'Exact location');
+  el.className = 'relative rounded-full transition-transform active:scale-90';
   el.style.background = color;
-  if (props.featured) el.style.boxShadow = `0 0 10px 2px ${color}88`;
+  if (approximate) {
+    // Fuzzy edge + wide halo = "general area".
+    el.style.border = '1px dashed rgba(255,255,255,0.55)';
+    el.style.boxShadow = `0 0 0 6px ${color}22, 0 0 10px 2px ${color}55`;
+    el.style.opacity = '0.9';
+  } else {
+    el.style.border = '1px solid rgba(0,0,0,0.3)';
+    if (props.featured) el.style.boxShadow = `0 0 10px 2px ${color}88`;
+  }
   // Stacked-era count badge.
   if (props.count > 1) {
     const badge = document.createElement('span');

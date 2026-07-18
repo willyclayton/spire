@@ -25,12 +25,53 @@ import type { HistoricalPhoto, Pin, PinIndex } from '../src/history/types.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const COMMONS = join(__dirname, 'cache', 'commons.json');
-const LOC = join(__dirname, 'cache', 'loc-enriched.json');
+// Geolocated HistoricalPhoto[] sources produced by the caption-geocoding harvesters.
+const GEOLOCATED_SOURCES = [
+  join(__dirname, 'cache', 'commons-categories.json'),
+  join(__dirname, 'cache', 'loc.json'),
+  join(__dirname, 'cache', 'ia.json'),
+  join(__dirname, 'cache', 'loc-enriched.json'), // legacy Claude-enriched (optional)
+];
 const OVERLAY = join(__dirname, 'curated', 'history-overlay.json');
 const OUT = join(__dirname, '..', 'public', 'data', 'chicago-pins.json');
 
 const GROUP_RADIUS_M = 25;
+const MAX_PHOTOS_PER_PIN = 12;
 const R = 6371000;
+
+/** Prefer featured, then higher-resolution renders (a proxy for "real photo" over
+ *  a tiny thumbnail). Used to pick the best representatives when capping. */
+function photoScore(p: HistoricalPhoto): number {
+  return (p.featured ? 1e9 : 0) + p.width * p.height;
+}
+
+/** Cap a pin's photos to `max`, spread across eras (round-robin, best-first within
+ *  each era) so the timeline keeps its range instead of one era swallowing the cap. */
+function capPerPin(members: HistoricalPhoto[], max: number): HistoricalPhoto[] {
+  if (members.length <= max) return [...members].sort((a, b) => a.era - b.era);
+  const byEra = new Map<number, HistoricalPhoto[]>();
+  for (const m of members) {
+    const bucket = byEra.get(m.era) ?? [];
+    bucket.push(m);
+    byEra.set(m.era, bucket);
+  }
+  for (const arr of byEra.values()) arr.sort((a, b) => photoScore(b) - photoScore(a));
+  const eras = [...byEra.keys()].sort((a, b) => a - b);
+  const out: HistoricalPhoto[] = [];
+  for (let round = 0; out.length < max; round++) {
+    let added = false;
+    for (const era of eras) {
+      const pick = byEra.get(era)![round];
+      if (pick) {
+        out.push(pick);
+        added = true;
+        if (out.length >= max) break;
+      }
+    }
+    if (!added) break;
+  }
+  return out.sort((a, b) => a.era - b.era);
+}
 
 function distM(a: { lat: number; lon: number }, b: { lat: number; lon: number }): number {
   const φ1 = (a.lat * Math.PI) / 180;
@@ -73,6 +114,8 @@ function candidateToPhoto(c: CommonsCandidate, usedIds: Set<string>): Historical
     layer: 'deep',
     lat: c.lat,
     lon: c.lon,
+    precision: 'exact', // Commons geosearch candidates carry real geotags
+    geocodeSource: 'geotag',
     compassAngle: c.compassAngle,
     era: c.era,
     capturedAt: c.capturedAt,
@@ -91,9 +134,9 @@ function main() {
   const commons: CommonsCandidate[] = existsSync(COMMONS)
     ? JSON.parse(readFileSync(COMMONS, 'utf8'))
     : [];
-  const locEnriched: HistoricalPhoto[] = existsSync(LOC)
-    ? JSON.parse(readFileSync(LOC, 'utf8'))
-    : [];
+  const geolocated: HistoricalPhoto[] = GEOLOCATED_SOURCES.flatMap((f) =>
+    existsSync(f) ? (JSON.parse(readFileSync(f, 'utf8')) as HistoricalPhoto[]) : [],
+  );
   const overlay: OverlayEntry[] = existsSync(OVERLAY)
     ? JSON.parse(readFileSync(OVERLAY, 'utf8'))
     : [];
@@ -101,14 +144,15 @@ function main() {
   const usedIds = new Set<string>();
   let photos: HistoricalPhoto[] = [];
 
-  // Track pageid so overlay can target Commons candidates precisely.
+  // Track pageid so overlay can target Commons geosearch candidates precisely.
   const pageidById = new Map<string, number>();
   for (const c of commons) {
     const p = candidateToPhoto(c, usedIds);
     pageidById.set(p.id, c.pageid);
     photos.push(p);
   }
-  for (const p of locEnriched) {
+  console.log(`  sources: ${commons.length} geotagged + ${geolocated.length} caption-geocoded`);
+  for (const p of geolocated) {
     if (usedIds.has(p.id)) continue;
     usedIds.add(p.id);
     photos.push(p);
@@ -139,12 +183,16 @@ function main() {
     enriched++;
   }
 
-  // Dedupe near-identical views: same location within 8m AND same era → keep the
-  // higher-resolution render.
+  // Dedupe near-identical views among REAL geotags only (same spot within 8m AND
+  // same era → keep the higher-res render). Caption-geocoded photos are skipped:
+  // they snap to a shared grid point (an intersection/landmark), so proximity there
+  // means "same corner", not "same photo" — those stay distinct and stack in the pin.
   const byId = new Map(photos.map((p) => [p.id, p]));
-  const sorted = [...photos].sort((a, b) => b.width * b.height - a.width * a.height);
+  const geotags = photos
+    .filter((p) => p.geocodeSource === 'geotag')
+    .sort((a, b) => b.width * b.height - a.width * a.height);
   const kept: HistoricalPhoto[] = [];
-  for (const p of sorted) {
+  for (const p of geotags) {
     const dupe = kept.find((k) => k.era === p.era && distM(k, p) < 8);
     if (dupe) byId.delete(p.id);
     else kept.push(p);
@@ -161,19 +209,26 @@ function main() {
       (p) => !assigned.has(p.id) && distM(seed, p) <= GROUP_RADIUS_M,
     );
     for (const m of members) assigned.add(m.id);
-    members.sort((a, b) => a.era - b.era);
-    const lat = members.reduce((s, m) => s + m.lat, 0) / members.length;
-    const lon = members.reduce((s, m) => s + m.lon, 0) / members.length;
+    const centroidLat = members.reduce((s, m) => s + m.lat, 0) / members.length;
+    const centroidLon = members.reduce((s, m) => s + m.lon, 0) / members.length;
+    // Cap to a browsable set with era diversity — a HABS survey can stack 180 shots
+    // of one building; nobody wants to page through all of them.
+    const kept = capPerPin(members, MAX_PHOTOS_PER_PIN);
     pins.push({
       id: `pin-${slugify(seed.id)}`,
-      lat: Math.round(lat * 1e6) / 1e6,
-      lon: Math.round(lon * 1e6) / 1e6,
-      photoIds: members.map((m) => m.id),
-      eras: [...new Set(members.map((m) => m.era))].sort((a, b) => a - b),
-      hasDeep: members.some((m) => m.layer === 'deep'),
-      featured: members.some((m) => m.featured),
+      lat: Math.round(centroidLat * 1e6) / 1e6,
+      lon: Math.round(centroidLon * 1e6) / 1e6,
+      photoIds: kept.map((m) => m.id),
+      eras: [...new Set(kept.map((m) => m.era))].sort((a, b) => a - b),
+      hasDeep: kept.some((m) => m.layer === 'deep'),
+      featured: kept.some((m) => m.featured),
+      precision: kept.some((m) => (m.precision ?? 'exact') === 'exact') ? 'exact' : 'approximate',
     });
   }
+
+  // Prune photos no pin references anymore (the per-pin cap can orphan many).
+  const referenced = new Set(pins.flatMap((p) => p.photoIds));
+  photos = photos.filter((p) => referenced.has(p.id));
 
   const index: PinIndex = {
     pins: pins.sort((a, b) => Number(b.featured) - Number(a.featured)),

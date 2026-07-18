@@ -2,8 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import type { HistoricalPhoto, Pin } from '../history/types';
 import { arButtonEligible } from '../history/pinStore';
 import { distanceM } from '../geo/bearing';
-import { EraTimeline } from './EraTimeline';
-import { ThenNowToggle } from './ThenNowToggle';
+import { EraTimeline, buildStops } from './EraTimeline';
 import { AttributionChip } from './AttributionChip';
 import { ShareButton, composePhotoCard } from './ShareCapture';
 
@@ -21,8 +20,8 @@ const NOW_YEAR = new Date().getFullYear();
 
 /**
  * Bottom sheet (~60% height, drag to expand/dismiss) — the browse payoff.
- * Photo + era timeline + attribution + then/now + AR entry + directions + share.
- * See TIME_MACHINE_SPEC.md §3.2.
+ * Photo + era timeline (one dot per meaningful era + "Now") + attribution + AR
+ * entry + directions + share. See TIME_MACHINE_SPEC.md §3.2.
  */
 export function PhotoSheet({
   pin,
@@ -33,24 +32,28 @@ export function PhotoSheet({
   onOpenAR,
   onClose,
 }: Props) {
-  const deepPhotos = useMemo(() => photos.filter((p) => p.layer === 'deep'), [photos]);
-  const recentPhotos = useMemo(() => photos.filter((p) => p.layer === 'recent'), [photos]);
-  const hasRecent = recentPhotos.length > 0;
+  const stops = useMemo(() => buildStops(photos), [photos]);
 
-  const [selectedId, setSelectedId] = useState(photos[0]?.id ?? '');
-  const [mode, setMode] = useState<'then' | 'now'>('then');
+  const [selectedKey, setSelectedKey] = useState(stops[0]?.key ?? '');
+  const [indexInStop, setIndexInStop] = useState(0);
 
   // Keep a valid selection as photos stream in (recent layer arrives late).
   useEffect(() => {
-    if (!photos.some((p) => p.id === selectedId)) setSelectedId(photos[0]?.id ?? '');
-  }, [photos, selectedId]);
+    if (!stops.some((s) => s.key === selectedKey)) {
+      setSelectedKey(stops[0]?.key ?? '');
+      setIndexInStop(0);
+    }
+  }, [stops, selectedKey]);
 
-  const selected = photos.find((p) => p.id === selectedId) ?? photos[0];
+  const stop = stops.find((s) => s.key === selectedKey) ?? stops[0];
+  const stopPhotos = stop?.photos ?? [];
+  const idx = Math.min(indexInStop, Math.max(0, stopPhotos.length - 1));
+  const shown = stopPhotos[idx];
 
-  // Then/Now picks representative photos of each layer around the selection.
-  const nowPhoto = recentPhotos[recentPhotos.length - 1];
-  const thenPhoto = deepPhotos[0] ?? selected;
-  const shown = hasRecent ? (mode === 'then' ? thenPhoto : nowPhoto) : selected;
+  function selectStop(key: string) {
+    setSelectedKey(key);
+    setIndexInStop(0);
+  }
 
   // Drag-to-dismiss.
   const sheetRef = useRef<HTMLDivElement>(null);
@@ -62,6 +65,7 @@ export function PhotoSheet({
   const dist = distanceM(observer, { lat: shown.lat, lon: shown.lon });
   const arReady = arButtonEligible({ photo: shown, distanceM: dist, gpsAccuracyM });
   const farFromPin = dist > 75;
+  const isNow = shown.layer === 'recent';
 
   return (
     <div className="fixed inset-0 z-30 flex items-end bg-black/50 backdrop-blur-sm" onClick={onClose}>
@@ -106,12 +110,28 @@ export function PhotoSheet({
               loading="lazy"
             />
             <div className="absolute left-2 top-2 rounded-full bg-black/60 px-2.5 py-1 text-xs font-semibold tabular-nums text-sepia backdrop-blur">
-              {shown.era}
-              {shown.layer === 'recent' && NOW_YEAR - shown.era <= 3 ? ' · Now' : ''}
+              {isNow ? (NOW_YEAR - shown.era <= 3 ? 'Now' : `${shown.era} · Now`) : shown.era}
             </div>
-            {hasRecent && (
-              <div className="absolute right-2 top-2">
-                <ThenNowToggle mode={mode} onChange={setMode} />
+            {/* Intra-stop cycler — only when this era has more than one photo. */}
+            {stopPhotos.length > 1 && (
+              <div className="absolute right-2 top-2 flex items-center gap-1 rounded-full bg-black/60 px-1 py-0.5 text-xs text-soft backdrop-blur">
+                <button
+                  onClick={() => setIndexInStop((i) => (i - 1 + stopPhotos.length) % stopPhotos.length)}
+                  aria-label="Previous photo"
+                  className="px-1.5"
+                >
+                  ‹
+                </button>
+                <span className="tabular-nums text-[11px] text-steel">
+                  {idx + 1}/{stopPhotos.length}
+                </span>
+                <button
+                  onClick={() => setIndexInStop((i) => (i + 1) % stopPhotos.length)}
+                  aria-label="Next photo"
+                  className="px-1.5"
+                >
+                  ›
+                </button>
               </div>
             )}
             <div className="absolute bottom-2 left-2">
@@ -125,17 +145,20 @@ export function PhotoSheet({
               <p className="font-display text-lg leading-snug text-soft">{shown.caption}</p>
             )}
             <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs uppercase tracking-wider text-steel">
-              <span className="tabular-nums text-sepia">{shown.era}</span>
+              <span className="tabular-nums text-sepia">{isNow ? 'Now' : shown.era}</span>
               <span>{formatDistance(dist)} away</span>
+              {shown.precision === 'approximate' && (
+                <span className="inline-flex items-center gap-1 text-[#4C9BE8]">
+                  <span className="h-2 w-2 rounded-full border border-dashed border-[#4C9BE8]" />
+                  general area
+                </span>
+              )}
               {recentLoading && <span className="text-steel/70">loading recent…</span>}
             </div>
           </div>
 
-          {/* Era timeline (only with 2+ photos) */}
-          <EraTimeline photos={photos} selectedId={shown.id} onSelect={(id) => {
-            setSelectedId(id);
-            setMode(photos.find((p) => p.id === id)?.layer === 'recent' ? 'now' : 'then');
-          }} />
+          {/* Era timeline (one dot per era + "Now") */}
+          <EraTimeline stops={stops} selectedKey={stop.key} onSelect={selectStop} />
 
           {/* Actions */}
           <div className="mt-5 flex flex-wrap gap-2">

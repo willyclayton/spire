@@ -4,6 +4,30 @@ Running log of non-obvious things learned while building Spire. Append new entri
 
 ---
 
+## 2026-07-18 (pt 2) — Scaling the photo dataset (166 → 815 pins)
+
+### The real bottleneck is geolocation, not finding photos
+- Archives have tens of thousands of Chicago photos but almost **none carry coordinates** (LOC/IA lat-long fields are empty; Commons geotags are mostly modern GPS). The whole game is turning caption text into lat/lon.
+- **Chicago's address grid makes offline geocoding trivially accurate.** State & Madison = origin (41.8820, -87.6278), 800 address units = 1 mile, `lat = 41.8820 + (NS/800)*0.0144893`, `lon = -87.6278 + (EW/800)*0.0193888`. Any "X St & Y St", "720 S Michigan", or "29th St" (numbered streets are arithmetic: N*100 South) geocodes with no API, no rate limit. A ~150-street dictionary + landmark + neighborhood gazetteer covered most captions. This is the single highest-leverage thing in the whole feature.
+- Precision tiers fall out naturally: intersection/address/landmark → **exact (yellow dot)**; neighborhood centroid → **approximate (blue dot)** with a deterministic hash-jitter (~260m) so area photos scatter instead of stacking on one point.
+
+### Per-source yield (Chicago, rights-clean, geolocatable-by-caption)
+- **Wikimedia Commons categories** = the big win (~2,300). `categorymembers` does NOT recurse — you must BFS `cmtype=subcat`. My BFS found 24k files (more than the estimate). ~19% geocoded.
+- **LOC** = ~8k Chicago photos but **throttles brutally** — 429 after ~9 rapid hits on `/search/`, multi-minute blocks, no `Retry-After`. `/photos/` and `/item/` are more permissive buckets. Even at 1.8s/req it 429'd; got ~200 before stalling. Not worth fighting.
+- **Internet Archive** = key-free, CORS-clean, but **low geo-yield** (~2% — its captions are mostly city-level "Illinois--Chicago", which the geocoder correctly rejects). 108 from ~6k.
+- DPLA/Flickr both hard-require API keys. A research subagent auto-registered a DPLA key against the user's email — watch for subagents taking side-effectful signup actions.
+
+### Operational gotchas
+- **Don't run multiple heavy harvests in parallel** — 3 at once caused Commons 429s and IA 503s (network + rate-limit contention). Run sequentially, or at least one-per-host.
+- Long network jobs MUST write output incrementally and wrap every `fetch` in try/catch with backoff — a single "socket terminated" / 503 otherwise kills the whole run and loses everything.
+- IA/LOC fields are sometimes arrays (`date`, `title`) — coerce before `.match()`.
+- `AbortSignal.timeout(ms)` on fetch prevents one hung request from stalling a long harvest.
+
+### Data-model / UX
+- **One timeline dot per meaningful era, not per photo.** Mapillary returns ~12 same-year street views (best-per-bearing-bucket); drawn one-dot-per-photo they became "2016" ×9. Fix: collapse to stops (one per historical year + a single "Now"), cap recent to 3, cycle within a stop.
+- **Cap photos-per-pin (12) with era-diversity round-robin.** A HABS survey stacks 180 shots of one building; uncapped it's unbrowsable AND doubles payload. Capping + pruning orphaned photos cut raw payload 2.4MB→1.5MB. Note: JSON gzips ~10× (2.7MB→263KB), so gzip is the number that matters, not raw.
+- Skipping proximity-dedup for caption-geocoded photos matters: they snap to a shared grid point, so "within 8m" means "same corner", not "same photo" — only dedup real geotags.
+
 ## 2026-07-18 — Time Machine mode build
 
 ### Wikimedia Commons harvesting

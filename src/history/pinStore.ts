@@ -5,7 +5,7 @@
  * See TIME_MACHINE_SPEC.md §3.1, §4, §7.
  */
 import { create } from 'zustand';
-import type { HistoricalPhoto, Pin, PinIndex } from './types';
+import type { HistoricalPhoto, LocationPrecision, Pin, PinIndex } from './types';
 import { distanceM } from '../geo/bearing';
 
 // AR distance gating (spec §3.2, §3.4). Loosens when GPS is coarse.
@@ -42,6 +42,8 @@ export function arButtonEligible(opts: {
   gpsAccuracyM: number;
 }): boolean {
   if (opts.photo.compassAngle === undefined) return false;
+  // Approximate (blue) placements can't support precise ghost alignment.
+  if ((opts.photo.precision ?? 'exact') === 'approximate') return false;
   const threshold = opts.gpsAccuracyM > GPS_LOOSE_ACCURACY_M ? AR_DISTANCE_LOOSE_M : AR_DISTANCE_M;
   return opts.distanceM <= threshold;
 }
@@ -68,6 +70,9 @@ export function groupPhotosWithin(photos: HistoricalPhoto[], radiusM = GROUP_RAD
       eras: [...new Set(members.map((m) => m.era))].sort((a, b) => a - b),
       hasDeep: members.some((m) => m.layer === 'deep'),
       featured: members.some((m) => Boolean(m.featured)),
+      // A pin is exact if ANY grouped photo has an exact location; blue only when
+      // every member is a best-guess placement.
+      precision: members.some((m) => (m.precision ?? 'exact') === 'exact') ? 'exact' : 'approximate',
     });
   }
   return pins;
@@ -78,6 +83,7 @@ export interface PinFeatureProps {
   hasDeep: boolean;
   featured: boolean;
   count: number;
+  precision: LocationPrecision;
 }
 
 /** GeoJSON point features for Supercluster (spec §3.1 clustering). */
@@ -89,6 +95,7 @@ export function pinsToFeatures(pins: Pin[]): GeoJSON.Feature<GeoJSON.Point, PinF
       hasDeep: p.hasDeep,
       featured: p.featured,
       count: p.photoIds.length,
+      precision: p.precision ?? 'exact',
     },
     geometry: { type: 'Point', coordinates: [p.lon, p.lat] },
   }));

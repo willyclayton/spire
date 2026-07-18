@@ -15,8 +15,20 @@
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import type { LocItem } from './harvest-loc.ts';
 import type { HistoricalPhoto } from '../src/history/types.ts';
+
+// Legacy alternate path: parse ambiguous captions with Claude when the offline
+// grid geocoder (geocode-chicago.ts) can't place them. Reads a raw caption dump.
+interface LocItem {
+  id: string;
+  title: string;
+  date?: string;
+  imageUrl?: string;
+  source: string;
+  license: string;
+  sourceUrl: string;
+  description?: string;
+}
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const IN = join(__dirname, 'cache', 'loc-raw.json');

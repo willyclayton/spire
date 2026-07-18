@@ -6,3 +6,9 @@ scripts/cache
 .vite
 *.log
 *.tsbuildinfo
+
+# Local env (never commit secrets/tokens)
+.env
+.env.local
+.env.*.local
+.env*

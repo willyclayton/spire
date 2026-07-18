@@ -122,7 +122,13 @@ export function selectBestImages(
     }
   }
 
-  return [...best.values()].map((v) => v.photo).sort((a, b) => a.era - b.era);
+  // Keep only a few of the most recent views — the timeline collapses these into a
+  // single "Now" stop, so a dozen near-identical same-year frames are just clutter.
+  return [...best.values()]
+    .sort((a, b) => b.capturedAt - a.capturedAt)
+    .slice(0, 3)
+    .map((v) => v.photo)
+    .sort((a, b) => a.era - b.era);
 }
 
 /**
