@@ -9,9 +9,10 @@ import { CameraView } from './components/CameraView';
 import { ConfidenceDot } from './components/ConfidenceDot';
 import { DetailCard } from './components/DetailCard';
 import { CalibrationHint } from './components/CalibrationHint';
+import { HomeMenu } from './components/HomeMenu';
 import { distanceM } from './geo/bearing';
 
-// Time Machine pulls in MapLibre (~800KB) — load it only when the clock is tapped.
+// Time Machine pulls in MapLibre (~800KB) — load it only when that mode is opened.
 const TimeMachineMode = lazy(() =>
   import('./components/TimeMachineMode').then((m) => ({ default: m.TimeMachineMode })),
 );
@@ -29,8 +30,8 @@ export default function App() {
   const setView = useStore((s) => s.setView);
   const cameraOptIn = useStore((s) => s.cameraOptIn);
   const setCameraOptIn = useStore((s) => s.setCameraOptIn);
-  const timeMachine = useStore((s) => s.timeMachine);
-  const toggleTimeMachine = useStore((s) => s.toggleTimeMachine);
+  const appMode = useStore((s) => s.appMode);
+  const setAppMode = useStore((s) => s.setAppMode);
 
   const [loadError, setLoadError] = useState<string | null>(null);
 
@@ -40,8 +41,8 @@ export default function App() {
 
   const geo = useGeolocation(stage === 'ready');
   const orient = useOrientation(stage === 'ready');
-  // Release the main camera while Time Machine's AR view owns the stream.
-  const camera = useCamera(stage === 'ready' && cameraOptIn && view === 'camera' && !timeMachine);
+  // Camera only runs in Building Gazer (Time Machine's AR view owns its own stream).
+  const camera = useCamera(stage === 'ready' && cameraOptIn && view === 'camera' && appMode === 'gazer');
 
   // If camera denied or unavailable, force radar.
   useEffect(() => {
@@ -66,6 +67,34 @@ export default function App() {
           setStage('ready');
         }}
       />
+    );
+  }
+
+  if (appMode === 'home') {
+    return <HomeMenu onSelect={setAppMode} />;
+  }
+
+  if (appMode === 'timeMachine') {
+    return (
+      <main className="relative h-full w-full overflow-hidden bg-night text-soft">
+        <Suspense
+          fallback={
+            <div className="absolute inset-0 z-40 flex items-center justify-center bg-night text-sm text-steel">
+              Opening the Time Machine…
+            </div>
+          }
+        >
+          <TimeMachineMode
+            observer={observer}
+            gpsAccuracyM={observer.accuracyM}
+            usingFallback={usingFallback}
+            headingDeg={orient.heading}
+            headingAvailable={orient.available}
+            confidence={orient.confidence}
+            onExitMode={() => setAppMode('home')}
+          />
+        </Suspense>
+      </main>
     );
   }
 
@@ -97,11 +126,11 @@ export default function App() {
         </div>
         <div className="pointer-events-auto flex flex-col items-end gap-1">
           <button
-            onClick={toggleTimeMachine}
-            aria-label="Time Machine"
-            className="mb-1 flex h-9 w-9 items-center justify-center rounded-full border border-sepia/50 bg-night/70 text-sepia backdrop-blur active:scale-95"
+            onClick={() => setAppMode('home')}
+            aria-label="Back to menu"
+            className="mb-1 flex h-9 items-center gap-1.5 rounded-full border border-white/20 bg-night/70 px-3 text-[11px] font-semibold uppercase tracking-wider text-soft backdrop-blur active:scale-95"
           >
-            <ClockIcon />
+            <MenuIcon /> Menu
           </button>
           <ConfidenceDot
             confidence={orient.confidence}
@@ -166,35 +195,14 @@ export default function App() {
           onClose={() => selectBuilding(null)}
         />
       )}
-
-      {timeMachine && (
-        <Suspense
-          fallback={
-            <div className="absolute inset-0 z-40 flex items-center justify-center bg-night text-sm text-steel">
-              Opening the Time Machine…
-            </div>
-          }
-        >
-          <TimeMachineMode
-            observer={observer}
-            gpsAccuracyM={observer.accuracyM}
-            usingFallback={usingFallback}
-            headingDeg={orient.heading}
-            headingAvailable={orient.available}
-            confidence={orient.confidence}
-            onExitMode={toggleTimeMachine}
-          />
-        </Suspense>
-      )}
     </main>
   );
 }
 
-function ClockIcon() {
+function MenuIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-      <circle cx="12" cy="12" r="9" />
-      <path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round" />
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+      <path d="M4 6h16M4 12h16M4 18h16" />
     </svg>
   );
 }

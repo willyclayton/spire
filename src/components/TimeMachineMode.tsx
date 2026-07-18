@@ -3,6 +3,7 @@ import { useHistoryStore } from '../history/pinStore';
 import { fetchRecentForPin } from '../history/mapillary';
 import type { HistoricalPhoto } from '../history/types';
 import { HistoryMapView } from './HistoryMapView';
+import { HistoryListView } from './HistoryListView';
 import { PhotoSheet } from './PhotoSheet';
 import { ARGhostView } from './ARGhostView';
 
@@ -42,6 +43,7 @@ export function TimeMachineMode({
   const [recentForPin, setRecentForPin] = useState<HistoricalPhoto[]>([]);
   const [recentLoading, setRecentLoading] = useState(false);
   const [arPhoto, setArPhoto] = useState<HistoricalPhoto | null>(null);
+  const [tmView, setTmView] = useState<'map' | 'list'>('map');
 
   useEffect(() => {
     loadIndex();
@@ -80,15 +82,35 @@ export function TimeMachineMode({
 
   return (
     <div className="absolute inset-0 z-40 bg-night">
-      <HistoryMapView observer={usingFallback ? null : observer} onSelectPin={selectPin} />
+      {tmView === 'map' ? (
+        <HistoryMapView observer={usingFallback ? null : observer} onSelectPin={selectPin} />
+      ) : (
+        <HistoryListView observer={usingFallback ? null : observer} onSelectPin={selectPin} />
+      )}
 
-      {/* Exit back to Spire */}
+      {/* Exit back to menu */}
       <button
         onClick={onExitMode}
         className="absolute bottom-5 left-4 z-20 flex items-center gap-1.5 rounded-full border border-white/15 bg-night/80 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-soft backdrop-blur active:scale-95"
       >
-        ← Spire
+        ← Menu
       </button>
+
+      {/* Map / List toggle */}
+      <div className="absolute bottom-5 left-1/2 z-20 flex -translate-x-1/2 rounded-full border border-white/15 bg-night/80 p-0.5 backdrop-blur">
+        {(['map', 'list'] as const).map((v) => (
+          <button
+            key={v}
+            onClick={() => setTmView(v)}
+            aria-pressed={tmView === v}
+            className={`rounded-full px-4 py-1.5 text-xs font-semibold uppercase tracking-wider transition-colors ${
+              tmView === v ? 'bg-sepia text-night' : 'text-steel'
+            }`}
+          >
+            {v}
+          </button>
+        ))}
+      </div>
 
       {status === 'loading' && (
         <div className="pointer-events-none absolute inset-x-0 top-24 z-20 text-center text-xs text-steel">

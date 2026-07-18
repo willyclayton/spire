@@ -28,6 +28,14 @@ Running log of non-obvious things learned while building Spire. Append new entri
 - **Cap photos-per-pin (12) with era-diversity round-robin.** A HABS survey stacks 180 shots of one building; uncapped it's unbrowsable AND doubles payload. Capping + pruning orphaned photos cut raw payload 2.4MB→1.5MB. Note: JSON gzips ~10× (2.7MB→263KB), so gzip is the number that matters, not raw.
 - Skipping proximity-dedup for caption-geocoded photos matters: they snap to a shared grid point, so "within 8m" means "same corner", not "same photo" — only dedup real geotags.
 
+## 2026-07-18 (pt 3) — Home menu + list view
+
+- **A sortable list is the right complement to a map when locations are fuzzy.** Most pins are approximate; a list sorted by name/year/distance lets you browse without a map dot overpromising precision. Row → same PhotoSheet as the map, so no duplicate detail UI.
+- **Cheap list thumbnails from Commons:** rewrite the baked `Special:FilePath/...?width=1600` to `width=200` (`url.replace(/([?&]width=)\d+/, '$1200')`). ~800 lazy 200px images scroll fine; the full 1600px versions would be brutal.
+- **Distance sort must gate on a real GPS fix** — sorting by distance from the downtown fallback is meaningless, so disable the chip when `observer` is null rather than showing wrong numbers.
+- **Normalize names before sorting** — many archival captions start with `"` or `-` ("...verso" quotes), which otherwise sort to the top; strip leading non-alphanumerics for the comparator only.
+- Refactored the mode flip from a `timeMachine` boolean to an `appMode: 'home' | 'gazer' | 'timeMachine'` router with a real home screen. Cleaner than an overlay toggle, and each mode gets an explicit "← Menu" back path. Camera hook now gates on `appMode === 'gazer'`.
+
 ## 2026-07-18 — Time Machine mode build
 
 ### Wikimedia Commons harvesting

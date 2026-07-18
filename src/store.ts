@@ -21,12 +21,15 @@ interface State {
   cameraOptIn: boolean;
   setCameraOptIn: (v: boolean) => void;
 
-  timeMachine: boolean;
-  toggleTimeMachine: () => void;
+  appMode: AppMode;
+  setAppMode: (m: AppMode) => void;
 
   selectedBuildingId: string | null;
   selectBuilding: (id: string | null) => void;
 }
+
+/** Which experience is on screen after onboarding. */
+export type AppMode = 'home' | 'gazer' | 'timeMachine';
 
 const CALIB_KEY = 'spire.calibrationOffset';
 function loadCalibration(): number {
@@ -72,8 +75,8 @@ export const useStore = create<State>((set, get) => ({
   cameraOptIn: false,
   setCameraOptIn: (v) => set({ cameraOptIn: v, view: v ? 'camera' : 'radar' }),
 
-  timeMachine: false,
-  toggleTimeMachine: () => set((s) => ({ timeMachine: !s.timeMachine })),
+  appMode: 'home',
+  setAppMode: (appMode) => set({ appMode }),
 
   selectedBuildingId: null,
   selectBuilding: (id) => set({ selectedBuildingId: id }),
